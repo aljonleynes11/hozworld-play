@@ -1,0 +1,35 @@
+{
+  "tabs": [
+    {
+      "label": "Announcement",
+      "entries": [
+        {
+          "title": "Alpha test",
+          "date": "",
+          "body": [
+            "Welcome to the HozWorld alpha!",
+            "Things may change, break or be reset.",
+            "Thanks for testing and sharing feedback."
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Updates",
+      "entries": [
+        {
+          "title": "Oct 26, 2026",
+          "date": "",
+          "body": [
+            "New start screen, loading art and music",
+            "Village music; only the 3 huts remain, with new trees and rocks",
+            "Trees, rocks and huts are now solid",
+            "Spotlight transition into fights",
+            "Riverlands, Frontier and Ashlands monsters are 30% stronger",
+            "HozPlayG is now HozWorld"
+          ]
+        }
+      ]
+    }
+  ]
+}
