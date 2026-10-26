@@ -4,6 +4,8 @@
 |---|---|---|
 | Skeleton sprites (`assets/sprites/skel_*`) | Universal LPC Spritesheet Generator contributors (Liberated Pixel Cup) | CC-BY-SA 3.0 / GPL 3.0 |
 | Bone Knight sprites (`assets/sprites/knight_*`): skeleton body and bare skull with plate armour, black round shield and arming sword (layers in `assets/lpc/CREDITS.md`) | Universal LPC Spritesheet Generator contributors (Liberated Pixel Cup), bluecarrot16, ElizaWy, Johannes Sjölund (wulax), Michael Whitlock (bigbeargames), DarkwallLKE, Tuomo Untinen (reemax) | OGA-BY 3.0 / CC-BY-SA 3.0 / GPL 3.0 |
+| Wild hunt animals (`assets/sprites/animals/{hare,grouse,fox,deer,boar}_walk.png`, walk sheets) | CraftPix.net, "Free Top-Down Hunt Animals Pixel Sprite Pack" · https://craftpix.net/freebies/free-top-down-hunt-animals-pixel-sprite-pack/ | Craftpix free licence (commercial games OK, no redistribution of the pack) · https://craftpix.net/file-licenses/ |
+| Bonfire (`assets/sprites/bonfire.png`, 8-frame campfire strip) | User-provided, source and licence to confirm | Unknown until confirmed |
 | Plant sprouts (`assets/sprites/plants/plant1_*` Thorn, `plant2_*` Pollen, `plant3_*` Bramble: idle, walk, attack, hurt, death) | CraftPix.net, "Free Predator Plant Mobs Pixel Art Pack" · https://craftpix.net/freebies/free-predator-plant-mobs-pixel-art-pack/ | Craftpix free licence (commercial games OK, no redistribution of the pack) · https://craftpix.net/file-licenses/ |
 | [LPC] Monsters (`slime`, `bee`, `snake`, `small_worm`) | Charles Sanchez (CharlesGabriel), bagzie and bluecarrot16 — https://opengameart.org/content/lpc-monsters | CC-BY-SA 3.0+ / GPL 3.0+ (bat sprite OGA-BY 3.0) |
 | LPC Beetle (`assets/sprites/beetle.png`) | Stephen 'Redshrike' Challener · https://opengameart.org/content/lpc-beetle · Black recolour with death frames by William.Thompsonj and cemkalyoncu (from the same page) | CC-BY 3.0 / CC-BY-SA 3.0 / GPL 2.0 / OGA-BY 3.0 |
@@ -45,6 +47,7 @@ Hero layers (body, heads, hair, clothes in `assets/lpc/`): Universal LPC Sprites
 
 - LPC Revised terrain, summer (`lpc_terrain_summer.png`: grass, dirt) - Lanea Zimmerman (Sharm), Eliza Wyatt (DeathsDarling), OGA-BY 3.0, https://github.com/ElizaWy/LPC (Terrain), based on https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles
 - LPC Revised Gritty Dirt (`lpc_gritty_dirt.png`: cave floor) - Lanea Zimmerman (Sharm), Eliza Wyatt (DeathsDarling), OGA-BY 3.0, https://github.com/ElizaWy/LPC (Structure/Floor), based on https://opengameart.org/content/lpc-dungeon-elements
+- Painted iso tiles (`painted/atlas.png` grass and dirt, `painted/olive/` olive grass and dirt, `painted/rock/` dark rock; used only with the `?ground=painted` debug test) - source and licence unknown; added for study only (2026-10-26, olive and rock 2026-10-27). Replace, or confirm and credit, before any release. See `docs/PAINTED_TILES.md`.
 
 ## Map decoration (`assets/decor/`)
 
