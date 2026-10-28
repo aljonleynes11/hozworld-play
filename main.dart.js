@@ -28529,7 +28529,7 @@ g.as=A.c8(B.rT,!0,r)
 q=t.N
 g.y=A.E(["arrival",A.c8(B.rT,!0,r),"fire",A.a([34,35],s),"shop_trader",A.a([42,21],s),"shop_smith",A.a([48,21],s),"shop_crafter",A.a([55,28],s),"pen_pigs",A.a([59,54],s),"pen_chickens",A.a([7,49],s),"pet_1",A.a([28,47],s),"pet_2",A.a([39,47],s),"pet_3",A.a([19,60],s),"pet_4",A.a([48,61],s)],q,t.b)
 r=t.z
-B.c.E(g.at,A.a([A.E(["x",0,"y",35,"to","riverlands","at",A.a([65,35],s),"label","Riverlands"],q,r),A.E(["x",69,"y",35,"to","eastgate","label","East Gate","requires",A.E(["flag","eastGateOpen","hint","Chief Ouru must open the gate first."],q,q)],q,r)],t.H7))
+B.c.E(g.at,A.a([A.E(["x",0,"y",35,"to","riverlands","at",A.a([65,35],s),"label","Riverlands"],q,r),A.E(["x",69,"y",35,"to","eastgate","at",A.a([3,35],s),"label","East Gate","requires",A.E(["flag","eastGateOpen","hint","Chief Ouru must open the gate first."],q,q)],q,r)],t.H7))
 A.bvJ(g,34,35)
 A.bqm(g)
 return g},
