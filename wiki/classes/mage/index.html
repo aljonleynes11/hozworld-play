@@ -1,0 +1,1334 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://aljonleynes11.github.io/hozworld-play/wiki/classes/mage/">
+      
+      
+        <link rel="prev" href="../archer/">
+      
+      
+        <link rel="next" href="../priest/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.0">
+    
+    
+      
+        <title>Mage - HozWorld Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#mage" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="HozWorld Wiki" class="md-header__button md-logo" aria-label="HozWorld Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            HozWorld Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Mage
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="indigo"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="indigo"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="HozWorld Wiki" class="md-nav__button md-logo" aria-label="HozWorld Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    HozWorld Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    HozWorld Wiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../maps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monsters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monsters and bosses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../adventurer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adventurer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../archer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Archer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mage
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#frost-bolt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frost Bolt
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lightning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lightning
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fireball" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fireball
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ice-wall" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ice Wall
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blink" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blink
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chain-lightning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chain Lightning
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#meteor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Meteor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frost-nova" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frost Nova
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flame-dart" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flame Dart
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arc-focus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arc Focus
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ember-trail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ember Trail
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ice-lance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ice Lance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inferno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inferno
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frostbite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frostbite
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#burning-brand" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Burning Brand
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overcharge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overcharge
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../priest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Priest
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sword/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Swordsman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../thief/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Thief
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#frost-bolt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frost Bolt
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#lightning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Lightning
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#fireball" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Fireball
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ice-wall" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ice Wall
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blink" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blink
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chain-lightning" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Chain Lightning
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#meteor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Meteor
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frost-nova" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frost Nova
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#flame-dart" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Flame Dart
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#arc-focus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Arc Focus
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ember-trail" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ember Trail
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ice-lance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ice Lance
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inferno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inferno
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#frostbite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Frostbite
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#burning-brand" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Burning Brand
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#overcharge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Overcharge
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="mage">Mage</h1>
+<p>Main stat: <strong>INT</strong>. </p>
+<p>Basic attack: <strong>Staff bolt</strong>, 3-5 damage, Neutral.</p>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Level</th>
+<th>Skill</th>
+<th>AP</th>
+<th>Range</th>
+<th>Cooldown</th>
+<th>Element</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>10</td>
+<td>Frost Bolt</td>
+<td>3</td>
+<td>1–4</td>
+<td>-</td>
+<td>Water</td>
+<td>damage(5-7) · status(frozen, 30%)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>10</td>
+<td>Lightning</td>
+<td>3</td>
+<td>1–4</td>
+<td>-</td>
+<td>Wind</td>
+<td>bonus_if(frozen x2) · damage(6-8)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>15</td>
+<td>Fireball</td>
+<td>3</td>
+<td>2–4</td>
+<td>-</td>
+<td>Fire</td>
+<td>blast(square 1)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>20</td>
+<td>Ice Wall</td>
+<td>3</td>
+<td>1–4</td>
+<td>3</td>
+<td>Water</td>
+<td>zone(wall, 2 turns, blocks)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>25</td>
+<td>Blink</td>
+<td>3</td>
+<td>1–3</td>
+<td>3</td>
+<td>Neutral</td>
+<td>warp(tile)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>30</td>
+<td>Chain Lightning</td>
+<td>4</td>
+<td>1–4</td>
+<td>2</td>
+<td>Wind</td>
+<td>chain(2, x0.75)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>35</td>
+<td>Meteor</td>
+<td>5</td>
+<td>2–5</td>
+<td>5</td>
+<td>Fire</td>
+<td>zone(3x3, 3 turns, delay 1, end: damage(13-17))</td>
+</tr>
+<tr>
+<td>8</td>
+<td>40</td>
+<td>Frost Nova</td>
+<td>3</td>
+<td>self</td>
+<td>3</td>
+<td>Water</td>
+<td>around(1)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>43</td>
+<td>Flame Dart</td>
+<td>2</td>
+<td>1–4</td>
+<td>-</td>
+<td>Fire</td>
+<td>damage(3-4) · status(burn 3x1)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>46</td>
+<td>Arc Focus</td>
+<td>2</td>
+<td>self</td>
+<td>4</td>
+<td>Wind</td>
+<td>status(mpBoost, self)</td>
+</tr>
+<tr>
+<td>11</td>
+<td>49</td>
+<td>Ember Trail</td>
+<td>3</td>
+<td>1–4</td>
+<td>3</td>
+<td>Fire</td>
+<td>zone(plus1, 2 turns, start: status(burn 2x1))</td>
+</tr>
+<tr>
+<td>12</td>
+<td>52</td>
+<td>Ice Lance</td>
+<td>3</td>
+<td>1–4</td>
+<td>2</td>
+<td>Water</td>
+<td>damage(6-7) · status(snared)</td>
+</tr>
+<tr>
+<td>13</td>
+<td>55</td>
+<td>Inferno</td>
+<td>5</td>
+<td>2–5</td>
+<td>4</td>
+<td>Fire</td>
+<td>blast(square 1)</td>
+</tr>
+<tr>
+<td>14</td>
+<td>58</td>
+<td>Frostbite</td>
+<td>2</td>
+<td>self</td>
+<td>4</td>
+<td>Water</td>
+<td>aura(water, any hit, 2 turns, then status(snared))</td>
+</tr>
+<tr>
+<td>15</td>
+<td>61</td>
+<td>Burning Brand</td>
+<td>2</td>
+<td>self</td>
+<td>4</td>
+<td>Fire</td>
+<td>aura(fire, any hit, 2 turns, then status(marked))</td>
+</tr>
+<tr>
+<td>16</td>
+<td>64</td>
+<td>Overcharge</td>
+<td>2</td>
+<td>self</td>
+<td>4</td>
+<td>Wind</td>
+<td>aura(wind, any hit, 2 turns, then status(charged, self))</td>
+</tr>
+</tbody>
+</table>
+<h2 id="frost-bolt">Frost Bolt</h2>
+<p>30% to freeze: the target loses its next turn.</p>
+<ul>
+<li>Effects: damage(5-7) · status(frozen, 30%)</li>
+<li>Scales with: matk x0.44, lvl x0.35</li>
+</ul>
+<h2 id="lightning">Lightning</h2>
+<p>Double damage to a frozen target.</p>
+<ul>
+<li>Effects: bonus_if(frozen x2) · damage(6-8)</li>
+<li>Scales with: matk x0.55, lvl x0.35</li>
+</ul>
+<h2 id="fireball">Fireball</h2>
+<p>Bursts where it lands: every foe in the 3×3 takes the hit and burns.</p>
+<ul>
+<li>Effects: blast(square 1)</li>
+<li>Scales with: matk x0.44, lvl x0.35, dot_matk x0.12, dot_lvl x0.08</li>
+</ul>
+<h2 id="ice-wall">Ice Wall</h2>
+<p>Raises a 3-tile ice wall for 2 turns. It blocks movement and line of sight.</p>
+<ul>
+<li>Effects: zone(wall, 2 turns, blocks)</li>
+</ul>
+<h2 id="blink">Blink</h2>
+<p>Teleport to any empty tile you can see within 3.</p>
+<ul>
+<li>Effects: warp(tile)</li>
+</ul>
+<h2 id="chain-lightning">Chain Lightning</h2>
+<p>Hits the target, then bounces to up to 2 more foes within 2 tiles at −25% a jump.</p>
+<ul>
+<li>Effects: chain(2, x0.75)</li>
+<li>Scales with: matk x0.45, lvl x0.35</li>
+</ul>
+<h2 id="meteor">Meteor</h2>
+<p>Marks a 3×3 area. The meteor lands at the start of your next turn.</p>
+<ul>
+<li>Effects: zone(3x3, 3 turns, delay 1, end: damage(13-17))</li>
+<li>Scales with: matk x0.97, lvl x0.35</li>
+</ul>
+<h2 id="frost-nova">Frost Nova</h2>
+<p>A burst of cold around you: every adjacent foe takes damage, and 25% of them freeze.</p>
+<ul>
+<li>Effects: around(1)</li>
+<li>Scales with: matk x0.4, lvl x0.35</li>
+</ul>
+<h2 id="flame-dart">Flame Dart</h2>
+<p>A quick fire dart. The target burns for 1 turn.</p>
+<ul>
+<li>Effects: damage(3-4) · status(burn 3x1)</li>
+<li>Scales with: matk x0.36, lvl x0.35, dot_matk x0.1</li>
+</ul>
+<h2 id="arc-focus">Arc Focus</h2>
+<p>Gathers arc sparks: +1 MP at the start of your next turn.</p>
+<ul>
+<li>Effects: status(mpBoost, self)</li>
+</ul>
+<h2 id="ember-trail">Ember Trail</h2>
+<p>Lays a plus of embers for 2 turns. Foes standing in it at the start of their turn burn.</p>
+<ul>
+<li>Effects: zone(plus1, 2 turns, start: status(burn 2x1))</li>
+<li>Scales with: matk x0.25, lvl x0.3</li>
+</ul>
+<h2 id="ice-lance">Ice Lance</h2>
+<p>A heavy ice shard: damage, and the target is snared in place.</p>
+<ul>
+<li>Effects: damage(6-7) · status(snared)</li>
+<li>Scales with: matk x0.48, lvl x0.35</li>
+</ul>
+<h2 id="inferno">Inferno</h2>
+<p>A ball of fire bursts where it lands: every foe in the 3×3 takes the hit and burns for 2 turns.</p>
+<ul>
+<li>Effects: blast(square 1)</li>
+<li>Scales with: matk x0.5, lvl x0.35, dot_matk x0.12</li>
+</ul>
+<h2 id="frostbite">Frostbite</h2>
+<p>Frost coats you for 2 turns: each ice hit you land also snares the foe in place. Bosses are immune.</p>
+<ul>
+<li>Effects: aura(water, any hit, 2 turns, then status(snared))</li>
+</ul>
+<h2 id="burning-brand">Burning Brand</h2>
+<p>Your fire hits brand the foe for 2 turns: a marked foe takes 25% more damage from every source.</p>
+<ul>
+<li>Effects: aura(fire, any hit, 2 turns, then status(marked))</li>
+</ul>
+<h2 id="overcharge">Overcharge</h2>
+<p>Stores arc energy for 2 turns: each wind hit you land charges your next hit for 1.5 times the damage.</p>
+<ul>
+<li>Effects: aura(wind, any hit, 2 turns, then status(charged, self))</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "search.highlight"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c21346df.min.js"></script>
+      
+    
+  </body>
+</html>
