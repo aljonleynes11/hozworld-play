@@ -1,0 +1,1369 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://aljonleynes11.github.io/hozworld-play/wiki/classes/thief/">
+      
+      
+        <link rel="prev" href="../sword/">
+      
+      
+        <link rel="next" href="../../monsters/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.8.0">
+    
+    
+      
+        <title>Thief - HozWorld Wiki</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.57a0d79d.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.fb2fffe2.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#thief" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="HozWorld Wiki" class="md-header__button md-logo" aria-label="HozWorld Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            HozWorld Wiki
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Thief
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="indigo"  aria-label="Dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="indigo"  aria-label="Light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="HozWorld Wiki" class="md-nav__button md-logo" aria-label="HozWorld Wiki" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    HozWorld Wiki
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Home
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Classes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../adventurer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Adventurer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../archer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Archer
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mage
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../priest/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Priest
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../sword/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Swordsman
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Thief
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Thief
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#stealth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stealth
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backstab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backstab
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shadowstep" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shadowstep
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#poison-blade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Poison Blade
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#smoke-bomb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Smoke Bomb
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#steal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Steal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assassinate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assassinate
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vanish-strike" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vanish Strike
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slip-away" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slip Away
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#toxic-cut" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Toxic Cut
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ambush-lunge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ambush Lunge
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blade-oil" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blade Oil
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloak-mark" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloak Mark
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#venom-slash" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Venom Slash
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#light-feet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Light Feet
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#knife-rain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Knife Rain
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../monsters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Monsters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../elements/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../maps/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maps
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../statuses/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Statuses
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#stealth" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stealth
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#backstab" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Backstab
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shadowstep" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shadowstep
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#poison-blade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Poison Blade
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#smoke-bomb" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Smoke Bomb
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#steal" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Steal
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assassinate" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Assassinate
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vanish-strike" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vanish Strike
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#slip-away" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Slip Away
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#toxic-cut" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Toxic Cut
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ambush-lunge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ambush Lunge
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#blade-oil" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Blade Oil
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#cloak-mark" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cloak Mark
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#venom-slash" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Venom Slash
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#light-feet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Light Feet
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#knife-rain" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Knife Rain
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="thief">Thief</h1>
+<p>Main stat: <strong>LUK</strong>. </p>
+<p>Basic attack: <strong>Dagger</strong>, 3-5 damage, <span class="hz-el" style="background:#9aa3ad;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Neutral</span>.</p>
+<table>
+<thead>
+<tr>
+<th>Step</th>
+<th>Level</th>
+<th>Skill</th>
+<th>AP</th>
+<th>Range</th>
+<th>Cooldown</th>
+<th>Element</th>
+<th>Effects</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>10</td>
+<td><img alt="" src="../../img/skill_shadow.png" width="32" /> Stealth</td>
+<td>2</td>
+<td>self</td>
+<td>3</td>
+<td><span class="hz-el" style="background:#b276e8;color:#fff;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Shadow</span></td>
+<td>status(<a href="../../statuses/#hidden">hidden</a>, self)</td>
+</tr>
+<tr>
+<td>2</td>
+<td>10</td>
+<td><img alt="" src="../../img/skill_dagger.png" width="32" /> Backstab</td>
+<td>4</td>
+<td>1</td>
+<td>-</td>
+<td><span class="hz-el" style="background:#9aa3ad;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Neutral</span></td>
+<td>bonus_if(hidden x2, caster) · damage(7-9)</td>
+</tr>
+<tr>
+<td>3</td>
+<td>15</td>
+<td><img alt="" src="../../img/skill_sword.png" width="32" /> Shadowstep</td>
+<td>2</td>
+<td>1–4</td>
+<td>2</td>
+<td><span class="hz-el" style="background:#b276e8;color:#fff;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Shadow</span></td>
+<td>warp(behind)</td>
+</tr>
+<tr>
+<td>4</td>
+<td>20</td>
+<td><img alt="" src="../../img/skill_sword.png" width="32" /> Poison Blade</td>
+<td>2</td>
+<td>self</td>
+<td>3</td>
+<td><span class="hz-el" style="background:#66c95c;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Poison</span></td>
+<td>status(<a href="../../statuses/#poisonBlade">poisonBlade</a>, self)</td>
+</tr>
+<tr>
+<td>5</td>
+<td>25</td>
+<td><img alt="" src="../../img/skill_sword.png" width="32" /> Smoke Bomb</td>
+<td>3</td>
+<td>self</td>
+<td>4</td>
+<td><span class="hz-el" style="background:#b276e8;color:#fff;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Shadow</span></td>
+<td>zone(3x3, 2 turns, foes, start: status(<a href="../../statuses/#smoked">smoked</a>)) · status(<a href="../../statuses/#smokeVeil">smokeVeil</a>, self)</td>
+</tr>
+<tr>
+<td>6</td>
+<td>30</td>
+<td><img alt="" src="../../img/skill_sword.png" width="32" /> Steal</td>
+<td>2</td>
+<td>1</td>
+<td>2</td>
+<td><span class="hz-el" style="background:#b276e8;color:#fff;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Shadow</span></td>
+<td>damage(2-3) · steal(ap 1)</td>
+</tr>
+<tr>
+<td>7</td>
+<td>35</td>
+<td><img alt="" src="../../img/skill_sword.png" width="32" /> Assassinate</td>
+<td>5</td>
+<td>1</td>
+<td>4</td>
+<td><span class="hz-el" style="background:#b276e8;color:#fff;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Shadow</span></td>
+<td>lethal(below 25%, x3) · damage(8-11)</td>
+</tr>
+<tr>
+<td>8</td>
+<td>40</td>
+<td><img alt="" src="../../img/skill_sword.png" width="32" /> Vanish Strike</td>
+<td>3</td>
+<td>1</td>
+<td>-</td>
+<td><span class="hz-el" style="background:#9aa3ad;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Neutral</span></td>
+<td>bonus_if(hidden x2, caster) · damage(4-5)</td>
+</tr>
+<tr>
+<td>9</td>
+<td>43</td>
+<td><img alt="" src="../../img/skill_sword.png" width="32" /> Slip Away</td>
+<td>2</td>
+<td>self</td>
+<td>4</td>
+<td><span class="hz-el" style="background:#9aa3ad;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Neutral</span></td>
+<td>status(<a href="../../statuses/#guarded">guarded</a>, self)</td>
+</tr>
+<tr>
+<td>10</td>
+<td>46</td>
+<td><img alt="" src="../../img/skill_sword.png" width="32" /> Toxic Cut</td>
+<td>3</td>
+<td>1</td>
+<td>-</td>
+<td><span class="hz-el" style="background:#66c95c;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Poison</span></td>
+<td>damage(3-4) · status(<a href="../../statuses/#poison">poison</a> 2x2)</td>
+</tr>
+<tr>
+<td>11</td>
+<td>49</td>
+<td><img alt="" src="../../img/skill_sword.png" width="32" /> Ambush Lunge</td>
+<td>3</td>
+<td>2</td>
+<td>2</td>
+<td><span class="hz-el" style="background:#9aa3ad;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Neutral</span></td>
+<td>when(dist 2 &amp; in_line: gap_close(2)) · bonus_if(hidden x2, caster) · damage(5-6)</td>
+</tr>
+<tr>
+<td>12</td>
+<td>52</td>
+<td><img alt="" src="../../img/skill_sword.png" width="32" /> Blade Oil</td>
+<td>2</td>
+<td>self</td>
+<td>4</td>
+<td><span class="hz-el" style="background:#66c95c;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Poison</span></td>
+<td>status(<a href="../../statuses/#poisonBlade">poisonBlade</a>, self)</td>
+</tr>
+<tr>
+<td>13</td>
+<td>55</td>
+<td><img alt="" src="../../img/skill_sword.png" width="32" /> Cloak Mark</td>
+<td>2</td>
+<td>self</td>
+<td>4</td>
+<td><span class="hz-el" style="background:#9aa3ad;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Neutral</span></td>
+<td>aura(on backstab, 2 turns, then status(<a href="../../statuses/#marked">marked</a>))</td>
+</tr>
+<tr>
+<td>14</td>
+<td>58</td>
+<td><img alt="" src="../../img/skill_sword.png" width="32" /> Venom Slash</td>
+<td>3</td>
+<td>1</td>
+<td>3</td>
+<td><span class="hz-el" style="background:#66c95c;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Poison</span></td>
+<td>area(front3)</td>
+</tr>
+<tr>
+<td>15</td>
+<td>61</td>
+<td><img alt="" src="../../img/skill_sword.png" width="32" /> Light Feet</td>
+<td>2</td>
+<td>self</td>
+<td>4</td>
+<td><span class="hz-el" style="background:#9aa3ad;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Neutral</span></td>
+<td>status(<a href="../../statuses/#mpBoost">mpBoost</a>, self)</td>
+</tr>
+<tr>
+<td>16</td>
+<td>64</td>
+<td><img alt="" src="../../img/skill_sword.png" width="32" /> Knife Rain</td>
+<td>4</td>
+<td>self</td>
+<td>3</td>
+<td><span class="hz-el" style="background:#9aa3ad;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Neutral</span></td>
+<td>around(1)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="stealth"><img alt="" src="../../img/skill_shadow.png" width="32" /> Stealth</h2>
+<p>Enemies lose you for 2 turns or until you attack. Usable every 3 turns.</p>
+<ul>
+<li>Effects: status(<a href="../../statuses/#hidden">hidden</a>, self)</li>
+</ul>
+<p><img alt="Stealth effect" src="../../img/fx_vfx_smoke_soft.gif" /></p>
+<h2 id="backstab"><img alt="" src="../../img/skill_dagger.png" width="32" /> Backstab</h2>
+<p>Double damage while hidden. Breaks stealth.</p>
+<ul>
+<li>Effects: bonus_if(hidden x2, caster) · damage(7-9)</li>
+<li>Scales with: atk x0.55, lvl x0.35</li>
+</ul>
+<p><img alt="Backstab effect" src="../../img/fx_vfx_blood_small.gif" /></p>
+<h2 id="shadowstep"><img alt="" src="../../img/skill_sword.png" width="32" /> Shadowstep</h2>
+<p>Slip to the tile behind an enemy within 4. Your next hit lands on its back.</p>
+<ul>
+<li>Effects: warp(behind)</li>
+</ul>
+<p><img alt="Shadowstep effect" src="../../img/fx_vfx_smoke_trail.gif" /></p>
+<h2 id="poison-blade"><img alt="" src="../../img/skill_sword.png" width="32" /> Poison Blade</h2>
+<p>Coat the blade: every hit you land for 3 turns also poisons.</p>
+<ul>
+<li>Effects: status(<a href="../../statuses/#poisonBlade">poisonBlade</a>, self)</li>
+</ul>
+<p><img alt="Poison Blade effect" src="../../img/fx_vfx_smoke_poison.gif" /></p>
+<h2 id="smoke-bomb"><img alt="" src="../../img/skill_sword.png" width="32" /> Smoke Bomb</h2>
+<p>Drop smoke: enemies inside lose 2 range, and you are harder to hit.</p>
+<ul>
+<li>Effects: zone(3x3, 2 turns, foes, start: status(<a href="../../statuses/#smoked">smoked</a>)) · status(<a href="../../statuses/#smokeVeil">smokeVeil</a>, self)</li>
+</ul>
+<p><img alt="Smoke Bomb effect" src="../../img/fx_vfx_smoke_burst.gif" /></p>
+<h2 id="steal"><img alt="" src="../../img/skill_sword.png" width="32" /> Steal</h2>
+<p>A light cut that drains 1 AP next turn and may lift a trophy.</p>
+<ul>
+<li>Effects: damage(2-3) · steal(ap 1)</li>
+<li>Scales with: atk x0.24, lvl x0.35</li>
+</ul>
+<h2 id="assassinate"><img alt="" src="../../img/skill_sword.png" width="32" /> Assassinate</h2>
+<p>Triple damage to a target below 25% HP.</p>
+<ul>
+<li>Effects: lethal(below 25%, x3) · damage(8-11)</li>
+<li>Scales with: atk x0.74, lvl x0.35</li>
+</ul>
+<p><img alt="Assassinate effect" src="../../img/fx_vfx_blood_heavy.gif" /></p>
+<h2 id="vanish-strike"><img alt="" src="../../img/skill_sword.png" width="32" /> Vanish Strike</h2>
+<p>A dagger strike that doubles its damage when you are hidden.</p>
+<ul>
+<li>Effects: bonus_if(hidden x2, caster) · damage(4-5)</li>
+<li>Scales with: atk x0.42, lvl x0.35</li>
+</ul>
+<p><img alt="Vanish Strike effect" src="../../img/fx_vfx_blood_tight.gif" /></p>
+<h2 id="slip-away"><img alt="" src="../../img/skill_sword.png" width="32" /> Slip Away</h2>
+<p>Slips into the smoke: 50% less damage taken for 1 turn.</p>
+<ul>
+<li>Effects: status(<a href="../../statuses/#guarded">guarded</a>, self)</li>
+</ul>
+<p><img alt="Slip Away effect" src="../../img/fx_vfx_smoke_chemical.gif" /></p>
+<h2 id="toxic-cut"><img alt="" src="../../img/skill_sword.png" width="32" /> Toxic Cut</h2>
+<p>A dagger cut laced with poison: 2 damage a turn for 2 turns.</p>
+<ul>
+<li>Effects: damage(3-4) · status(<a href="../../statuses/#poison">poison</a> 2x2)</li>
+<li>Scales with: atk x0.45, lvl x0.35</li>
+</ul>
+<p><img alt="Toxic Cut effect" src="../../img/fx_vfx_rogue_slash_3.gif" /></p>
+<h2 id="ambush-lunge"><img alt="" src="../../img/skill_sword.png" width="32" /> Ambush Lunge</h2>
+<p>Lunges at a foe 2 tiles away in a straight line, dashing in. Doubles its damage when you are hidden.</p>
+<ul>
+<li>Effects: when(dist 2 &amp; in_line: gap_close(2)) · bonus_if(hidden x2, caster) · damage(5-6)</li>
+<li>Scales with: atk x0.46, lvl x0.35</li>
+</ul>
+<p><img alt="Ambush Lunge effect" src="../../img/fx_vfx_rogue_slash_5.gif" /></p>
+<h2 id="blade-oil"><img alt="" src="../../img/skill_sword.png" width="32" /> Blade Oil</h2>
+<p>Oils the blade for 5 turns: every hit you land poisons the target.</p>
+<ul>
+<li>Effects: status(<a href="../../statuses/#poisonBlade">poisonBlade</a>, self)</li>
+</ul>
+<h2 id="cloak-mark"><img alt="" src="../../img/skill_sword.png" width="32" /> Cloak Mark</h2>
+<p>For 2 turns, every hit from behind marks the foe: it takes 25% more damage.</p>
+<ul>
+<li>Effects: aura(on backstab, 2 turns, then status(<a href="../../statuses/#marked">marked</a>))</li>
+</ul>
+<h2 id="venom-slash"><img alt="" src="../../img/skill_sword.png" width="32" /> Venom Slash</h2>
+<p>A poisoned arc at the tile you aim at, hitting it and the two tiles beside it. Every foe hit is poisoned.</p>
+<ul>
+<li>Effects: area(front3)</li>
+<li>Scales with: atk x0.36, lvl x0.35</li>
+</ul>
+<h2 id="light-feet"><img alt="" src="../../img/skill_sword.png" width="32" /> Light Feet</h2>
+<p>Light on your feet: you start your next turn with 1 more MP.</p>
+<ul>
+<li>Effects: status(<a href="../../statuses/#mpBoost">mpBoost</a>, self)</li>
+</ul>
+<h2 id="knife-rain"><img alt="" src="../../img/skill_sword.png" width="32" /> Knife Rain</h2>
+<p>Blades fly out in every direction: every adjacent foe takes damage.</p>
+<ul>
+<li>Effects: around(1)</li>
+<li>Scales with: atk x0.4, lvl x0.35</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "search.highlight"], "search": "../../assets/javascripts/workers/search.a7633da7.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.c21346df.min.js"></script>
+      
+    
+  </body>
+</html>
