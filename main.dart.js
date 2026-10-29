@@ -33591,7 +33591,8 @@ break}A.bsU();++h.ay
 p=h.go
 o=p.c
 p.c=B.e.aK(B.e.a9(o-2,p.a,o))
-A.b__(h,!1)
+if(h.k3.length===0)A.b__(h,h.c==="enemy")
+h.k4=0
 s=3
 return A.k(A.q_(),$async$abR)
 case 3:case 1:return A.w(q,r)}})
