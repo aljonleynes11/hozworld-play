@@ -19,6 +19,9 @@
   <meta charset="UTF-8">
   <!-- Without this the splash lays out at desktop width and shows at ~40% size on phones. -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Safari tints its status bar and toolbar from this (else from the page
+       background, which would turn them cream from the splash). -->
+  <meta name="theme-color" content="#121821">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
 
@@ -36,6 +39,8 @@
   <!-- Phase 1 splash: shown until Flutter draws its first frame. Same look as
        lib/ui/screens/boot_loader.dart so the hand-off does not jump. -->
   <style>
+    /* The page itself stays dark under the game; only the boot splash is cream. */
+    html, body { background: #121821; }
     @font-face { font-family: 'PixelifySans'; src: url('assets/assets/fonts/pixelify_sans.ttf') format('truetype'); font-display: block; }
     @font-face { font-family: 'IBMPlexMono'; src: url('assets/assets/fonts/ibm_plex_mono_regular.ttf') format('truetype'); font-display: block; }
     #boot-splash {
@@ -109,6 +114,6 @@
       }, true);
     });
   </script>
-  <script src="flutter_bootstrap.js?v=040bf79" async></script>
+  <script src="flutter_bootstrap.js?v=387d653" async></script>
 </body>
 </html>
