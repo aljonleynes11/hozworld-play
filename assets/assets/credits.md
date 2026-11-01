@@ -51,6 +51,7 @@
 | Map-change loading painting (`assets/ui/loading_map_bg.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | Village painting with its citizens (`assets/ui/loading/village.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | Warchief's Hold loading painting (`assets/ui/loading/orc_fortress.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
+| Adventurer test sprite, `?newhero=1` only (`assets/sprites/adventurer_new.png`) | Generated with ChatGPT (AI) · provided by the project owner; cut with `tool/dev/cut_sprite_strip.php` | owner-supplied (AI-generated) |
 | Orc Warcamp loading painting (`assets/ui/loading/orc_warcamp.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | Whelp Wastes loading painting (`assets/ui/loading/orc_whelps.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | Cave loading painting (`assets/ui/loading/cave.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
