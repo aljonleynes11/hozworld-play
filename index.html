@@ -40,29 +40,33 @@
     @font-face { font-family: 'IBMPlexMono'; src: url('assets/assets/fonts/ibm_plex_mono_regular.ttf') format('truetype'); font-display: block; }
     #boot-splash {
       position: fixed; inset: 0; z-index: 9999; box-sizing: border-box;
-      display: flex; flex-direction: column; align-items: center; justify-content: center;
-      padding: 0 32px; background: #121821;
+      display: flex; flex-direction: column; align-items: center; justify-content: flex-end;
+      padding: 0 32px 20px; background: #F3E3C0;
     }
-    /* Same painting and dark overlay as lib/ui/screens/boot_loader.dart LoadingBackdrop */
+    /* Same painting as lib/ui/screens/boot_loader.dart LoadingBackdrop: top aligned,
+       no dark overlay, so the ink-on-paper scene stays up and the cream paper
+       fills the bottom of the screen where the group sits. */
     #boot-splash {
-      background: linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.6),rgba(0,0,0,.45)), #121821 url('loading_bg.jpg') 40% 50% / cover no-repeat;
+      background: #F3E3C0 url('loading_bg.jpg') top center / cover no-repeat;
     }
-    /* Same metrics as lib/ui/screens/boot_loader.dart: title 36, gap 16, board 240, gap 16, slot 48, gap 12, tip 36 = 404 */
+    /* Same bottom-anchored metrics as lib/ui/screens/boot_loader.dart: title 36,
+       gap 12, board 200, gap 12, slot 76, gap 10, tip 36 = 382 */
     #boot-splash .col { width: 100%; max-width: 360px; display: flex; flex-direction: column; }
     #boot-splash .t {
       height: 36px; display: flex; align-items: center; justify-content: center;
       font-family: 'PixelifySans', sans-serif; font-size: 28px; font-weight: 700;
-      letter-spacing: 1px; line-height: 1; color: #fff; white-space: nowrap;
+      letter-spacing: 1px; line-height: 1; color: #4A3420; white-space: nowrap;
     }
-    /* The board is not drawn here: this empty 240 px band keeps the Flutter layout in place. */
-    #boot-splash .board { margin-top: 16px; height: 240px; }
-    /* Sits where the Flutter Start button sits: same 200x48 slot, centred. No box, just text. */
+    /* The board is not drawn here: this empty 200 px band keeps the Flutter layout in place. */
+    #boot-splash .board { margin-top: 12px; height: 200px; }
+    /* Sits where the Flutter Start button sits: 200x48 centred in the 76 px slot. No box, just text. */
+    #boot-splash .slot { margin-top: 12px; height: 76px; display: flex; align-items: center; justify-content: center; }
     #boot-splash .load {
-      width: 200px; height: 48px; margin: 16px auto 0; display: flex; align-items: center; justify-content: center;
-      font-family: 'IBMPlexMono', monospace; font-size: 14px; line-height: 1; color: rgba(200,206,216,.6);
+      width: 200px; height: 48px; display: flex; align-items: center; justify-content: center;
+      font-family: 'IBMPlexMono', monospace; font-size: 14px; line-height: 1; color: #7A5C3A;
     }
-    /* The Flutter tip box (36 px, after a 12 px gap) */
-    #boot-splash .tip { margin-top: 12px; height: 36px; }
+    /* The Flutter tip box (36 px, after a 10 px gap) */
+    #boot-splash .tip { margin-top: 10px; height: 36px; }
   </style>
 </head>
 <body>
@@ -70,7 +74,7 @@
     <div class="col">
       <div class="t">HozWorld</div>
       <div class="board"></div>
-      <div class="load">Loading…</div>
+      <div class="slot"><div class="load">Loading…</div></div>
       <div class="tip"></div>
     </div>
   </div>
@@ -105,6 +109,6 @@
       }, true);
     });
   </script>
-  <script src="flutter_bootstrap.js?v=a43fa65" async></script>
+  <script src="flutter_bootstrap.js?v=040bf79" async></script>
 </body>
 </html>
