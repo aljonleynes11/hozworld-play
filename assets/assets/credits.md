@@ -49,6 +49,12 @@
 | Meadow fight backdrop (`backdrop/meadow/*`) | Grassy Meadow Parallax Background v1 | license: TODO confirm source |
 | Loading screen painting (`assets/ui/loading_bg.jpg`) | Generated with Google Gemini (AI) · provided by the project owner | owner-supplied (AI-generated) |
 | Map-change loading painting (`assets/ui/loading_map_bg.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
+| Village painting with its citizens (`assets/ui/loading/village.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
+| Warchief's Hold loading painting (`assets/ui/loading/orc_fortress.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
+| Orc Warcamp loading painting (`assets/ui/loading/orc_warcamp.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
+| Whelp Wastes loading painting (`assets/ui/loading/orc_whelps.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
+| Cave loading painting (`assets/ui/loading/cave.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
+| The Scorched Edge loading painting (`assets/ui/loading/ashlands.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 
 Ice blocks from Free Ice Forest Platformer Tileset by LudicArts.com (Franco Giachetti), CC BY 4.0, https://ludicarts.com - pixelated for HozWorld.
 
