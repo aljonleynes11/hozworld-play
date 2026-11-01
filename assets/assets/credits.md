@@ -48,6 +48,7 @@
 | Village and frontier art (`assets/decor/elements/*`: houses, barns, fences, signs, banners, lamps, rocks, stumps, bushes, mushrooms, crystals, ruin pillars and arches; sliced from the two sheets, native scale) | pmvuongvna · https://pmvuongvna.itch.io/rpg-environments-packs · Pixel-Art Fantasy Village Assets and Pixel RPG Environment and Elemental Asset Sheet | licence not stated, permission pending |
 | Meadow fight backdrop (`backdrop/meadow/*`) | Grassy Meadow Parallax Background v1 | license: TODO confirm source |
 | Loading screen painting (`assets/ui/loading_bg.jpg`) | Generated with Google Gemini (AI) · provided by the project owner | owner-supplied (AI-generated) |
+| Map-change loading painting (`assets/ui/loading_map_bg.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 
 Ice blocks from Free Ice Forest Platformer Tileset by LudicArts.com (Franco Giachetti), CC BY 4.0, https://ludicarts.com - pixelated for HozWorld.
 
