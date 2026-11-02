@@ -144,3 +144,6 @@ Mechanic and element icons (assets/icons/mechanics/*.png, assets/icons/elements/
 
 Menu and button icons (assets/icons/menu/*.png) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
 
+## World markers (`assets/icons/markers/`)
+
+World markers (assets/icons/markers/*.png: talk, quest, fight, turn, boss, elite, in 4- and 6-frame loops) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
