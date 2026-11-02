@@ -45,13 +45,14 @@
 | Poison bubbles (`vfx/poison_bubble`) | Natural_Privateer, "Pink Bubble Popping Animation 16x16" (recoloured green in code) | CC0 (public domain) · https://opengameart.org/node/124318 |
 | Burn flames (`assets/vfx/burn_flame.png`) | Reactorcore, "Fire Smoke Animations" · https://opengameart.org/content/fire-smoke-animations | CC0 |
 | Burnt ruins (`assets/decor/buildings/abandoned_*`: 3 Pixel-Deck houses, 2x nearest) | Pixel Art Assets by Pixel-Deck.com · https://pixel-deck.com · Tiny Top-Down Village (58 Cute 80x80 Pixel Buildings) | Commercial use, modify and recolour allowed; not for resale or redistribution of the pack |
-| Village and frontier art (`assets/decor/elements/*`: houses, barns, fences, signs, banners, lamps, rocks, stumps, bushes, mushrooms, crystals, ruin pillars and arches; sliced from the two sheets, native scale) | pmvuongvna · https://pmvuongvna.itch.io/rpg-environments-packs · Pixel-Art Fantasy Village Assets and Pixel RPG Environment and Elemental Asset Sheet | licence not stated, permission pending |
+| Village and frontier art (`assets/decor/elements/*`: signs, banners, lamps, palisade gate, rocks, stumps, bushes, mushrooms, crystals, ruin pillars and arches; sliced from the two sheets, native scale) | pmvuongvna · https://pmvuongvna.itch.io/rpg-environments-packs · Pixel-Art Fantasy Village Assets and Pixel RPG Environment and Elemental Asset Sheet | licence not stated, permission pending |
 | Meadow fight backdrop (`backdrop/meadow/*`) | Grassy Meadow Parallax Background v1 | license: TODO confirm source |
 | Loading screen painting (`assets/ui/loading_bg.jpg`) | Generated with Google Gemini (AI) · provided by the project owner | owner-supplied (AI-generated) |
 | Map-change loading painting (`assets/ui/loading_map_bg.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | Village painting with its citizens (`assets/ui/loading/village.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | Warchief's Hold loading painting (`assets/ui/loading/orc_fortress.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
-| Adventurer test sprite, `?newhero=1` only (`assets/sprites/adventurer_new.png`) | Generated with ChatGPT (AI) · provided by the project owner; cut with `tool/dev/cut_sprite_strip.php` | owner-supplied (AI-generated) |
+| Adventurer test sprite, `?newhero=1` only (`assets/sprites/adventurer_new.png`) | Generated with ChatGPT (AI) · provided by the project owner; cut with `tool/dev/cut_sprite_strip.py` | owner-supplied (AI-generated) |
+| Adventurer test sprite, look E, `?newhero=2` only (`assets/sprites/adventurer_e.png`) | Generated with ChatGPT (AI) · provided by the project owner; pixelized with `tool/dev/pixelize_sheet.py` | owner-supplied (AI-generated) |
 | Orc Warcamp loading painting (`assets/ui/loading/orc_warcamp.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | Whelp Wastes loading painting (`assets/ui/loading/orc_whelps.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | Cave loading painting (`assets/ui/loading/cave.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
@@ -85,7 +86,8 @@ Hero layers (body, heads, hair, clothes in `assets/lpc/`): Universal LPC Sprites
 
 - [LPC] Plant repack - LPC contributors (Casper Nilsson, Johann Charlot, Barbara Rivera and others), CC-BY-SA 3.0 / GPL 3.0, https://opengameart.org/lpc-art-entries
 - [LPC] Rocks by bluecarrot16, Johann Charlot, Yar, Hyptosis, Evert, Lanea Zimmerman (Sharm), Guillaume Lecollinet, Richard Kettering (Jetrel), Zachariah Husiar (Zabin), Redshrike, Rayane Felix (RayaneFLX), Michele Bucelli (Buch), CC-BY-SA 3.0 / GPL 3.0 (parts CC-BY 3.0), https://opengameart.org/content/lpc-rocks
-- Village buildings and props (`assets/decor/village_hut_*.png`, `village_tent`, `village_palisade`, `village_fence`, `village_wall_wood`, `village_totem`, `village_banner`, `village_fire_pit`, `village_stall_thatch`, `village_rack`, `village_mat`, `village_pot`, `village_table`, `village_bed`, `village_shelf`, `village_rug_red`, `village_rug_blue`, `village_basket`) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
+- Rocks (`assets/decor/rocks/*.png`, the Frontier's boulders and scatter stones) - CraftPix.net, "Free Rocks and Stones Top-Down Pixel Art" · https://craftpix.net/freebies/free-rocks-and-stones-top-down-pixel-art/ · CraftPix free licence (commercial games OK, no redistribution of the pack) · https://craftpix.net/file-licenses/
+- Village buildings and props (`assets/decor/village_hut_*.png`, `village_tent`, `village_palisade`, `village_palisade_short`, `village_fence`, `village_wall_wood`, `village_totem`, `village_banner`, `village_fire_pit`, `village_stall_thatch`, `village_rack`, `village_mat`, `village_pot`, `village_table`, `village_bed`, `village_shelf`, `village_rug_red`, `village_rug_blue`, `village_basket`) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
 - Village ground props (`assets/decor/village_dirt_patch.png`, `village_flower_*.png`, `village_skull_pole.png`) - drawn for HozWorld, generated by a script; CC0 (public domain)
 
 ## Fonts (`assets/fonts/`)
@@ -124,5 +126,21 @@ Full per-file credits: `assets/lpc/CREDITS.md` lists the LPC layers already in t
 | Asset | Author | License |
 |---|---|---|
 | Pig (`pig_walk.png`), cow (`cow_walk.png`), chicken (`chicken_walk.png`) | Daniel Eddeland (daneeklu), "LPC style farm animals" · https://opengameart.org/content/lpc-style-farm-animals | CC-BY 3.0 (page also lists GPL 2.0) |
-| Status effect icons (`assets/icons/status/`) | AI-generated for HozWorld by the project owner, own work | Own work |
 | Cat (`cat_white.png`), dog (`dog_white.png`): white colour block only | bluecarrot16, "[LPC] Cats and Dogs" · https://opengameart.org/node/69399 | CC-BY 3.0 / CC-BY-SA 3.0 / GPL 3.0 / GPL 2.0 / OGA-BY 3.0 |
+
+## Status icons (`assets/icons/status/`)
+
+Status icons (assets/icons/status/*.png) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
+
+## Stat icons (`assets/icons/stats/`)
+
+Stat icons (assets/icons/stats/*.png) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
+
+## Mechanic and element icons (`assets/icons/mechanics/`, `assets/icons/elements/`)
+
+Mechanic and element icons (assets/icons/mechanics/*.png, assets/icons/elements/*.png) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
+
+## Menu and button icons (`assets/icons/menu/`)
+
+Menu and button icons (assets/icons/menu/*.png) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
+
