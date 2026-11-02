@@ -57,7 +57,7 @@
 | Whelp Wastes loading painting (`assets/ui/loading/orc_whelps.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | Cave loading painting (`assets/ui/loading/cave.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | The Scorched Edge loading painting (`assets/ui/loading/ashlands.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
-| NPC dialogue portraits (`assets/portraits/chief_ouru.jpg`, 384px bust of Chief Ouru) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
+| NPC dialogue portraits (`assets/portraits/chief_ouru.webp`, 627px transparent bust cut-out of Chief Ouru) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
 
 Ice blocks from Free Ice Forest Platformer Tileset by LudicArts.com (Franco Giachetti), CC BY 4.0, https://ludicarts.com - pixelated for HozWorld.
 
