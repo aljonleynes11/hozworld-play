@@ -60,6 +60,7 @@
 | Cave loading painting (`assets/ui/loading/cave.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | The Scorched Edge loading painting (`assets/ui/loading/ashlands.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | NPC dialogue portraits (`assets/portraits/chief_ouru.webp`, 627px transparent bust cut-out of Chief Ouru) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
+| Merchant and storage dialogue icons (`assets/icons/dialogue/merchant_*.png`, `storage_*.png`, 6 frames each) | Generated with ChatGPT (AI) · provided by the project owner; cut and scaled from `docs/design/npc_dialogue_icons_sheet.png` | owner-supplied (AI-generated) |
 
 Ice blocks from Free Ice Forest Platformer Tileset by LudicArts.com (Franco Giachetti), CC BY 4.0, https://ludicarts.com - pixelated for HozWorld.
 
@@ -156,3 +157,7 @@ World markers (assets/icons/markers/*.png: talk, quest, fight, turn, boss, elite
 ## Inventory category pouches (`assets/icons/cat_*.png`)
 
 Inventory category pouches (assets/icons/cat_mats.png, cat_equip.png, cat_wpn.png, cat_bag.png, cat_use.png; cut from one 3x2 sheet) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
+
+## Food icons (`assets/icons/loot/bread.png`, `assets/icons/loot/food.png`)
+
+Bread (`07_bread.png`) and burger (`15_burger.png`) food icons - Ghostpixxells, Free Pixel foods (https://ghostpixxells.itch.io/pixelfood), CC0 1.0
