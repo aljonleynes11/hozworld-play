@@ -41,6 +41,7 @@
 | Arrow projectiles (`assets/vfx/vfx_arrow_green`, `vfx_arrow_brown`, `vfx_arrow_blue`, `vfx_arrow_teal`, `vfx_arrow_grey`) | CraftPix.net, "Free Arrows for Bow Game Vector Icon Pack" · https://craftpix.net/freebies/free-arrows-for-bow-game-vector-icon-pack/ | Craftpix free licence (commercial games OK, no redistribution of the pack) · https://craftpix.net/file-licenses/ |
 | Ice Lance projectile (`assets/vfx/vfx_ice_lance.png`, 8 frames at 160 px, mirrored) | Supplied by the project owner as `ice_lance.png`; author and licence unknown | **to confirm** — do not publish until the source is known |
 | UI icons (`assets/ui/confirm_check.png`, `cancel_x.png`, `heal_plus.png`, `npc_talk.png`, `npc_quest.png`, `boss_quest.png`, `menu_help.png`) | "Essential Game Icons 20 Pack" (author unknown; pack readme grants personal + commercial use and modification, no resale as-is) | Pack licence: commercial use and modify allowed; do not resell or redistribute the pack | 
+| Login sword charge (`assets/ui/login_sword_0..7.png`, 8 frames, left one mirrored in code) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
 | Ice wall blocks (`assets/vfx/ice_block_a.png`, `assets/vfx/ice_block_b.png`) | Free Ice Forest Platformer Tileset by LudicArts.com (Franco Giachetti) — https://ludicarts.com · pixelated for HozWorld | CC BY 4.0 |
 | Poison bubbles (`vfx/poison_bubble`) | Natural_Privateer, "Pink Bubble Popping Animation 16x16" (recoloured green in code) | CC0 (public domain) · https://opengameart.org/node/124318 |
 | Burn flames (`assets/vfx/burn_flame.png`) | Reactorcore, "Fire Smoke Animations" · https://opengameart.org/content/fire-smoke-animations | CC0 |
@@ -141,6 +142,8 @@ Stat icons (assets/icons/stats/*.png) - Generated with ChatGPT (AI), provided by
 
 Mechanic and element icons (assets/icons/mechanics/*.png, assets/icons/elements/*.png) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
 
+Impact icon (`assets/icons/elements/impact.png`, 16x16) - Generated in-project by script (`make_impact_icon.mjs`), owned by the project
+
 ## Menu and button icons (`assets/icons/menu/`)
 
 Menu and button icons (assets/icons/menu/*.png) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
@@ -148,3 +151,7 @@ Menu and button icons (assets/icons/menu/*.png) - Generated with ChatGPT (AI), p
 ## World markers (`assets/icons/markers/`)
 
 World markers (assets/icons/markers/*.png: talk, quest, fight, turn, boss, elite, in 4- and 6-frame loops) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
+
+## Inventory category pouches (`assets/icons/cat_*.png`)
+
+Inventory category pouches (assets/icons/cat_mats.png, cat_equip.png, cat_wpn.png, cat_bag.png, cat_use.png; cut from one 3x2 sheet) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
