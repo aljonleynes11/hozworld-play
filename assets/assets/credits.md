@@ -60,7 +60,7 @@
 | Cave loading painting (`assets/ui/loading/cave.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | The Scorched Edge loading painting (`assets/ui/loading/ashlands.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | NPC dialogue portraits (`assets/portraits/chief_ouru.webp`, 627px transparent bust cut-out of Chief Ouru) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
-| Merchant and storage dialogue icons (`assets/icons/dialogue/merchant_*.png`, `storage_*.png`, 6 frames each) | Generated with ChatGPT (AI) · provided by the project owner; cut and scaled from `docs/design/npc_dialogue_icons_sheet.png` | owner-supplied (AI-generated) |
+| Merchant and storage world markers (`assets/icons/markers/merchant_anim_*.png`, `storage_anim_*.png`, 6 frames each) | Generated with ChatGPT (AI) · provided by the project owner; cut and scaled from `docs/design/npc_dialogue_icons_sheet.png` | owner-supplied (AI-generated) |
 
 Ice blocks from Free Ice Forest Platformer Tileset by LudicArts.com (Franco Giachetti), CC BY 4.0, https://ludicarts.com - pixelated for HozWorld.
 
