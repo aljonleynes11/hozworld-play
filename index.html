@@ -34,7 +34,7 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>hoz_world</title>
+  <title>HozWorld</title>
   <link rel="manifest" href="manifest.json">
   <!-- Phase 1 splash: shown until Flutter draws its first frame. Same look as
        lib/ui/screens/boot_loader.dart so the hand-off does not jump. -->
@@ -71,16 +71,32 @@
         box-shadow: 0 0 24px 2px rgba(0, 0, 0, .35);
       }
     }
-    /* Same bottom-anchored metrics as lib/ui/screens/boot_loader.dart: title 36,
-       gap 12, board 200, gap 12, slot 76, gap 10, tip 36 = 382 */
+    /* Same metrics as lib/ui/screens/boot_loader.dart: the brand block sits at
+       the top of the page, 24 px under the safe area; the bottom group is
+       board 200, gap 12, slot 76, gap 10, tip 36 = 334 */
     #boot-splash .col { width: 100%; max-width: 360px; display: flex; flex-direction: column; }
+    /* The brand block: the logo, then the title 2 px under it, centred. Absolute
+       so the group below keeps its own bottom metrics, and no pointer events so
+       a tap goes through to the board and the Start button. */
+    #boot-splash .brand {
+      position: absolute; left: 0; right: 0;
+      top: calc(env(safe-area-inset-top, 0px) + 24px);
+      display: flex; flex-direction: column; align-items: center;
+      pointer-events: none;
+    }
+    /* The plain logo: 16.5% of the page height, capped at 128 px — the same box
+       LogoMark takes on the loading page, and frame 0 of its sheet. */
+    #boot-splash .logo { display: block; width: min(128px, 16.5vh); height: min(128px, 16.5vh); }
+    /* The title: 34 px in a 40 px box, with the paper halo the Flutter one has. */
     #boot-splash .t {
-      height: 36px; display: flex; align-items: center; justify-content: center;
-      font-family: 'PixelifySans', sans-serif; font-size: 28px; font-weight: 700;
+      margin-top: 2px;
+      height: 40px; display: flex; align-items: center; justify-content: center;
+      font-family: 'PixelifySans', sans-serif; font-size: 34px; font-weight: 700;
       letter-spacing: 1px; line-height: 1; color: #4A3420; white-space: nowrap;
+      text-shadow: 0 0 8px rgba(243, 227, 192, .7);
     }
     /* The board is not drawn here: this empty 200 px band keeps the Flutter layout in place. */
-    #boot-splash .board { margin-top: 12px; height: 200px; }
+    #boot-splash .board { height: 200px; }
     /* Sits where the Flutter Start button sits: 200x48 centred in the 76 px slot. No box, just text. */
     #boot-splash .slot { margin-top: 12px; height: 76px; display: flex; align-items: center; justify-content: center; }
     #boot-splash .load {
@@ -94,8 +110,11 @@
 <body>
   <div id="boot-splash">
     <div id="boot-page">
-      <div class="col">
+      <div class="brand">
+        <img class="logo" src="logo.png" alt="">
         <div class="t">HozWorld</div>
+      </div>
+      <div class="col">
         <div class="board"></div>
         <div class="slot"><div class="load">Loading…</div></div>
         <div class="tip"></div>
@@ -133,6 +152,6 @@
       }, true);
     });
   </script>
-  <script src="flutter_bootstrap.js?v=b48dc4c" async></script>
+  <script src="flutter_bootstrap.js?v=42b4ff4" async></script>
 </body>
 </html>

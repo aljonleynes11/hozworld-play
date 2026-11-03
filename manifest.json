@@ -1,6 +1,6 @@
 {
-    "name": "hoz_world",
-    "short_name": "hoz_world",
+    "name": "HozWorld",
+    "short_name": "HozWorld",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
