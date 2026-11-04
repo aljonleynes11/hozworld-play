@@ -154,6 +154,10 @@ Menu and button icons (assets/icons/menu/*.png) - Generated with ChatGPT (AI), p
 
 World markers (assets/icons/markers/*.png: talk, quest, fight, turn, boss, elite, in 4- and 6-frame loops) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
 
+## Class emblems (`assets/icons/classes/`)
+
+Class emblems (assets/icons/classes/*.png: adventurer, sword, archer, mage, thief, priest; cut from `docs/design/class_emblems_sheet.png`) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
+
 ## Inventory category pouches (`assets/icons/cat_*.png`)
 
 Inventory category pouches (assets/icons/cat_mats.png, cat_equip.png, cat_wpn.png, cat_bag.png, cat_use.png; cut from one 3x2 sheet) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
