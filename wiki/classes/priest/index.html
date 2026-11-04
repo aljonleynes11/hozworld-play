@@ -1108,7 +1108,7 @@
 <td>self</td>
 <td>4</td>
 <td><span class="hz-el" style="background:#ffd166;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Holy</span></td>
-<td>zone(3x3, 3 turns, start: heal_magic(6%))</td>
+<td>zone(3x3, 3 turns, start: when(allies: heal_magic(6%)) · when(undead: heal_magic(6%)))</td>
 </tr>
 <tr>
 <td>7</td>
@@ -1198,7 +1198,7 @@
 <td>0–3</td>
 <td>4</td>
 <td><span class="hz-el" style="background:#ffd166;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Holy</span></td>
-<td>zone(3x3, 3 turns, foes, start: when(undead: heal_magic(4%)))</td>
+<td>zone(3x3, 3 turns, start: when(undead: heal_magic(4%)))</td>
 </tr>
 <tr>
 <td>16</td>
@@ -1230,7 +1230,7 @@
 <li>Effects: status(<a href="../../statuses/#blessed">blessed</a>)</li>
 </ul>
 <h2 id="radiance"><img alt="" src="../../img/skill_sword.png" width="32" /> Radiance</h2>
-<p>Light bursts where it lands: every foe in the 3×3 takes holy damage.</p>
+<p>Light bursts where it lands: every unit in the 3×3 takes holy damage.</p>
 <ul>
 <li>Effects: blast(square 1)</li>
 <li>Scales with: matk x0.42, lvl x0.3</li>
@@ -1245,7 +1245,7 @@
 <h2 id="sanctuary"><img alt="" src="../../img/skill_sword.png" width="32" /> Sanctuary</h2>
 <p>Consecrates the 3×3 ground around you for 3 turns: allies heal a turn, undead burn.</p>
 <ul>
-<li>Effects: zone(3x3, 3 turns, start: heal_magic(6%))</li>
+<li>Effects: zone(3x3, 3 turns, start: when(allies: heal_magic(6%)) · when(undead: heal_magic(6%)))</li>
 <li>Scales with: matk x0.33, lvl x0.35</li>
 </ul>
 <h2 id="divine-grace"><img alt="" src="../../img/skill_sword.png" width="32" /> Divine Grace</h2>
@@ -1296,7 +1296,7 @@
 <h2 id="hallowed-ground"><img alt="" src="../../img/skill_sword.png" width="32" /> Hallowed Ground</h2>
 <p>Consecrates the 3x3 ground you aim at for 3 turns: undead on it take holy damage each turn.</p>
 <ul>
-<li>Effects: zone(3x3, 3 turns, foes, start: when(undead: heal_magic(4%)))</li>
+<li>Effects: zone(3x3, 3 turns, start: when(undead: heal_magic(4%)))</li>
 <li>Scales with: matk x0.3, lvl x0.3</li>
 </ul>
 <h2 id="divine-pull"><img alt="" src="../../img/skill_sword.png" width="32" /> Divine Pull</h2>
