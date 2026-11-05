@@ -42,7 +42,7 @@
 | Ice Lance projectile (`assets/vfx/vfx_ice_lance.png`, 8 frames at 160 px, mirrored) | Supplied by the project owner as `ice_lance.png`; author and licence unknown | **to confirm** — do not publish until the source is known |
 | UI icons (`assets/ui/confirm_check.png`, `cancel_x.png`, `heal_plus.png`, `npc_talk.png`, `npc_quest.png`, `boss_quest.png`, `menu_help.png`) | "Essential Game Icons 20 Pack" (author unknown; pack readme grants personal + commercial use and modification, no resale as-is) | Pack licence: commercial use and modify allowed; do not resell or redistribute the pack | 
 | Login sword charge (`assets/ui/login_sword_0..7.png`, 8 frames, left one mirrored in code) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
-| HozWorld logo (`assets/ui/logo_sheet.png`, `assets/ui/logo.png`, `web/logo.png`, `web/favicon.png`, `web/icons/*`; source `docs/design/logo_sheet.png`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
+| HozWorld logo (`assets/ui/logo_sheet.png`, `assets/ui/logo.png`, `assets/ui/logo_crest.webp`, `web/logo.png`, `web/logo_crest.webp`, `web/favicon.png`, `web/icons/*`; source `docs/design/logo_sheet.png`, `docs/design/logo_full_source.png`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
 | Ice wall blocks (`assets/vfx/ice_block_a.png`, `assets/vfx/ice_block_b.png`) | Free Ice Forest Platformer Tileset by LudicArts.com (Franco Giachetti) — https://ludicarts.com · pixelated for HozWorld | CC BY 4.0 |
 | Poison bubbles (`vfx/poison_bubble`) | Natural_Privateer, "Pink Bubble Popping Animation 16x16" (recoloured green in code) | CC0 (public domain) · https://opengameart.org/node/124318 |
 | Burn flames (`assets/vfx/burn_flame.png`) | Reactorcore, "Fire Smoke Animations" · https://opengameart.org/content/fire-smoke-animations | CC0 |
@@ -59,8 +59,10 @@
 | Whelp Wastes loading painting (`assets/ui/loading/orc_whelps.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | Cave loading painting (`assets/ui/loading/cave.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | The Scorched Edge loading painting (`assets/ui/loading/ashlands.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
-| NPC dialogue portraits (`assets/portraits/chief_ouru.webp`, 627px transparent bust cut-out of Chief Ouru) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
+| NPC dialogue portraits (`assets/portraits/`: `chief_ouru_0..5` worried, `chief_ouru_happy_0..5`, `neva_0..5`, `vesh_0..5`; 512px transparent talking busts cut flat at the bottom) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
 | Merchant and storage world markers (`assets/icons/markers/merchant_anim_*.png`, `storage_anim_*.png`, 6 frames each) | Generated with ChatGPT (AI) · provided by the project owner; cut and scaled from `docs/design/npc_dialogue_icons_sheet.png` | owner-supplied (AI-generated) |
+| HUD frames (`assets/ui/frames/`, cut from `docs/design/ui_frames_sheet.png`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
+| Journal menu frames (`assets/ui/journal/`, cut from `docs/design/ui_journal_sheet.png`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
 
 Ice blocks from Free Ice Forest Platformer Tileset by LudicArts.com (Franco Giachetti), CC BY 4.0, https://ludicarts.com - pixelated for HozWorld.
 

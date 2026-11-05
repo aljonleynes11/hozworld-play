@@ -75,26 +75,18 @@
        the top of the page, 24 px under the safe area; the bottom group is
        board 200, gap 12, slot 76, gap 10, tip 36 = 334 */
     #boot-splash .col { width: 100%; max-width: 360px; display: flex; flex-direction: column; }
-    /* The brand block: the logo, then the title 2 px under it, centred. Absolute
-       so the group below keeps its own bottom metrics, and no pointer events so
-       a tap goes through to the board and the Start button. */
+    /* The brand block: the crest, centred. Absolute so the group below keeps its
+       own bottom metrics, and no pointer events so a tap goes through to the
+       board and the Start button. */
     #boot-splash .brand {
       position: absolute; left: 0; right: 0;
       top: calc(env(safe-area-inset-top, 0px) + 24px);
       display: flex; flex-direction: column; align-items: center;
       pointer-events: none;
     }
-    /* The plain logo: 16.5% of the page height, capped at 128 px — the same box
-       LogoMark takes on the loading page, and frame 0 of its sheet. */
-    #boot-splash .logo { display: block; width: min(128px, 16.5vh); height: min(128px, 16.5vh); }
-    /* The title: 34 px in a 40 px box, with the paper halo the Flutter one has. */
-    #boot-splash .t {
-      margin-top: 2px;
-      height: 40px; display: flex; align-items: center; justify-content: center;
-      font-family: 'PixelifySans', sans-serif; font-size: 34px; font-weight: 700;
-      letter-spacing: 1px; line-height: 1; color: #4A3420; white-space: nowrap;
-      text-shadow: 0 0 8px rgba(243, 227, 192, .7);
-    }
+    /* The crest: 28% of the page height, capped at 220 px of height — the same
+       box LogoCrest takes on the loading page, so the hand-over does not jump. */
+    #boot-splash .logo { display: block; height: min(220px, 28vh); aspect-ratio: 1024 / 1168; }
     /* The board is not drawn here: this empty 200 px band keeps the Flutter layout in place. */
     #boot-splash .board { height: 200px; }
     /* Sits where the Flutter Start button sits: 200x48 centred in the 76 px slot. No box, just text. */
@@ -111,8 +103,7 @@
   <div id="boot-splash">
     <div id="boot-page">
       <div class="brand">
-        <img class="logo" src="logo.png" alt="">
-        <div class="t">HozWorld</div>
+        <img class="logo" src="logo_crest.webp" alt="HozWorld">
       </div>
       <div class="col">
         <div class="board"></div>
@@ -152,6 +143,6 @@
       }, true);
     });
   </script>
-  <script src="flutter_bootstrap.js?v=6c0527a-1105-095037" async></script>
+  <script src="flutter_bootstrap.js?v=25e64cc-1105-142005" async></script>
 </body>
 </html>
