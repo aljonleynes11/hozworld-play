@@ -8,7 +8,7 @@
 | Bonfire (`assets/sprites/bonfire.png`, 8-frame campfire strip) | User-provided, source and licence to confirm | Unknown until confirmed |
 | Plant sprouts (`assets/sprites/plants/plant1_*` Thorn, `plant2_*` Pollen, `plant3_*` Bramble: idle, walk, attack, hurt, death) | CraftPix.net, "Free Predator Plant Mobs Pixel Art Pack" · https://craftpix.net/freebies/free-predator-plant-mobs-pixel-art-pack/ | Craftpix free licence (commercial games OK, no redistribution of the pack) · https://craftpix.net/file-licenses/ |
 | [LPC] Monsters (`slime`, `bee`, `snake`, `small_worm`) | Charles Sanchez (CharlesGabriel), bagzie and bluecarrot16 — https://opengameart.org/content/lpc-monsters | CC-BY-SA 3.0+ / GPL 3.0+ (bat sprite OGA-BY 3.0) |
-| LPC Beetle (`assets/sprites/beetle.png`) | Stephen 'Redshrike' Challener · https://opengameart.org/content/lpc-beetle · Black recolour with death frames by William.Thompsonj and cemkalyoncu (from the same page) | CC-BY 3.0 / CC-BY-SA 3.0 / GPL 2.0 / OGA-BY 3.0 |
+| LPC Beetle (kept in `asset_stash/sprites/beetle_lpc.png`, no longer in the game) | Stephen 'Redshrike' Challener · https://opengameart.org/content/lpc-beetle · Black recolour with death frames by William.Thompsonj and cemkalyoncu (from the same page) | CC-BY 3.0 / CC-BY-SA 3.0 / GPL 2.0 / OGA-BY 3.0 |
 | Rat (`assets/sprites/rat.png`) | Tuomo Untinen (Reemax) and Jordan Irwin (AntumDeluge), "Rodents (Rat Rework)" · https://opengameart.org/content/rodents-rat-rework | CC-BY 3.0 / CC-BY-SA 3.0 |
 | Freeze overlay (`assets/fx/freeze.png`) | Clint Bellanger, "Freeze Spell" | CC-BY 3.0 |
 | Ice sparkles (`assets/fx/ice_sparkles.png`) | AntumDeluge, "Ice Sparkles" | CC-BY 3.0 |
@@ -55,6 +55,7 @@
 | Warchief's Hold loading painting (`assets/ui/loading/orc_fortress.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | Adventurer test sprite, `?newhero=1` only (`assets/sprites/adventurer_new.png`) | Generated with ChatGPT (AI) · provided by the project owner; cut with `tool/dev/cut_sprite_strip.py` | owner-supplied (AI-generated) |
 | Adventurer test sprite, look E, `?newhero=2` only (`assets/sprites/adventurer_e.png`) | Generated with ChatGPT (AI) · provided by the project owner; pixelized with `tool/dev/pixelize_sheet.py` | owner-supplied (AI-generated) |
+| Adventurer test sprite, anime look, `?newhero=3` only (`assets/sprites/adventurer_anime.png`) | Generated with ChatGPT (AI) · provided by the project owner; cut with `tool/dev/hero_anime_sheet.py` | owner-supplied (AI-generated) |
 | Orc Warcamp loading painting (`assets/ui/loading/orc_warcamp.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | Whelp Wastes loading painting (`assets/ui/loading/orc_whelps.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | Cave loading painting (`assets/ui/loading/cave.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
@@ -62,6 +63,10 @@
 | NPC dialogue portraits (`assets/portraits/`: `chief_ouru_0..5` worried, `chief_ouru_happy_0..5`, `neva_0..5`, `vesh_0..5`; 512px transparent talking busts cut flat at the bottom) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
 | Merchant and storage world markers (`assets/icons/markers/merchant_anim_*.png`, `storage_anim_*.png`, 6 frames each) | Generated with ChatGPT (AI) · provided by the project owner; cut and scaled from `docs/design/npc_dialogue_icons_sheet.png` | owner-supplied (AI-generated) |
 | HUD frames (`assets/ui/frames/`, cut from `docs/design/ui_frames_sheet.png`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
+| Loading bar quill (`assets/ui/quill_0..5.png`, from `docs/design/loading_quill.gif`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
+| Beetle, Mantis and Field Weaver (`assets/sprites/beetle.png`, `mantis.png`, `weaver.png`, from `docs/design/sprites/`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
+| Mantis Scythe loot icon (`icons/loot/mantis_scythe.png`, cut from the mantis sheet) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
+| Web Silk loot icon (`icons/loot/web_silk.png`, cut from the web in the LPC forest tiles) | LPC forest tiles contributors, based on Lanea Zimmerman (Sharm) | CC-BY-SA 3.0 |
 | Journal menu frames (`assets/ui/journal/`, cut from `docs/design/ui_journal_sheet.png`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
 
 Ice blocks from Free Ice Forest Platformer Tileset by LudicArts.com (Franco Giachetti), CC BY 4.0, https://ludicarts.com - pixelated for HozWorld.
@@ -86,6 +91,8 @@ Hero layers (body, heads, hair, clothes in `assets/lpc/`): Universal LPC Sprites
 
 - LPC Revised terrain, summer (`lpc_terrain_summer.png`: grass, dirt) - Lanea Zimmerman (Sharm), Eliza Wyatt (DeathsDarling), OGA-BY 3.0, https://github.com/ElizaWy/LPC (Terrain), based on https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles
 - LPC Revised Gritty Dirt (`lpc_gritty_dirt.png`: cave floor) - Lanea Zimmerman (Sharm), Eliza Wyatt (DeathsDarling), OGA-BY 3.0, https://github.com/ElizaWy/LPC (Structure/Floor), based on https://opengameart.org/content/lpc-dungeon-elements
+- LPC tall grass (`lpc_tall_grass.png`: Chitin Fields) - Daniel Eddeland (daneeklu), LPC farming tilesets submission, CC-BY-SA 3.0 / GPL 3.0
+- LPC ditch (`lpc_ditch.png`, cut from the hole tiles of the LPC forest tiles: Chitin Fields) - Lanea Zimmerman (Sharm), CC-BY-SA 3.0 / GPL 3.0
 - Painted iso tiles (`painted/atlas.png` grass and dirt, `painted/olive/` olive grass and dirt, `painted/rock/` dark rock; used only with the `?ground=painted` debug test) - source and licence unknown; added for study only (2026-10-26, olive and rock 2026-10-27). Replace, or confirm and credit, before any release. See `docs/PAINTED_TILES.md`.
 
 ## Map decoration (`assets/decor/`)
@@ -113,6 +120,7 @@ Keep this file, and the credit line in the game, with any copy you ship.
 - **Level up / combat success jingles** by Universfield (Pixabay), Pixabay Content License (free for commercial use, attribution not required). https://pixabay.com/users/universfield-28281460/ (`level_up.ogg`, `combat_success.ogg` in `assets/sfx/sfx/jingles/`)
 - **Loading music, "The Vow of Dawnsteel" (epic fantasy trailer cue)** (`assets/sfx/music/loading_vow_of_dawnsteel.ogg`) by OpenMindAudio (Pixabay), Pixabay Content License. https://pixabay.com/users/openmindaudio/ (Pixabay audio id 488150)
 - **Village music, "Magical Christmas Fairy Tale Fantasy"** (`assets/sfx/music/village.ogg`) by OpenMindAudio (Pixabay), Pixabay Content License. https://pixabay.com/users/openmindaudio/ (Pixabay audio id 620512)
+- **Super Dialogue Audio Pack V1** (NPC greeting voices, `assets/sfx/sfx/voice/greeting/`) by Dillon Becker (dillonbecker.com), CC BY 4.0 https://creativecommons.org/licenses/by/4.0/. Voices by Alex Brodie, Ian Lampert, Sean Lenhart, Karen Cenon, Meghan Christian. Changes: converted to mono OGG; pitch-shifted in game per NPC.
 
 ## Orcs (`assets/sprites/orcs/`)
 
