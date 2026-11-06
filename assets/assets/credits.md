@@ -61,6 +61,7 @@
 | Cave loading painting (`assets/ui/loading/cave.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | The Scorched Edge loading painting (`assets/ui/loading/ashlands.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | NPC dialogue portraits (`assets/portraits/`: `chief_ouru_0..5` worried, `chief_ouru_happy_0..5`, `neva_0..5`, `vesh_0..5`; 512px transparent talking busts cut flat at the bottom) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
+| Sela's NPC dialogue portrait (`assets/portraits/sela_0..5.webp`; 512px transparent talking bust cut flat at the bottom) | Generated with ChatGPT (AI), provided by the project owner; Owned by the project | owner-supplied (AI-generated) |
 | Merchant and storage world markers (`assets/icons/markers/merchant_anim_*.png`, `storage_anim_*.png`, 6 frames each) | Generated with ChatGPT (AI) · provided by the project owner; cut and scaled from `docs/design/npc_dialogue_icons_sheet.png` | owner-supplied (AI-generated) |
 | HUD frames (`assets/ui/frames/`, cut from `docs/design/ui_frames_sheet.png`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
 | Loading bar quill (`assets/ui/quill_0..5.png`, from `docs/design/loading_quill.gif`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
@@ -121,7 +122,7 @@ Keep this file, and the credit line in the game, with any copy you ship.
 - **Level up / combat success jingles** by Universfield (Pixabay), Pixabay Content License (free for commercial use, attribution not required). https://pixabay.com/users/universfield-28281460/ (`level_up.ogg`, `combat_success.ogg` in `assets/sfx/sfx/jingles/`)
 - **Loading music, "The Vow of Dawnsteel" (epic fantasy trailer cue)** (`assets/sfx/music/loading_vow_of_dawnsteel.ogg`) by OpenMindAudio (Pixabay), Pixabay Content License. https://pixabay.com/users/openmindaudio/ (Pixabay audio id 488150)
 - **Village music, "Magical Christmas Fairy Tale Fantasy"** (`assets/sfx/music/village.ogg`) by OpenMindAudio (Pixabay), Pixabay Content License. https://pixabay.com/users/openmindaudio/ (Pixabay audio id 620512)
-- **Super Dialogue Audio Pack V1** (NPC greeting voices, `assets/sfx/sfx/voice/greeting/`) by Dillon Becker (dillonbecker.com), CC BY 4.0 https://creativecommons.org/licenses/by/4.0/. Voices by Alex Brodie, Ian Lampert, Sean Lenhart, Karen Cenon, Meghan Christian. Changes: converted to mono OGG; pitch-shifted in game per NPC.
+- **Super Dialogue Audio Pack V1** (NPC voices, `assets/sfx/sfx/voice/greeting/` and `assets/sfx/sfx/voice/misc/`) by Dillon Becker (dillonbecker.com), CC BY 4.0 https://creativecommons.org/licenses/by/4.0/. Voices by Alex Brodie, Ian Lampert, Sean Lenhart, Karen Cenon, Meghan Christian. Changes: converted to mono OGG; pitch-shifted in game per NPC.
 
 ## Orcs (`assets/sprites/orcs/`)
 
