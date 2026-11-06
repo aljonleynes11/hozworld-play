@@ -99,3 +99,8 @@ By default, every LPC character — the player, other players, party, character 
 | torso/clothes/blouse_longsleeve | bluecarrot16, ElizaWy, Lanea Zimmerman (Sharm) | OGA-BY 3.0, CC-BY-SA 3.0, GPL 3.0 | https://opengameart.org/content/liberated-pixel-cup-lpc-base-assets-sprites-map-tiles https://opengameart.org/content/lpc-7-womens-shirts |
 | torso/clothes/corset | ElizaWy, Nila122 | OGA-SA 3.0, CC-BY-SA 3.0, GPL 3.0 | https://opengameart.org/content/lpc-clothes-and-hair https://opengameart.org/content/lpc-7-womens-shirts |
 | legs/leggings/male | bluecarrot16, ElizaWy, JaidynReiman, Mandi Paugh, William.Thompsonj, Johannes Sjölund (wulax), Stephen Challener (Redshrike) | OGA-BY 3.0, GPL 3.0 | https://github.com/ElizaWy/LPC/tree/main/Characters/Clothing https://opengameart.org/content/lpc-expanded-pants |
+| tools/axe | bluecarrot16, JaidynReiman, Pierre Vigier (pvigier), Tuomo Untinen (reemax) | OGA-BY-3.0, CC-BY 4.0, CC-BY-SA 3.0+, GPL 2.0+ | https://opengameart.org/content/lpc-hand-tools |
+| tools/pickaxe | bluecarrot16, JaidynReiman, Pierre Vigier (pvigier), Tuomo Untinen (reemax) | OGA-BY-3.0, CC-BY 4.0, CC-BY-SA 3.0+, GPL 2.0+ | https://opengameart.org/content/lpc-hand-tools |
+| tools/watering_can | bluecarrot16 | OGA-BY 3.0+, CC-BY 4.0+, GPL 2.0+ | https://opengameart.org/content/lpc-hand-tools |
+| tools/hoe | bluecarrot16, JaidynReiman, Pierre Vigier (pvigier), Johannes Sjölund (wulax), Inboxninja | CC-BY-SA 3.0 | https://opengameart.org/content/lpc-hand-tools |
+| tools/fishing_rod | bluecarrot16 | OGA-BY 3.0+, CC-BY 4.0+, GPL 2.0+ | https://opengameart.org/content/lpc-hand-tools |
