@@ -63,6 +63,7 @@
 | The Scorched Edge loading painting (`assets/ui/loading/ashlands.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
 | NPC dialogue portraits (`assets/portraits/`: `chief_ouru_0..5` worried, `chief_ouru_happy_0..5`, `neva_0..5`, `vesh_0..5`; 512px transparent talking busts cut flat at the bottom) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
 | Sela's NPC dialogue portrait (`assets/portraits/sela_0..5.webp`; 512px transparent talking bust cut flat at the bottom) | Generated with ChatGPT (AI), provided by the project owner; Owned by the project | owner-supplied (AI-generated) |
+| Homesteader Wyn's NPC dialogue portrait (`assets/portraits/wyn_0..5.webp`; 512px transparent talking bust cut flat at the bottom) | Generated with ChatGPT (AI), provided by the project owner; Owned by the project | owner-supplied (AI-generated) |
 | Merchant and storage world markers (`assets/icons/markers/merchant_anim_*.png`, `storage_anim_*.png`, 6 frames each) | Generated with ChatGPT (AI) · provided by the project owner; cut and scaled from `docs/design/npc_dialogue_icons_sheet.png` | owner-supplied (AI-generated) |
 | HUD frames (`assets/ui/frames/`, cut from `docs/design/ui_frames_sheet.png`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
 | Loading bar quill (`assets/ui/quill_0..5.png`, from `docs/design/loading_quill.gif`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
@@ -168,7 +169,6 @@ Menu and button icons (assets/icons/menu/*.png) - Generated with ChatGPT (AI), p
 
 World markers (assets/icons/markers/*.png: talk, quest, fight, turn, boss, elite, in 4- and 6-frame loops) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
 
-## Class emblems (`assets/icons/classes/`)
 Quest complete marker sheet (`docs/design/markers/quest_complete_sheet.png`) - Provided by the project owner (AI-generated)
 
 Quest target marker sheet (`docs/design/markers/quest_target_sheet.png`) - Provided by the project owner (AI-generated)
@@ -177,6 +177,7 @@ Quest ground marker sheet (`docs/design/markers/quest_ground_sheet.png`) - Provi
 
 Quest trail marker sheet (`docs/design/markers/quest_trail_sheet.png`) - Provided by the project owner (AI-generated)
 
+## Class emblems (`assets/icons/classes/`)
 
 Class emblems (assets/icons/classes/*.png: adventurer, sword, archer, mage, thief, priest; cut from `docs/design/class_emblems_sheet.png`) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
 
