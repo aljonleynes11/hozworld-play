@@ -169,6 +169,14 @@ Menu and button icons (assets/icons/menu/*.png) - Generated with ChatGPT (AI), p
 World markers (assets/icons/markers/*.png: talk, quest, fight, turn, boss, elite, in 4- and 6-frame loops) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
 
 ## Class emblems (`assets/icons/classes/`)
+Quest complete marker sheet (`docs/design/markers/quest_complete_sheet.png`) - Provided by the project owner (AI-generated)
+
+Quest target marker sheet (`docs/design/markers/quest_target_sheet.png`) - Provided by the project owner (AI-generated)
+
+Quest ground marker sheet (`docs/design/markers/quest_ground_sheet.png`) - Provided by the project owner (AI-generated)
+
+Quest trail marker sheet (`docs/design/markers/quest_trail_sheet.png`) - Provided by the project owner (AI-generated)
+
 
 Class emblems (assets/icons/classes/*.png: adventurer, sword, archer, mage, thief, priest; cut from `docs/design/class_emblems_sheet.png`) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
 
