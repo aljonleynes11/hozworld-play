@@ -163,6 +163,18 @@ Status icons (assets/icons/status/*.png) - Generated with ChatGPT (AI), provided
 
 Stat icons (assets/icons/stats/*.png) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
 
+## Skill-type badges (`assets/icons/skill_types/`)
+
+Skill-type badges (assets/icons/skill_types/*.png) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
+
+## Skill icons (`assets/icons/skills/`)
+
+Skill icons (assets/icons/skills/*.png) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
+
+## Trait line emblems (`assets/icons/traits/`)
+
+Trait line emblems (assets/icons/traits/*.png) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
+
 ## Mechanic and element icons (`assets/icons/mechanics/`, `assets/icons/elements/`)
 
 Mechanic and element icons (assets/icons/mechanics/*.png, assets/icons/elements/*.png) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
