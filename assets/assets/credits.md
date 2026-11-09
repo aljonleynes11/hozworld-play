@@ -130,10 +130,16 @@ Keep this file, and the credit line in the game, with any copy you ship.
 
 - **Music Jingles** by Kenney Vleugels (kenney.nl), CC0. https://kenney.nl/assets/music-jingles (victory / defeat jingles in `assets/sfx/sfx/jingles/`)
 - **Punch hits** (`assets/sfx/sfx/attacks/punch/`, `impact_punch_medium_000`–`004`) by Kenney (kenney.nl), "Impact Sounds", CC0. https://kenney.nl/assets/impact-sounds
+- **Free Fantasy SFX Pack** by TomMusic (https://tommusic.itch.io/), CC BY 4.0 https://creativecommons.org/licenses/by/4.0/: footsteps (`footsteps/dirt`, `stone`, `water`, `wood`), doors (`doors/`), chopping and mining (`gather/`) and the older attack and spell sounds. Changes: some trimmed to 2 s.
 - **Level up / combat success jingles** by Universfield (Pixabay), Pixabay Content License (free for commercial use, attribution not required). https://pixabay.com/users/universfield-28281460/ (`level_up.ogg`, `combat_success.ogg` in `assets/sfx/sfx/jingles/`)
 - **Loading music, "The Vow of Dawnsteel" (epic fantasy trailer cue)** (`assets/sfx/music/loading_vow_of_dawnsteel.ogg`) by OpenMindAudio (Pixabay), Pixabay Content License. https://pixabay.com/users/openmindaudio/ (Pixabay audio id 488150)
 - **Village music, "Magical Christmas Fairy Tale Fantasy"** (`assets/sfx/music/village.ogg`) by OpenMindAudio (Pixabay), Pixabay Content License. https://pixabay.com/users/openmindaudio/ (Pixabay audio id 620512)
 - **Super Dialogue Audio Pack V1** (NPC voices, `assets/sfx/sfx/voice/greeting/` and `assets/sfx/sfx/voice/misc/`) by Dillon Becker (dillonbecker.com), CC BY 4.0 https://creativecommons.org/licenses/by/4.0/. Voices by Alex Brodie, Ian Lampert, Sean Lenhart, Karen Cenon, Meghan Christian. Changes: converted to mono OGG; pitch-shifted in game per NPC.
+
+| Asset | Author | License |
+|---|---|---|
+| Holy spell impacts (`assets/sfx/sfx/spells/holy_impact_01..15.ogg`, trimmed to 2 s) | Lentikula, "Healing Spell Impacts" (https://lentikula.itch.io/healing-spell-impacts) | CC0 |
+| Arcane bolt and smoke vanish (`assets/sfx/sfx/spells/arcane_bolt_01..03.ogg`, `smoke_vanish_01..03.ogg`, `dash_01..03.ogg`, `orc_cry_01..03.ogg`, `power_up_01..03.ogg`, `web_01..03.ogg`, `plant_01..03.ogg`, `sword_swing, sword_hit, dagger_slash, dagger_hit, punch_hit, bow_release, arrow_hit, arcane_hit, ice_cast, ice_hit, lightning_cast, thunder_hit, fire_cast, fire_hit, slime_bounce, slime_splat, king_jump, king_slam, bone_swing, bone_hit (each _01..03.ogg), rat_squeak, rat_bite (each _01..03.ogg), footsteps/mobs/stomp, bones, skitter, paws, slither, buzz, plant (each _01..03.ogg), ui/map_travel_01..03.ogg, ambient/bonfire_01..03.ogg, archer skills: quick_shot, push_arrow, poison_arrow, hawk_eye, shrapnel, spread_shot, volley, pinning_shot, snapback, smoke_step, backstep_shot, keen_eye, ballista, plague_arrow, storm_of_arrows, windrunner (each _01..03.ogg), mage, thief and swordsman skills (one <file>_01..03.ogg set per skill in spells/)`) | Generated with ElevenLabs Sound Effects (2026-11-09, free plan) | Temporary: free-plan output; regenerate on a paid plan before any commercial release |
 
 ## Orcs (`assets/sprites/orcs/`)
 
