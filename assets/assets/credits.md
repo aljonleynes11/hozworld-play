@@ -187,6 +187,8 @@ Mechanic and element icons (assets/icons/mechanics/*.png, assets/icons/elements/
 
 Impact icon (`assets/icons/elements/impact.png`, 16x16) - Generated in-project by script (`make_impact_icon.mjs`), owned by the project
 
+Undead element icon (`assets/icons/elements/undead.png`, 64x64) - Generated with ChatGPT (AI) from the project owner, 2026-11-10 ("Four Pixel-Art Skull Icons" sheet), cut and installed in-project; owned by the project. Prompt: `docs/art_prompts/icons/undead.md`
+
 ## Menu and button icons (`assets/icons/menu/`)
 
 Menu and button icons (assets/icons/menu/*.png) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
