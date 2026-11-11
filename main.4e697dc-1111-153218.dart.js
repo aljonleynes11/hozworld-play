@@ -31523,7 +31523,7 @@ r=A.a([],t.a0)
 for(q=0;q<3;++q)r.push(A.anc(a,p,s[q]))
 return r},
 boO(a,b,c){var s,r=b.c-1,q=0
-for(;;){if(!(q<r&&c>=A.anc(a,b,q+1)))break;++q}s=B.DG.h(0,a)
+for(;;){if(!(q<r&&c>=A.anc(a,b,q+1)))break;++q}s=B.DH.h(0,a)
 if(s==null)return q
 return s[q<17?q:16]},
 nS:function nS(a,b,c,d){var _=this
@@ -39272,7 +39272,7 @@ c3z(a){B.c.cm(a,new A.bcD(A.ad(t.N)))},
 c18(a,b,c){var s,r,q,p,o,n,m,l,k=b.length
 if(k===0)return null
 s=c.c
-r=s.gbi(s)?s:B.DH
+r=s.gbi(s)?s:B.DI
 q=c.b
 if(!(q!=null&&B.d.bm(q).length!==0))q="Hero "+(k<=6?b:B.d.b6(b,k-6))
 if(s.gak(s))A.cdc(b,q)
@@ -39367,7 +39367,7 @@ m=n.b
 if(m!=null)r.j(0,A.c(n.a),A.c(m))}q.c_=r}r=!1
 if(J.jk(q.c_))if(q.d==null){r=q.e
 r=r!=null&&r!==b}if(r){r=t.N
-q.c_=A.ez(B.DH,r,r)}if(d.b(a.h(0,"gear")))q.lD=A.aok(a.h(0,"gear"))
+q.c_=A.ez(B.DI,r,r)}if(d.b(a.h(0,"gear")))q.lD=A.aok(a.h(0,"gear"))
 if(typeof a.h(0,i)=="string")q.bd=A.aP(a.h(0,i)).length===0?null:A.aP(a.h(0,i))
 if(d.b(a.h(0,h))){r=t.N
 r=A.p(r,r)
@@ -40433,7 +40433,7 @@ $.amW.j(0,q,p)
 if($.amW.a>200)A.c_k(p)
 n=A.bX6(c)
 m=A.p(t.N,t.z)
-J.eq(m,"build","f8f504e-1111-100352")
+J.eq(m,"build","4e697dc-1111-153218")
 J.eq(m,"platform",A.c_e())
 J.eq(m,"url",A.cam())
 J.eq(m,"level",d)
@@ -40536,7 +40536,7 @@ return o}catch(k){return""}},
 c_e(){var s,r
 try{s=A.bB()
 return"web:"+s.b}catch(r){return"unknown"}},
-bX6(a){var s=t.N,r=A.o(["build","f8f504e-1111-100352"],s,t.z)
+bX6(a){var s=t.N,r=A.o(["build","4e697dc-1111-153218"],s,t.z)
 r.j(0,"user_id",A.C8(new A.b6G()))
 r.j(0,"char_id",A.C8(new A.b6H()))
 r.j(0,"map",A.C8(new A.b6I()))
@@ -41234,7 +41234,7 @@ if(m!=null){l=B.ad.hc(0,m,null)
 if(t.G.b(l)&&J.ab(l,"body")!=null){i=t.N
 k=A.p(i,i)
 J.eV(l,new A.beJ(k))
-j=A.dV(B.DI,i,i)
+j=A.dV(B.DJ,i,i)
 J.aoM(j,k)
 q=j
 s=1
@@ -41248,7 +41248,7 @@ break
 case 3:s=2
 break
 case 6:j=t.N
-q=A.dV(B.DI,j,j)
+q=A.dV(B.DJ,j,j)
 s=1
 break
 case 1:return A.u(q,r)
@@ -41472,7 +41472,7 @@ var $async$bjK=A.r(function(d,e){if(d===1)return A.t(e,r)
 for(;;)switch(s){case 0:m=A.p(t.N,t.z)
 m.j(0,"map",c)
 m.j(0,"char_id",b)
-m.j(0,"build","f8f504e-1111-100352")
+m.j(0,"build","4e697dc-1111-153218")
 if(a!=null)m.j(0,"channel",a)
 s=3
 return A.h(A.lM("zone_ticket",m),$async$bjK)
@@ -42731,7 +42731,7 @@ s=p.a
 r=s[$.bIX().e8(s.length)]
 q=A.a7P(r,p.c,b)
 return q<=0?null:new A.aho(r,p.b,q)},
-a7M(){var s,r,q=A.a7P("music/loading_vow_of_dawnsteel",0.15,1)
+a7M(){var s,r,q=A.a7P("music/loading_vow_of_dawnsteel",0.2,1)
 if($.a7L){s=$.brn()
 if(s.y){r=s.e
 r=r==null?null:r.a.paused
@@ -42740,7 +42740,7 @@ if(r)s.abL(q)
 else s.vC(!0,$.QO&&q>0,q)}A.bSL()},
 bSL(){var s,r,q=$.QM,p=q==null?null:B.DS.h(0,q)
 if(p==null)s=0
-else{q=B.DQ.h(0,p)
+else{q=B.DB.h(0,p)
 s=A.a7P(p,q==null?0.5:q,1)}r=$.a7I
 if(r==null){if(s>0&&$.QM!=null){$.QM=null
 A.Gz(B.d8)}return}if(s>0){$.qV().ET(r,s,B.d8)
@@ -42840,7 +42840,7 @@ if(i!=null){h=$.qV()
 h.ET(i,0,a)
 h.Sp(i,a)}n=B.DS.h(0,$.QM)
 if(n==null){s=1
-break}h=B.DQ.h(0,n)
+break}h=B.DB.h(0,n)
 if(h==null)h=0.5
 m=A.a7P(n,h,1)
 if(m<=0){s=1
@@ -42874,7 +42874,7 @@ return A.v($async$Gz,r)},
 QP(a){var s=0,r=A.w(t.H),q,p,o
 var $async$QP=A.r(function(b,c){if(b===1)return A.t(c,r)
 for(;;)switch(s){case 0:$.a7L=a
-p=A.a7P("music/loading_vow_of_dawnsteel",0.15,1)
+p=A.a7P("music/loading_vow_of_dawnsteel",0.2,1)
 o=$.brn()
 q=o.vC(a,$.QO&&p>0,p)
 s=1
@@ -44067,7 +44067,7 @@ c1=!1
 if(g1.r==="grass")if(k.$2(b6,b7)){c2=b7+1
 c2=!k.$2(b6,c2)&&a3>=c2*32-18
 c1=c2}c3=255
-if(k.$2(b6,c0)&&!c1){b5=j.a(B.DE.h(0,i))
+if(k.$2(b6,c0)&&!c1){b5=j.a(B.DF.h(0,i))
 c2=b5.length
 c4=b5[Math.max(0,Math.min(c2-1,B.b.Y((b8*0.7+b9*0.3)*c2)))]
 c5=g1.r==="grass"?a3-b7*32:a9-c0*32
@@ -44084,7 +44084,7 @@ c4=A.lE(c4,B.du[Math.max(0,Math.min(b5-1,B.b.Y(d1*b5)))],(d1-0.56)*1.7)}d2=A.jb(
 if(A.jb(b4/26+5,b0)<0.42)d2*=0.93
 d2*=1+c7*0.4-(c8+c9+d0)*0.34}else d2=c7+c8+c9+d0>0.85?1.5:1}else if(k.$2(b6,b7)){d3=(b7+1)*32-a3
 d4=A.jb(b4/10,a8)
-b5=j.a(B.DE.h(0,h))
+b5=j.a(B.DF.h(0,h))
 c2=b5.length
 c4=b5[Math.max(0,Math.min(c2-1,B.b.Y((d4*0.62+b9*0.2+d3/18*0.2)*c2)))]
 if(Math.abs(A.jg(b4/8,a5)-0.5)<0.03)c4=b.a(B.iW)
@@ -46817,7 +46817,7 @@ s=B.b.Y(c/(q?90:70))
 if(s<0)r=0
 else r=B.e.a9(s,q?6:8)
 return new A.tY(r,o,1+p)},
-c7H(a,b){var s,r,q,p,o=B.DG.h(0,a)
+c7H(a,b){var s,r,q,p,o=B.DH.h(0,a)
 if(o!=null){s=B.b.Y(b/B.bB.h(0,a).a)
 if(s<0)r=0
 else r=s>=17?16:s
@@ -52091,7 +52091,7 @@ if(B.c.n($.e9().h(0,q).c,s))return"assets/icons/skills/"+A.c02(s)+".png"}if(s===
 return"assets/icons/classes/"+(p!=null&&B.c.n(B.dY,p)?p:"adventurer")+".png"}if(s==="firstAid")return"assets/icons/stats/heal_done.png"
 return null},
 bio(a,b,c,d){var s,r,q=null,p=A.bFZ(a,b)
-if(p==null){s=B.DN.h(0,a.b)
+if(p==null){s=B.DO.h(0,a.b)
 r=A.fW(s==null?"sword":s,q,q,d)
 return new A.dU(r,c)}return A.cJ(p,B.n,q,q,!1,B.U,q,!1,d,c,d)},
 b9N:function b9N(){},
@@ -52132,7 +52132,7 @@ if(o!=null)return o}}return null},
 cb1(a,b,c){var s,r,q,p,o,n,m,l,k,j,i=null,h=t.p,g=A.a([],h)
 for(s=A.bG2(b,a),r=s.length,q=0;q<s.length;s.length===r||(0,A.f)(s),++q){p=s[q]
 o=p.a
-n=B.DD.h(0,o)
+n=B.DE.h(0,o)
 if(n==null)n="Damage"
 m=p.b
 l=n+" "+m
@@ -52146,7 +52146,7 @@ k.push(A.I(m,i,i,i,i,i,new A.B(!0,B.S,i,"IBMPlexMono",i,i,12,B.B,i,i,i,i,i,i,i,i
 g.push(A.hQ(A.c4(i,i,A.aD(k,B.j,i,B.f,B.t,i),!1,i,i,!1,i,i,i,i,i,!0,i,l,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i),!0,l))}return A.jH(g,B.nc,B.b7U,4,12)},
 cb0(a,b){var s,r,q,p,o,n,m=A.a([],t.oA)
 for(s=A.bG2(a,b),r=s.length,q=0;q<s.length;s.length===r||(0,A.f)(s),++q){p=s[q].a
-o=B.DD.h(0,p)
+o=B.DE.h(0,p)
 if(o==null)o="Damage"
 n=B.asD.h(0,p)
 if(n==null)n=""
@@ -52281,7 +52281,7 @@ c5B(a){var s,r,q,p,o
 if(a==null||!a.at)return B.mG
 s=A.ad(t.N)
 for(r=a.ax,q=r.length,p=0;p<r.length;r.length===q||(0,A.f)(r),++p){o=r[p].a
-if(B.DL.Z(0,o))s.t(0,o)}return s},
+if(B.DM.Z(0,o))s.t(0,o)}return s},
 Rj:function Rj(a){this.a=a},
 ajc:function ajc(a,b){var _=this
 _.d=$
@@ -55340,9 +55340,9 @@ return B.d.mO(B.b.aB(a,2),A.c8("0+$",!0,!1,!1),"")},
 Jq(a,b,c,d,e,f){return new A.dE(a,b,"consumable",null,"grey","",B.aI,0,e,"any",c,f,d,!1)},
 byW(a){return a[0].toUpperCase()+B.d.b6(a,1)},
 byN(a,b){var s
-if(b){s=B.DK.h(0,a)
+if(b){s=B.DL.h(0,a)
 s.toString
-s=B.b.k(B.b.k(820*s)*0.4)}else{s=B.DK.h(0,a)
+s=B.b.k(B.b.k(820*s)*0.4)}else{s=B.DL.h(0,a)
 s.toString
 s=B.b.k(820*s)}return s},
 an4(a,b,c,d){return new A.dE(a,b,"weapon",null,"grey",c,A.o([d,A.a([2,4],t.a0)],t.N,t.ga),0,246,"any","Your class weapon. It sets your basic attack.","",0,!1)},
@@ -57863,7 +57863,7 @@ o=q*0.715
 n=0.072-r*0.072
 m=0.213-r*0.213
 j=new A.DE(new A.jW(l,l,A.a([0.213+r*0.787-q*0.213,p-o,n+q*0.928,0,0,m+q*0.143,0.715+r*0.285+q*0.14,n-q*0.283,0,0,m-q*0.787,p+o,0.072+r*0.928+q*0.072,0,0,0,0,0,1,0],t.n),B.kd),j,l)}return j},
-JQ(a,b){var s,r=null,q=B.DP.h(0,a)
+JQ(a,b){var s,r=null,q=B.DQ.h(0,a)
 if(q!=null)return A.cJ("assets/icons/loot/"+q+".png",B.n,r,r,!1,B.q,B.aa,!1,b,r,b)
 s=B.E3.h(0,a)
 return s==null?A.fW("scroll",r,r,b):A.fW(s.b,r,s.a,b)},
@@ -57905,7 +57905,7 @@ if(B.d.X(a,"mat_thread"))return new A.bJ(45,r)
 if(B.d.X(a,"mat_bowstring"))return new A.bJ(38,r)
 if(B.d.X(a,"mat_"))return new A.bJ(20,s)
 return null},
-anE(a,b){var s,r,q,p=null,o="assets/icons/loot/",n=a.b,m=B.DP.h(0,n)
+anE(a,b){var s,r,q,p=null,o="assets/icons/loot/",n=a.b,m=B.DQ.h(0,n)
 if(m!=null)return A.cJ(o+m+".png",B.n,p,p,!1,B.q,B.aa,!1,b,p,b)
 s=a.a
 r=A.c3g(s)
@@ -106269,7 +106269,7 @@ switch(A.bB().a){case 3:s=A.dV($.br1(),t.Vz,t.vz)
 for(r=$.br_(),r=new A.eK(r,r.r,r.e,A.x(r).i("eK<1>"));r.q();)s.j(0,r.d,B.N)
 return s
 case 0:case 1:case 5:case 2:case 4:return $.br1()}switch(A.bB().a){case 0:case 1:case 3:case 5:return null
-case 2:return B.DF
+case 2:return B.DG
 case 4:return $.bHp()}},
 F(a){var s=this.c,r=this.anc()
 if(r!=null)s=A.aN3(s,"<Web Disabling Text Editing Shortcuts>",r)
@@ -128429,14 +128429,14 @@ aiJ(a){var s=a.b
 if(s===9&&this.CW!=null){s=this.CW
 s.toString
 return s}if(s===11&&a.c)return"Walk back to your tent."
-s=(a.a?B.DC:B.DO).h(0,s)
+s=(a.a?B.DD:B.DP).h(0,s)
 s=s==null?null:s.a
 return s==null?"":s},
 a1B(a){var s,r,q,p,o,n=this,m=null,l=a==null,k=l?B.mR:n.aze(a),j=l?m:n.awi(k),i=!l&&j!=null
 l=l?m:a.a
 s=l===!0
 r=i?a.b:0
-if(i){l=a.a?B.DC:B.DO
+if(i){l=a.a?B.DD:B.DP
 l=l.h(0,a.b)
 l=l==null?m:l.b
 q=l==null?"":l}else q=""
@@ -129185,7 +129185,7 @@ s=$.nP()
 return new A.D1(q,r,s.b,s.gcf(s),null)},
 $S:695}
 A.aYH.prototype={
-$2(a,b){var s,r,q,p="f8f504e-1111-100352",o=$.bP().gey()
+$2(a,b){var s,r,q,p="4e697dc-1111-153218",o=$.bP().gey()
 if(!o.ry)return B.w
 s=o.to
 r=s!=null
@@ -130262,7 +130262,7 @@ h===$&&A.b()
 n.at=new A.eQ(h,A.x(h).i("eQ<1>")).mB(n.gatW(),new A.aSg(n),new A.aSh(n))
 i=A.p(j,i)
 i.j(0,"proto",6)
-i.j(0,"build","f8f504e-1111-100352")
+i.j(0,"build","4e697dc-1111-153218")
 if(a.length!==0)i.j(0,"char_id",a)
 n.uk(1,i)
 A.f0("socket","hello proto=6 char="+a)
@@ -134722,7 +134722,7 @@ Vr(a,b,c){return this.J2(a,b,!1,c)},
 ax1(a,b){var s,r,q,p,o,n=null,m=a.c,l=m&&a.e===b.a,k=a.b&&!m
 m=l?B.Y:B.b0
 s=b.c
-r=B.DN.h(0,s.b)
+r=B.DO.h(0,s.b)
 r=A.fW(r==null?"sword":r,n,n,32)
 q=t.p
 s=A.bt(A.aw(A.a([A.I(s.c,n,n,B.Q,n,n,B.Kz,n,n),A.I("Lv "+b.b+" \xb7 "+s.as+" \xb7 "+s.gvU(),n,n,n,n,n,B.cZ,n,n)],q),B.O,n,B.f,B.i),1)
@@ -137966,7 +137966,7 @@ $0(){return this.a.d=this.b},
 $S:0}
 A.a7V.prototype={
 F(a){var s,r,q,p,o,n=A.a([],t.p)
-for(s=B.DB.gcl(B.DB),s=s.gV(s),r=t.O,q=this.c;s.q();){p=s.gD(s)
+for(s=B.DC.gcl(B.DC),s=s.gV(s),r=t.O,q=this.c;s.q();){p=s.gD(s)
 o=p.a
 n.push(new A.aiQ(p.b,this.aza(o),q.a===o,new A.aMY(this,p),new A.J("shop-tab-"+o,r)))}return A.jH(n,B.c1,null,6,6)},
 aza(a){var s,r=null
@@ -138197,7 +138197,7 @@ n=A.ae()
 n.siG(B.aGv.Oe(0,new A.y(0,0,p,o)))
 a6.bD(new A.y(0,0,p,o),n)
 for(p=a5.gV(a5),o=s*2,n=a6.a,m=t.t_,l=q-3;p.q();){k=p.gD(p)
-j=B.DL.h(0,k)
+j=B.DM.h(0,k)
 j.toString
 i=0.5+0.5*Math.sin(s*(k==="burn"?3.2:1.1))
 h=new A.y(0,q*(0.68-0.05*i),r,q)
@@ -150030,8 +150030,8 @@ B.oq=new A.bL("mat_orc_tusk",0.7,1,3)
 B.vq=new A.bL("mat_rusty_spearhead",0.3,1,1)
 B.or=new A.bL("mat_war_paint",0.05,1,1)
 B.acY=s([B.oq,B.vq,B.kJ,B.or],t.g)
-B.aze={mat_log:0}
-B.arO=new A.E(B.aze,[3],t.I)
+B.azf={mat_log:0}
+B.arO=new A.E(B.azf,[3],t.I)
 B.aGJ=new A.bC("carp_plank","hut_carpenter","lumber",1,B.arO,"mat_plank",!1)
 B.Ew={mat_plank:0}
 B.av0=new A.E(B.Ew,[4],t.I)
@@ -150052,19 +150052,19 @@ B.aHt=new A.bC("carp_leather_vest","hut_carpenter","lumber",5,B.atS,"medium_grey
 B.Ez={mat_plank:0,mat_web_silk:1}
 B.atA=new A.E(B.Ez,[4,2],t.I)
 B.aHu=new A.bC("carp_bow","hut_carpenter","lumber",10,B.atA,"w_bow",!0)
-B.azo={mat_plank:0,mat_glow_segment:1}
-B.asF=new A.E(B.azo,[4,2],t.I)
+B.azp={mat_plank:0,mat_glow_segment:1}
+B.asF=new A.E(B.azp,[4,2],t.I)
 B.aHB=new A.bC("carp_staff","hut_carpenter","lumber",10,B.asF,"w_staff",!0)
 B.atB=new A.E(B.Ez,[2,1],t.I)
 B.aHh=new A.bC("carp_pouch","hut_carpenter","lumber",5,B.atB,"bag_pouch",!0)
 B.axS={mat_plank:0,mat_shed_skin:1,mat_web_silk:2}
 B.atE=new A.E(B.axS,[4,3,2],t.I)
 B.aHp=new A.bC("carp_bag","hut_carpenter","lumber",8,B.atE,"bag_medium",!0)
-B.az0={mat_copper_ore:0}
-B.av1=new A.E(B.az0,[3],t.I)
+B.az1={mat_copper_ore:0}
+B.av1=new A.E(B.az1,[3],t.I)
 B.aGB=new A.bC("smith_ingot","hut_smithy","mining",1,B.av1,"mat_copper_ingot",!1)
-B.az_={mat_copper_ingot:0,mat_plank:1}
-B.arY=new A.E(B.az_,[2,1],t.I)
+B.az0={mat_copper_ingot:0,mat_plank:1}
+B.arY=new A.E(B.az0,[2,1],t.I)
 B.aGY=new A.bC("smith_charm","hut_smithy","mining",5,B.arY,"mat_copper_charm",!1)
 B.axm={mat_copper_ingot:0,mat_beetle_shell:1}
 B.atV=new A.E(B.axm,[2,1],t.I)
@@ -150078,8 +150078,8 @@ B.aGK=new A.bC("smith_boots","hut_smithy","mining",3,B.av6,"heavy_grey_feet",!0)
 B.Ev={mat_copper_ingot:0,mat_shiny_carapace:1}
 B.arX=new A.E(B.Ev,[3,1],t.I)
 B.aHx=new A.bC("smith_greaves","hut_smithy","mining",4,B.arX,"heavy_grey_legs",!0)
-B.ay1={mat_copper_ingot:0,mat_shiny_carapace:1,mat_beetle_shell:2}
-B.arA=new A.E(B.ay1,[4,2,2],t.I)
+B.ay2={mat_copper_ingot:0,mat_shiny_carapace:1,mat_beetle_shell:2}
+B.arA=new A.E(B.ay2,[4,2,2],t.I)
 B.aHy=new A.bC("smith_chainmail","hut_smithy","mining",5,B.arA,"heavy_grey_chest",!0)
 B.avc=new A.E(B.EC,[4,2],t.I)
 B.aHJ=new A.bC("smith_sword","hut_smithy","mining",10,B.avc,"w_sword",!0)
@@ -150092,117 +150092,117 @@ B.as6=new A.E(B.qS,[2],t.I)
 B.aGX=new A.bC("herb_tea","hut_herbalist","herb",1,B.as6,"food_sunleaf_tea",!1)
 B.as7=new A.E(B.qS,[4],t.I)
 B.aGS=new A.bC("herb_dye","hut_herbalist","herb",3,B.as7,"mat_sunleaf_dye",!1)
-B.azt={mat_sunleaf:0,mat_slime_gel:1}
-B.atm=new A.E(B.azt,[3,1],t.I)
+B.azu={mat_sunleaf:0,mat_slime_gel:1}
+B.atm=new A.E(B.azu,[3,1],t.I)
 B.aGE=new A.bC("herb_salve","hut_herbalist","herb",5,B.atm,"potion_healing_salve",!1)
-B.ayD={fish_trout:0,mat_sunleaf:1}
-B.arJ=new A.E(B.ayD,[1,2],t.I)
+B.ayE={fish_trout:0,mat_sunleaf:1}
+B.arJ=new A.E(B.ayE,[1,2],t.I)
 B.aH3=new A.bC("herb_grilled_trout","hut_herbalist","fish",2,B.arJ,"food_grilled_trout",!1)
-B.ayC={fish_minnow:0,mat_sunleaf:1}
-B.avo=new A.E(B.ayC,[3,2],t.I)
+B.ayD={fish_minnow:0,mat_sunleaf:1}
+B.avo=new A.E(B.ayD,[3,2],t.I)
 B.aHg=new A.bC("herb_fish_stew","hut_herbalist","fish",5,B.avo,"food_fish_stew",!1)
-B.azs={mat_sunleaf:0,mat_petal:1}
-B.av4=new A.E(B.azs,[2,1],t.I)
+B.azt={mat_sunleaf:0,mat_petal:1}
+B.av4=new A.E(B.azt,[2,1],t.I)
 B.aHb=new A.bC("herb_cloth_hood","hut_herbalist","herb",1,B.av4,"light_grey_head",!0)
-B.azr={mat_sunleaf:0,mat_bee_wing:1}
-B.auV=new A.E(B.azr,[2,1],t.I)
+B.azs={mat_sunleaf:0,mat_bee_wing:1}
+B.auV=new A.E(B.azs,[2,1],t.I)
 B.aGQ=new A.bC("herb_cloth_gloves","hut_herbalist","herb",2,B.auV,"light_grey_hands",!0)
-B.azu={mat_sunleaf:0,mat_web_silk:1}
-B.asp=new A.E(B.azu,[2,1],t.I)
+B.azv={mat_sunleaf:0,mat_web_silk:1}
+B.asp=new A.E(B.azv,[2,1],t.I)
 B.aGP=new A.bC("herb_cloth_sandals","hut_herbalist","herb",3,B.asp,"light_grey_feet",!0)
 B.axB={mat_sunleaf:0,mat_web_silk:1,mat_petal:2}
 B.at3=new A.E(B.axB,[3,1,1],t.I)
 B.aGM=new A.bC("herb_cloth_trousers","hut_herbalist","herb",4,B.at3,"light_grey_legs",!0)
-B.ayq={mat_sunleaf:0,mat_sunleaf_dye:1,mat_bee_wing:2}
-B.auW=new A.E(B.ayq,[4,2,2],t.I)
+B.ayr={mat_sunleaf:0,mat_sunleaf_dye:1,mat_bee_wing:2}
+B.auW=new A.E(B.ayr,[4,2,2],t.I)
 B.aGR=new A.bC("herb_cloth_robe","hut_herbalist","herb",5,B.auW,"light_grey_chest",!0)
-B.azj={mat_log_willow:0}
-B.atQ=new A.E(B.azj,[3],t.I)
+B.azk={mat_log_willow:0}
+B.atQ=new A.E(B.azk,[3],t.I)
 B.aHL=new A.bC("carp_plank_willow","hut_carpenter","lumber",4,B.atQ,"mat_plank_willow",!1)
-B.azi={mat_log_pine:0}
-B.arZ=new A.E(B.azi,[3],t.I)
+B.azj={mat_log_pine:0}
+B.arZ=new A.E(B.azj,[3],t.I)
 B.aHq=new A.bC("carp_plank_pine","hut_carpenter","lumber",8,B.arZ,"mat_plank_pine",!1)
-B.azg={mat_log_charwood:0}
-B.atw=new A.E(B.azg,[3],t.I)
+B.azh={mat_log_charwood:0}
+B.atw=new A.E(B.azh,[3],t.I)
 B.aGN=new A.bC("carp_plank_charwood","hut_carpenter","lumber",12,B.atw,"mat_plank_charwood",!1)
-B.azh={mat_log_ironbark:0}
-B.as5=new A.E(B.azh,[3],t.I)
+B.azi={mat_log_ironbark:0}
+B.as5=new A.E(B.azi,[3],t.I)
 B.aHK=new A.bC("carp_plank_ironbark","hut_carpenter","lumber",16,B.as5,"mat_plank_ironbark",!1)
-B.azf={mat_log_capwood:0}
-B.asY=new A.E(B.azf,[3],t.I)
+B.azg={mat_log_capwood:0}
+B.asY=new A.E(B.azg,[3],t.I)
 B.aHi=new A.bC("carp_plank_capwood","hut_carpenter","lumber",19,B.asY,"mat_plank_capwood",!1)
 B.av_=new A.E(B.Ew,[1],t.I)
 B.aHo=new A.bC("carp_haft","hut_carpenter","lumber",3,B.av_,"part_haft",!1)
-B.azq={mat_shed_skin:0}
-B.asf=new A.E(B.azq,[2],t.I)
+B.azr={mat_shed_skin:0}
+B.asf=new A.E(B.azr,[2],t.I)
 B.aH1=new A.bC("carp_glue","hut_carpenter","lumber",5,B.asf,"part_glue",!1)
-B.azk={mat_matted_fur:0,mat_shed_skin:1}
-B.atF=new A.E(B.azk,[2,2],t.I)
+B.azl={mat_matted_fur:0,mat_shed_skin:1}
+B.atF=new A.E(B.azl,[2,2],t.I)
 B.aH_=new A.bC("carp_leather","hut_carpenter","lumber",4,B.atF,"mat_leather",!1)
-B.azp={mat_rough_hide:0}
-B.arp=new A.E(B.azp,[3],t.I)
+B.azq={mat_rough_hide:0}
+B.arp=new A.E(B.azq,[3],t.I)
 B.aH0=new A.bC("carp_leather_rough","hut_carpenter","lumber",16,B.arp,"mat_leather",!1)
-B.azd={mat_leather:0}
-B.avn=new A.E(B.azd,[1],t.I)
+B.aze={mat_leather:0}
+B.avn=new A.E(B.aze,[1],t.I)
 B.aGO=new A.bC("carp_leather_strap","hut_carpenter","lumber",4,B.avn,"mat_leather_strap",!1)
-B.azv={mat_thread:0}
-B.as0=new A.E(B.azv,[3],t.I)
+B.azw={mat_thread:0}
+B.as0=new A.E(B.azw,[3],t.I)
 B.aHc=new A.bC("carp_bowstring","hut_carpenter","lumber",5,B.as0,"mat_bowstring",!1)
-B.ayZ={mat_copper_ingot:0,mat_ore_tin:1}
-B.arM=new A.E(B.ayZ,[1,2],t.I)
+B.az_={mat_copper_ingot:0,mat_ore_tin:1}
+B.arM=new A.E(B.az_,[1,2],t.I)
 B.aHk=new A.bC("smith_ingot_bronze","hut_smithy","mining",4,B.arM,"mat_ingot_bronze",!1)
-B.azl={mat_ore_iron:0}
-B.avf=new A.E(B.azl,[3],t.I)
+B.azm={mat_ore_iron:0}
+B.avf=new A.E(B.azm,[3],t.I)
 B.aH9=new A.bC("smith_ingot_iron","hut_smithy","mining",8,B.avf,"mat_ingot_iron",!1)
-B.az4={mat_ingot_iron:0,mat_ore_coal:1}
-B.as1=new A.E(B.az4,[1,2],t.I)
+B.az5={mat_ingot_iron:0,mat_ore_coal:1}
+B.as1=new A.E(B.az5,[1,2],t.I)
 B.aHm=new A.bC("smith_ingot_steel","hut_smithy","mining",12,B.as1,"mat_ingot_steel",!1)
-B.azn={mat_ore_silver:0}
-B.avj=new A.E(B.azn,[3],t.I)
+B.azo={mat_ore_silver:0}
+B.avj=new A.E(B.azo,[3],t.I)
 B.aHG=new A.bC("smith_ingot_silver","hut_smithy","mining",16,B.avj,"mat_ingot_silver",!1)
-B.azm={mat_ore_mithril:0}
-B.at4=new A.E(B.azm,[3],t.I)
+B.azn={mat_ore_mithril:0}
+B.at4=new A.E(B.azn,[3],t.I)
 B.aHN=new A.bC("smith_ingot_mithril","hut_smithy","mining",19,B.at4,"mat_ingot_mithril",!1)
-B.ayY={mat_copper_ingot:0}
-B.atk=new A.E(B.ayY,[2],t.I)
+B.ayZ={mat_copper_ingot:0}
+B.atk=new A.E(B.ayZ,[2],t.I)
 B.aGV=new A.bC("smith_blade_blank","hut_smithy","mining",5,B.atk,"part_blade_blank",!1)
-B.az3={mat_ingot_iron:0}
-B.asw=new A.E(B.az3,[1],t.I)
+B.az4={mat_ingot_iron:0}
+B.asw=new A.E(B.az4,[1],t.I)
 B.aGC=new A.bC("smith_rivets","hut_smithy","mining",8,B.asw,"part_rivets",!1)
-B.az2={mat_ingot_bronze:0,part_haft:1}
-B.E1=new A.E(B.az2,[3,2],t.I)
+B.az3={mat_ingot_bronze:0,part_haft:1}
+B.E1=new A.E(B.az3,[3,2],t.I)
 B.aHr=new A.bC("smith_tool_bronze_axe","hut_smithy","mining",4,B.E1,"tool_bronze_axe",!1)
 B.aHs=new A.bC("smith_tool_bronze_pickaxe","hut_smithy","mining",4,B.E1,"tool_bronze_pickaxe",!1)
-B.az1={mat_ingot_bronze:0,mat_plank:1}
-B.atr=new A.E(B.az1,[2,2],t.I)
+B.az2={mat_ingot_bronze:0,mat_plank:1}
+B.atr=new A.E(B.az2,[2,2],t.I)
 B.aHv=new A.bC("smith_tool_bronze_can","hut_smithy","mining",4,B.atr,"tool_watering_can",!1)
-B.az6={mat_ingot_iron:0,part_haft:1}
-B.DJ=new A.E(B.az6,[3,2],t.I)
-B.aHM=new A.bC("smith_tool_iron_axe","hut_smithy","mining",8,B.DJ,"tool_iron_axe",!1)
-B.aHw=new A.bC("smith_tool_iron_pickaxe","hut_smithy","mining",8,B.DJ,"tool_iron_pickaxe",!1)
-B.az5={mat_ingot_iron:0,mat_plank:1}
-B.asE=new A.E(B.az5,[2,2],t.I)
+B.az7={mat_ingot_iron:0,part_haft:1}
+B.DK=new A.E(B.az7,[3,2],t.I)
+B.aHM=new A.bC("smith_tool_iron_axe","hut_smithy","mining",8,B.DK,"tool_iron_axe",!1)
+B.aHw=new A.bC("smith_tool_iron_pickaxe","hut_smithy","mining",8,B.DK,"tool_iron_pickaxe",!1)
+B.az6={mat_ingot_iron:0,mat_plank:1}
+B.asE=new A.E(B.az6,[2,2],t.I)
 B.aGD=new A.bC("smith_tool_iron_can","hut_smithy","mining",8,B.asE,"tool_watering_can_iron",!1)
-B.azc={mat_ingot_steel:0,part_haft:1}
-B.E6=new A.E(B.azc,[4,2],t.I)
+B.azd={mat_ingot_steel:0,part_haft:1}
+B.E6=new A.E(B.azd,[4,2],t.I)
 B.aGH=new A.bC("smith_tool_steel_axe","hut_smithy","mining",12,B.E6,"tool_steel_axe",!1)
 B.aHz=new A.bC("smith_tool_steel_pickaxe","hut_smithy","mining",12,B.E6,"tool_steel_pickaxe",!1)
-B.azb={mat_ingot_steel:0,mat_plank:1}
-B.avh=new A.E(B.azb,[3,2],t.I)
+B.azc={mat_ingot_steel:0,mat_plank:1}
+B.avh=new A.E(B.azc,[3,2],t.I)
 B.aH8=new A.bC("smith_tool_steel_can","hut_smithy","mining",12,B.avh,"tool_watering_can_steel",!1)
-B.aza={mat_ingot_silver:0,part_haft:1}
-B.Dx=new A.E(B.aza,[5,2],t.I)
+B.azb={mat_ingot_silver:0,part_haft:1}
+B.Dx=new A.E(B.azb,[5,2],t.I)
 B.aH5=new A.bC("smith_tool_silver_axe","hut_smithy","mining",16,B.Dx,"tool_silver_axe",!1)
 B.aGU=new A.bC("smith_tool_silver_pickaxe","hut_smithy","mining",16,B.Dx,"tool_silver_pickaxe",!1)
-B.az9={mat_ingot_silver:0,mat_plank:1}
-B.atz=new A.E(B.az9,[3,2],t.I)
+B.aza={mat_ingot_silver:0,mat_plank:1}
+B.atz=new A.E(B.aza,[3,2],t.I)
 B.aHF=new A.bC("smith_tool_silver_can","hut_smithy","mining",16,B.atz,"tool_watering_can_silver",!1)
-B.az8={mat_ingot_mithril:0,part_haft:1}
-B.Dy=new A.E(B.az8,[6,2],t.I)
+B.az9={mat_ingot_mithril:0,part_haft:1}
+B.Dy=new A.E(B.az9,[6,2],t.I)
 B.aHe=new A.bC("smith_tool_mithril_axe","hut_smithy","mining",19,B.Dy,"tool_mithril_axe",!1)
 B.aHa=new A.bC("smith_tool_mithril_pickaxe","hut_smithy","mining",19,B.Dy,"tool_mithril_pickaxe",!1)
-B.az7={mat_ingot_mithril:0,mat_plank:1}
-B.auX=new A.E(B.az7,[4,2],t.I)
+B.az8={mat_ingot_mithril:0,mat_plank:1}
+B.auX=new A.E(B.az8,[4,2],t.I)
 B.aH6=new A.bC("smith_tool_mithril_can","hut_smithy","mining",19,B.auX,"tool_watering_can_mithril",!1)
 B.axk={mat_plank_willow:0,mat_ingot_bronze:1,mat_bowstring:2}
 B.atZ=new A.E(B.axk,[2,1,1],t.I)
@@ -150213,31 +150213,31 @@ B.aHd=new A.bC("carp_tool_iron_rod","hut_carpenter","lumber",8,B.asR,"tool_iron_
 B.axi={mat_ingot_steel:0,mat_plank_charwood:1,mat_bowstring:2}
 B.arF=new A.E(B.axi,[2,1,1],t.I)
 B.aHf=new A.bC("smith_tool_steel_rod","hut_smithy","mining",12,B.arF,"tool_steel_rod",!1)
-B.ayc={mat_ingot_silver:0,mat_plank_ironbark:1,mat_bowstring:2}
-B.atX=new A.E(B.ayc,[2,1,1],t.I)
+B.ayd={mat_ingot_silver:0,mat_plank_ironbark:1,mat_bowstring:2}
+B.atX=new A.E(B.ayd,[2,1,1],t.I)
 B.aHE=new A.bC("smith_tool_silver_rod","hut_smithy","mining",16,B.atX,"tool_silver_rod",!1)
 B.aAf={mat_ingot_mithril:0,mat_plank_capwood:1,mat_bowstring:2}
 B.at6=new A.E(B.aAf,[2,1,1],t.I)
 B.aH7=new A.bC("smith_tool_mithril_rod","hut_smithy","mining",19,B.at6,"tool_mithril_rod",!1)
 B.as8=new A.E(B.qS,[3],t.I)
 B.aGG=new A.bC("herb_linen","hut_herbalist","herb",1,B.as8,"mat_cloth_linen",!1)
-B.ayX={mat_cloth_linen:0}
-B.auS=new A.E(B.ayX,[1],t.I)
+B.ayY={mat_cloth_linen:0}
+B.auS=new A.E(B.ayY,[1],t.I)
 B.aGZ=new A.bC("herb_thread","hut_herbalist","herb",2,B.auS,"mat_thread",!1)
-B.azw={mat_web_silk:0}
-B.av9=new A.E(B.azw,[3],t.I)
+B.azx={mat_web_silk:0}
+B.av9=new A.E(B.azx,[3],t.I)
 B.aHA=new A.bC("herb_silk","hut_herbalist","herb",8,B.av9,"mat_cloth_silk",!1)
-B.ay6={mat_mud_clump:0,mat_herb_mossbell:1}
-B.atv=new A.E(B.ay6,[2,2],t.I)
+B.ay7={mat_mud_clump:0,mat_herb_mossbell:1}
+B.atv=new A.E(B.ay7,[2,2],t.I)
 B.aGI=new A.bC("herb_dye_moss","hut_herbalist","herb",4,B.atv,"dye_moss",!1)
 B.axz={mat_snake_fang:0,mat_herb_bitterroot:1}
 B.arH=new A.E(B.axz,[2,2],t.I)
 B.aGT=new A.bC("herb_dye_river","hut_herbalist","herb",8,B.arH,"dye_river",!1)
-B.azE={mat_beetle_shell:0,mat_herb_emberleaf:1}
-B.ash=new A.E(B.azE,[2,2],t.I)
+B.azF={mat_beetle_shell:0,mat_herb_emberleaf:1}
+B.ash=new A.E(B.azF,[2,2],t.I)
 B.aGF=new A.bC("herb_dye_ember","hut_herbalist","herb",12,B.ash,"dye_ember",!1)
-B.azH={mat_bee_wing:0,mat_herb_duskbloom:1}
-B.ase=new A.E(B.azH,[2,2],t.I)
+B.azI={mat_bee_wing:0,mat_herb_duskbloom:1}
+B.ase=new A.E(B.azI,[2,2],t.I)
 B.aHn=new A.bC("herb_dye_gale","hut_herbalist","herb",19,B.ase,"dye_gale",!1)
 B.ad1=s([B.aGJ,B.aGW,B.aH4,B.aHH,B.aHI,B.aHj,B.aHt,B.aHu,B.aHB,B.aHh,B.aHp,B.aGB,B.aGY,B.aH2,B.aGL,B.aGK,B.aHx,B.aHy,B.aHJ,B.aHD,B.aHl,B.aGX,B.aGS,B.aGE,B.aH3,B.aHg,B.aHb,B.aGQ,B.aGP,B.aGM,B.aGR,B.aHL,B.aHq,B.aGN,B.aHK,B.aHi,B.aHo,B.aH1,B.aH_,B.aH0,B.aGO,B.aHc,B.aHk,B.aH9,B.aHm,B.aHG,B.aHN,B.aGV,B.aGC,B.aHr,B.aHs,B.aHv,B.aHM,B.aHw,B.aGD,B.aGH,B.aHz,B.aH8,B.aH5,B.aGU,B.aHF,B.aHe,B.aHa,B.aH6,B.aHC,B.aHd,B.aHf,B.aHE,B.aH7,B.aGG,B.aGZ,B.aHA,B.aGI,B.aGT,B.aGF,B.aHn],t.TQ)
 B.adg=s(["flameDart","frostBolt","gravityBolt","arcFocus","fireball","chainLightning","vortex","iceWall","flameDash","thunderclap","blink","frostNova","meteor","stormCall","riftGate","overcharge"],t.s)
@@ -150319,8 +150319,8 @@ B.aGi=new A.ee("cave","Into the Cave",B.ao8,"The way to the Riverlands is open."
 B.EA={minLevel:0}
 B.avq=new A.E(B.EA,[10],t.M)
 B.aFx=new A.c3("Reach Lv 10","Fight monsters to level up.",B.avq,null,null,null)
-B.ayI={hasClass:0}
-B.au2=new A.E(B.ayI,[!0],t.M)
+B.ayJ={hasClass:0}
+B.au2=new A.E(B.ayJ,[!0],t.M)
 B.aFq=new A.c3("Choose your class","The class screen opens at Lv 10.",B.au2,null,null,null)
 B.amj=s([B.aFx,B.aFq],t.Y)
 B.aG2=new A.ee("path","A Path of Your Own",B.amj,null,null,null,!1)
@@ -150707,8 +150707,8 @@ B.bbO=new A.tP(6,0.11)
 B.bbM=new A.tP(8,0.12)
 B.bbL=new A.tP(12,0.14)
 B.xQ=s([B.bbK,B.bbP,B.bbN,B.bbO,B.bbM,B.bbL],A.ac("D<tP>"))
-B.aA9={url:0,integrity:1}
-B.atU=new A.E(B.aA9,["https://browser.sentry-cdn.com/8.42.0/bundle.tracing.min.js","sha384-bG2vyJAuRm/JbGQrlET5H7y0CTvPF0atiBjekU/WUKUwKwThDXrqRhZiQ+jWaagS"],t.l)
+B.aAa={url:0,integrity:1}
+B.atU=new A.E(B.aAa,["https://browser.sentry-cdn.com/8.42.0/bundle.tracing.min.js","sha384-bG2vyJAuRm/JbGQrlET5H7y0CTvPF0atiBjekU/WUKUwKwThDXrqRhZiQ+jWaagS"],t.l)
 B.ae8=s([B.atU],A.ac("D<au<e,e>>"))
 B.aea=s(["rocks/rock1_1","rocks/rock1_2","rocks/rock2_1","rocks/rock2_2","rocks/rock3_1","rocks/rock3_2","rocks/rock4_1","rocks/rock4_2","rocks/rock5_1","rocks/rock5_2","rocks/rock6_1","rocks/rock6_2","rocks/rock7_1","rocks/rock7_2","rocks/rock8_1","rocks/rock8_2"],t.s)
 B.ae9=s(["rocks/rock1_3","rocks/rock1_4","rocks/rock2_3","rocks/rock2_4","rocks/rock3_3","rocks/rock3_4","rocks/rock4_3","rocks/rock4_4","rocks/rock5_3","rocks/rock5_4","rocks/rock6_3","rocks/rock6_4","rocks/rock7_3","rocks/rock7_4","rocks/rock8_3","rocks/rock8_4"],t.s)
@@ -151173,8 +151173,8 @@ B.awL=new A.eB("pell","Courier Pell","village",63,37,15,B.a5O,null,null,null,nul
 B.ahG=s(["I will shape tools here once my bench is set.","Bring me hide and bone and I will work them."],t.s)
 B.awQ=new A.eB("crafter","Tarn","village",54,29,12,B.ahG,null,null,null,null,!1,!1,!1,null,"adventurer",null,null,null,null)
 B.ac9=s(["Fair prices, friend.","Have a look."],t.s)
-B.ayk={name:0,body:1,head:2,skin:3,eyes:4,hair:5,hairColor:6,shirt:7,shirtColor:8,legs:9,legsColor:10,feet:11,feetColor:12,shoulders:13,shouldersColor:14}
-B.arN=new A.E(B.ayk,["Neva","female","female","amber","brown","high_ponytail","dark_brown","longsleeve","teal","pants","brown","shoes","brown","mantle","tan"],t.l)
+B.ayl={name:0,body:1,head:2,skin:3,eyes:4,hair:5,hairColor:6,shirt:7,shirtColor:8,legs:9,legsColor:10,feet:11,feetColor:12,shoulders:13,shouldersColor:14}
+B.arN=new A.E(B.ayl,["Neva","female","female","amber","brown","high_ponytail","dark_brown","longsleeve","teal","pants","brown","shoes","brown","mantle","tan"],t.l)
 B.ax_=new A.eB("merchant","Neva","village",42,21,12,B.ac9,null,null,null,null,!1,!0,!1,B.arN,"adventurer","neva",null,null,null)
 B.ae_=s(["Leave your spare goods with me. They keep dry here.","Fifty slots for now. More shelf when the village grows.","The orcs never found this store. They will not."],t.s)
 B.axr={name:0,body:1,head:2,skin:3,eyes:4,hair:5,hairColor:6,beard:7,shirt:8,shirtColor:9,legs:10,legsColor:11,feet:12,feetColor:13,shoulders:14,shouldersColor:15}
@@ -152049,11 +152049,11 @@ B.Du=new A.vI(3,"spaceBetween")
 B.arc=new A.vI(4,"spaceAround")
 B.ard=new A.vI(5,"spaceEvenly")
 B.i=new A.a4h(1,"max")
-B.azC={atk:0,matk:1,def:2,mdef:3,hp:4}
-B.Dv=new A.E(B.azC,["ATK","MATK","DEF","MDEF","HP"],t.l)
-B.azM={"questDone:slimeBoss":0,"questDone:flowerBoss":1,"questDone:knightBoss":2,"questDone:warchief":3}
-B.ark=new A.E(B.azM,["Cave unlocked","Bridge guard beaten","Riverlands unlocked","The Warchief has fallen"],t.l)
-B.ayh={q_tali_sword:0,q_riverbloom:1,q_bent_antler:2,q_torn_satchel:3,q_sealed_letter:4,q_folded_reply:5,q_ferry_bell:6,q_gnawed_sack:7,q_ration_ledger:8,q_music_box:9,q_supply_tag:10,q_orc_charm:11,q_slime_jelly:12,q_marl_parcel:13,q_miner_lamp:14,q_old_badge:15,q_wyn_bundle:16}
+B.azD={atk:0,matk:1,def:2,mdef:3,hp:4}
+B.Dv=new A.E(B.azD,["ATK","MATK","DEF","MDEF","HP"],t.l)
+B.azN={"questDone:slimeBoss":0,"questDone:flowerBoss":1,"questDone:knightBoss":2,"questDone:warchief":3}
+B.ark=new A.E(B.azN,["Cave unlocked","Bridge guard beaten","Riverlands unlocked","The Warchief has fallen"],t.l)
+B.ayi={q_tali_sword:0,q_riverbloom:1,q_bent_antler:2,q_torn_satchel:3,q_sealed_letter:4,q_folded_reply:5,q_ferry_bell:6,q_gnawed_sack:7,q_ration_ledger:8,q_music_box:9,q_supply_tag:10,q_orc_charm:11,q_slime_jelly:12,q_marl_parcel:13,q_miner_lamp:14,q_old_badge:15,q_wyn_bundle:16}
 B.aI=new A.E(B.b9,[],t.nw)
 B.a1L=new A.dE("q_tali_sword","Wooden Sword","quest",null,"grey","",B.aI,0,0,"any","Small, sticky, and very much loved.","quest",0,!1)
 B.a1Y=new A.dE("q_riverbloom","Riverbloom","quest",null,"grey","",B.aI,0,0,"any","A pale river flower. Mira needs three.","quest",0,!1)
@@ -152072,10 +152072,10 @@ B.a1K=new A.dE("q_marl_parcel","Marl's Parcel","quest",null,"grey","",B.aI,0,0,"
 B.a1U=new A.dE("q_miner_lamp","Brass Lamp","quest",null,"grey","",B.aI,0,0,"any","Brass, and it still has oil.","quest",0,!1)
 B.a1T=new A.dE("q_old_badge","Tin Star","quest",null,"grey","",B.aI,0,0,"any","Tin, with a star. Sunna wants one.","quest",0,!1)
 B.a1R=new A.dE("q_wyn_bundle","Wyn's Bundle","quest",null,"grey","",B.aI,0,0,"any","A red travel bundle, still smelling of rain.","quest",0,!1)
-B.arl=new A.E(B.ayh,[B.a1L,B.a1Y,B.a1Z,B.a1N,B.a1O,B.a1S,B.a2_,B.a1P,B.a1W,B.a1Q,B.a1V,B.a1M,B.a1X,B.a1K,B.a1U,B.a1T,B.a1R],t.Td)
-B.ayO={ice_block_a:0,ice_block_b:1}
-B.arn=new A.E(B.ayO,[1,2],t.I)
-B.ayJ={herb:0,ore:1}
+B.arl=new A.E(B.ayi,[B.a1L,B.a1Y,B.a1Z,B.a1N,B.a1O,B.a1S,B.a2_,B.a1P,B.a1W,B.a1Q,B.a1V,B.a1M,B.a1X,B.a1K,B.a1U,B.a1T,B.a1R],t.Td)
+B.ayP={ice_block_a:0,ice_block_b:1}
+B.arn=new A.E(B.ayP,[1,2],t.I)
+B.ayK={herb:0,ore:1}
 B.Tf=new A.N(1,0.803921568627451,0.8509803921568627,0.4,B.h)
 B.SW=new A.N(1,0.43529411764705883,0.5607843137254902,0.27058823529411763,B.h)
 B.SK=new A.N(1,0.5411764705882353,0.47843137254901963,0.22745098039215686,B.h)
@@ -152085,8 +152085,8 @@ B.RR=new A.N(1,0.41568627450980394,0.35294117647058826,0.6196078431372549,B.h)
 B.atb=new A.e0([1,B.Tf,2,B.SW,3,B.SK,4,B.T5,5,B.SU,6,B.RR],t.pl)
 B.Sf=new A.N(1,0.6235294117647059,0.8313725490196079,0.9411764705882353,B.h)
 B.arq=new A.e0([6,B.Sf],t.pl)
-B.aro=new A.E(B.ayJ,[B.atb,B.arq],A.ac("E<e,au<i,N>>"))
-B.ays={combo_cloakMark:0,combo_venomSlash:1,combo_lightFeet:2,combo_knifeRain:3}
+B.aro=new A.E(B.ayK,[B.atb,B.arq],A.ac("E<e,au<i,N>>"))
+B.ayt={combo_cloakMark:0,combo_venomSlash:1,combo_lightFeet:2,combo_knifeRain:3}
 B.ZJ=new A.cg("vfx_cslash_plume","caster",0,"rgba(130,88,196,.85)",1,-28,-12,0,!1)
 B.Zj=new A.cg("vfx_smoke_magic","caster",260,null,0.9,-4,0,0,!1)
 B.aeg=s([B.ZJ,B.Zj],t.E)
@@ -152101,15 +152101,15 @@ B.ZN=new A.cg("vfx_cslash_pink","caster",80,null,0.85,-18,34,1.5707963267948966,
 B.Z0=new A.cg("vfx_cslash_pink","caster",160,null,0.85,-18,34,3.141592653589793,!0)
 B.ZH=new A.cg("vfx_cslash_pink","caster",240,null,0.85,-18,34,4.71238898038469,!0)
 B.ac8=s([B.ZL,B.ZN,B.Z0,B.ZH],t.E)
-B.arr=new A.E(B.ays,[B.aeg,B.abL,B.anr,B.ac8],t.CR)
-B.ayK={mat_leather:0,mat_thread:1,mat_ore_coal:2}
-B.ary=new A.E(B.ayK,["leather_tanned","thread_spool","coal"],t.l)
-B.ayH={heavy:0,medium:1,light:2}
+B.arr=new A.E(B.ayt,[B.aeg,B.abL,B.anr,B.ac8],t.CR)
+B.ayL={mat_leather:0,mat_thread:1,mat_ore_coal:2}
+B.ary=new A.E(B.ayL,["leather_tanned","thread_spool","coal"],t.l)
+B.ayI={heavy:0,medium:1,light:2}
 B.hF={head:0,chest:1,legs:2,feet:3,hands:4}
 B.asb=new A.E(B.hF,["Helm","Chainmail","Greaves","Boots","Gauntlets"],t.l)
 B.asd=new A.E(B.hF,["Cap","Jerkin","Leggings","Boots","Bracers"],t.l)
 B.asa=new A.E(B.hF,["Hat","Tunic","Leggings","Shoes","Wraps"],t.l)
-B.arC=new A.E(B.ayH,[B.asb,B.asd,B.asa],A.ac("E<e,au<e,e>>"))
+B.arC=new A.E(B.ayI,[B.asb,B.asd,B.asa],A.ac("E<e,au<e,e>>"))
 B.axQ={in:0,iw:1,ji:2,jw:3,mo:4,aam:5,adp:6,aue:7,ayx:8,bgm:9,bjd:10,ccq:11,cjr:12,cka:13,cmk:14,coy:15,cqu:16,drh:17,drw:18,gav:19,gfx:20,ggn:21,gti:22,guv:23,hrr:24,ibi:25,ilw:26,jeg:27,kgc:28,kgh:29,koj:30,krm:31,ktr:32,kvs:33,kwq:34,kxe:35,kzj:36,kzt:37,lii:38,lmm:39,meg:40,mst:41,mwj:42,myt:43,nad:44,ncp:45,nnx:46,nts:47,oun:48,pcr:49,pmc:50,pmu:51,ppa:52,ppr:53,pry:54,puz:55,sca:56,skk:57,tdu:58,thc:59,thx:60,tie:61,tkk:62,tlw:63,tmp:64,tne:65,tnf:66,tsf:67,uok:68,xba:69,xia:70,xkh:71,xsj:72,ybd:73,yma:74,ymt:75,yos:76,yuu:77}
 B.dc=new A.E(B.axQ,["id","he","yi","jv","ro","aas","dz","ktz","nun","bcg","drl","rki","mom","cmr","xch","pij","quh","khk","prs","dev","vaj","gvr","nyc","duz","jal","opa","gal","oyb","tdf","kml","kwv","bmf","dtp","gdj","yam","tvd","dtp","dtp","raq","rmx","cir","mry","vaj","mry","xny","kdz","ngv","pij","vaj","adx","huw","phr","bfy","lcq","prt","pub","hle","oyb","dtp","tpo","oyb","ras","twm","weo","tyj","kak","prs","taj","ema","cax","acn","waw","suj","rki","lrr","mtm","zom","yug"],t.l)
 B.axf={tool_bronze_axe:0,tool_iron_axe:1,tool_steel_axe:2,tool_silver_axe:3,tool_mithril_axe:4,tool_bronze_pickaxe:5,tool_iron_pickaxe:6,tool_steel_pickaxe:7,tool_silver_pickaxe:8,tool_mithril_pickaxe:9,tool_watering_can:10,tool_watering_can_iron:11,tool_watering_can_steel:12,tool_watering_can_silver:13,tool_watering_can_mithril:14,tool_bronze_rod:15,tool_iron_rod:16,tool_steel_rod:17,tool_silver_rod:18,tool_mithril_rod:19}
@@ -152119,7 +152119,7 @@ B.aIn=new A.a0(89,159)
 B.aIk=new A.a0(71,128)
 B.aIm=new A.a0(87,133)
 B.arE=new A.E(B.axH,[B.aIn,B.aIk,B.aIm],A.ac("E<e,+(i,i)>"))
-B.ayS={cast:0,castStaff:1,emote:2,thrustStaff:3,shoot:4,shootBig:5,slashDagger:6,slashSword:7,punch:8,lunge:9,shieldBash:10,shootRapid:11}
+B.ayT={cast:0,castStaff:1,emote:2,thrustStaff:3,shoot:4,shootBig:5,slashDagger:6,slashSword:7,punch:8,lunge:9,shieldBash:10,shootRapid:11}
 B.Nz=new A.nS(110,2,3,220)
 B.NC=new A.nS(80,4,8,0)
 B.tQ=new A.nS(60,9,11,120)
@@ -152127,7 +152127,7 @@ B.nA=new A.nS(90,3,6,0)
 B.NB=new A.nS(60,3,6,0)
 B.ND=new A.nS(90,3,8,0)
 B.NA=new A.nS(50,9,17,120)
-B.bB=new A.E(B.ayS,[B.nB,B.nB,B.Nz,B.NC,B.tQ,B.tQ,B.nA,B.nA,B.nA,B.NB,B.ND,B.NA],A.ac("E<e,nS>"))
+B.bB=new A.E(B.ayT,[B.nB,B.nB,B.Nz,B.NC,B.tQ,B.tQ,B.nA,B.nA,B.nA,B.NB,B.ND,B.NA],A.ac("E<e,nS>"))
 B.rq=new A.aV(B.cD,!1,!1,!0,!1,B.E)
 B.rn=new A.aV(B.cn,!1,!1,!0,!1,B.E)
 B.ro=new A.aV(B.co,!1,!1,!0,!1,B.E)
@@ -152178,8 +152178,8 @@ B.aoA=s(["#0e0e18","#201E2B","#373340","#585561","#797580","#A2A0A4"],t.s)
 B.apH=s(["#000000","#101414","#1C2222","#22282A","#2A3034","#4A5057"],t.s)
 B.ae7=s(["#000000","#130D14","#1C2222","#2A3034","#4A5057","#6E7675"],t.s)
 B.lX=new A.E(B.aAn,[B.adM,B.ana,B.ad3,B.aiT,B.ak5,B.ai9,B.aok,B.afE,B.abB,B.aa7,B.anb,B.aon,B.anw,B.yy,B.aaW,B.a3a,B.ahR,B.a9m,B.xv,B.ac7,B.aoj,B.aoA,B.apH,B.ae7],t.VJ)
-B.ayx={str:0,agi:1,int:2,wis:3,luk:4,vit:5}
-B.arQ=new A.E(B.ayx,["assets/icons/stats/str.png","assets/icons/stats/agi.png","assets/icons/stats/int.png","assets/icons/stats/wis.png","assets/icons/stats/luk.png","assets/icons/stats/vit.png"],t.l)
+B.ayy={str:0,agi:1,int:2,wis:3,luk:4,vit:5}
+B.arQ=new A.E(B.ayy,["assets/icons/stats/str.png","assets/icons/stats/agi.png","assets/icons/stats/int.png","assets/icons/stats/wis.png","assets/icons/stats/luk.png","assets/icons/stats/vit.png"],t.l)
 B.aq2=new A.z(33)
 B.aq3=new A.z(34)
 B.aq4=new A.z(35)
@@ -152593,7 +152593,7 @@ B.ar0=new A.z(8589935389)
 B.ar1=new A.z(8589935390)
 B.ar2=new A.z(8589935391)
 B.arR=new A.e0([32,B.j7,33,B.aq2,34,B.aq3,35,B.aq4,36,B.aq5,37,B.aq6,38,B.aq7,39,B.aq8,40,B.aq9,41,B.aqa,42,B.yJ,43,B.Db,44,B.aqb,45,B.Dc,46,B.Dd,47,B.De,48,B.Df,49,B.Dg,50,B.Dh,51,B.Di,52,B.Dj,53,B.Dk,54,B.Dl,55,B.Dm,56,B.Dn,57,B.Do,58,B.aqc,59,B.aqd,60,B.aqe,61,B.aqf,62,B.aqg,63,B.aqh,64,B.aqi,91,B.ar3,92,B.ar4,93,B.ar5,94,B.ar6,95,B.ar7,96,B.ar8,97,B.ht,98,B.Dt,99,B.lU,100,B.lJ,101,B.yF,102,B.j5,103,B.apN,104,B.apO,105,B.apP,106,B.apQ,107,B.apR,108,B.apS,109,B.apT,110,B.yG,111,B.apU,112,B.yH,113,B.apV,114,B.apW,115,B.lK,116,B.yI,117,B.apX,118,B.qs,119,B.lL,120,B.qt,121,B.apY,122,B.j6,123,B.apZ,124,B.aq_,125,B.aq0,126,B.aq1,4294967297,B.yK,4294967304,B.bW,4294967305,B.lM,4294967309,B.hs,4294967323,B.eC,4294967423,B.bX,4294967553,B.yL,4294967555,B.lN,4294967556,B.j8,4294967558,B.qu,4294967559,B.yM,4294967560,B.yN,4294967562,B.lO,4294967564,B.lP,4294967566,B.yO,4294967567,B.yP,4294967568,B.yQ,4294967569,B.yR,4294968065,B.cD,4294968066,B.cn,4294968067,B.co,4294968068,B.cE,4294968069,B.fr,4294968070,B.fs,4294968071,B.j9,4294968072,B.ja,4294968321,B.qv,4294968322,B.yS,4294968323,B.yT,4294968324,B.yU,4294968325,B.yV,4294968326,B.yW,4294968327,B.jb,4294968328,B.yX,4294968329,B.yY,4294968330,B.yZ,4294968577,B.z_,4294968578,B.z0,4294968579,B.z1,4294968580,B.z2,4294968581,B.z3,4294968582,B.z4,4294968583,B.z5,4294968584,B.z6,4294968585,B.z7,4294968586,B.z8,4294968587,B.z9,4294968588,B.za,4294968589,B.zb,4294968590,B.zc,4294968833,B.zd,4294968834,B.ze,4294968835,B.zf,4294968836,B.zg,4294968837,B.zh,4294968838,B.zi,4294968839,B.zj,4294968840,B.zk,4294968841,B.zl,4294968842,B.zm,4294968843,B.zn,4294969089,B.zo,4294969090,B.zp,4294969091,B.zq,4294969092,B.zr,4294969093,B.zs,4294969094,B.zt,4294969095,B.zu,4294969096,B.zv,4294969097,B.zw,4294969098,B.zx,4294969099,B.zy,4294969100,B.zz,4294969101,B.zA,4294969102,B.zB,4294969103,B.zC,4294969104,B.zD,4294969105,B.zE,4294969106,B.zF,4294969107,B.zG,4294969108,B.zH,4294969109,B.zI,4294969110,B.zJ,4294969111,B.zK,4294969112,B.zL,4294969113,B.zM,4294969114,B.zN,4294969115,B.zO,4294969116,B.zP,4294969117,B.zQ,4294969345,B.zR,4294969346,B.zS,4294969347,B.zT,4294969348,B.zU,4294969349,B.zV,4294969350,B.zW,4294969351,B.zX,4294969352,B.zY,4294969353,B.zZ,4294969354,B.A_,4294969355,B.A0,4294969356,B.A1,4294969357,B.A2,4294969358,B.A3,4294969359,B.A4,4294969360,B.A5,4294969361,B.A6,4294969362,B.A7,4294969363,B.A8,4294969364,B.A9,4294969365,B.Aa,4294969366,B.Ab,4294969367,B.Ac,4294969368,B.Ad,4294969601,B.Ae,4294969602,B.Af,4294969603,B.Ag,4294969604,B.Ah,4294969605,B.Ai,4294969606,B.Aj,4294969607,B.Ak,4294969608,B.Al,4294969857,B.Am,4294969858,B.An,4294969859,B.Ao,4294969860,B.Ap,4294969861,B.Aq,4294969863,B.Ar,4294969864,B.As,4294969865,B.At,4294969866,B.Au,4294969867,B.Av,4294969868,B.Aw,4294969869,B.Ax,4294969870,B.Ay,4294969871,B.Az,4294969872,B.AA,4294969873,B.AB,4294970113,B.AC,4294970114,B.AD,4294970115,B.AE,4294970116,B.AF,4294970117,B.AG,4294970118,B.AH,4294970119,B.AI,4294970120,B.AJ,4294970121,B.AK,4294970122,B.AL,4294970123,B.AM,4294970124,B.AN,4294970125,B.AO,4294970126,B.AP,4294970127,B.AQ,4294970369,B.AR,4294970370,B.AS,4294970371,B.AT,4294970372,B.AU,4294970373,B.AV,4294970374,B.AW,4294970375,B.AX,4294970625,B.AY,4294970626,B.AZ,4294970627,B.B_,4294970628,B.B0,4294970629,B.B1,4294970630,B.B2,4294970631,B.B3,4294970632,B.B4,4294970633,B.B5,4294970634,B.B6,4294970635,B.B7,4294970636,B.B8,4294970637,B.B9,4294970638,B.Ba,4294970639,B.Bb,4294970640,B.Bc,4294970641,B.Bd,4294970642,B.Be,4294970643,B.Bf,4294970644,B.Bg,4294970645,B.Bh,4294970646,B.Bi,4294970647,B.Bj,4294970648,B.Bk,4294970649,B.Bl,4294970650,B.Bm,4294970651,B.Bn,4294970652,B.Bo,4294970653,B.Bp,4294970654,B.Bq,4294970655,B.Br,4294970656,B.Bs,4294970657,B.Bt,4294970658,B.Bu,4294970659,B.Bv,4294970660,B.Bw,4294970661,B.Bx,4294970662,B.By,4294970663,B.Bz,4294970664,B.BA,4294970665,B.BB,4294970666,B.BC,4294970667,B.BD,4294970668,B.BE,4294970669,B.BF,4294970670,B.BG,4294970671,B.BH,4294970672,B.BI,4294970673,B.BJ,4294970674,B.BK,4294970675,B.BL,4294970676,B.BM,4294970677,B.BN,4294970678,B.BO,4294970679,B.BP,4294970680,B.BQ,4294970681,B.BR,4294970682,B.BS,4294970683,B.BT,4294970684,B.BU,4294970685,B.BV,4294970686,B.BW,4294970687,B.BX,4294970688,B.BY,4294970689,B.BZ,4294970690,B.C_,4294970691,B.C0,4294970692,B.C1,4294970693,B.C2,4294970694,B.C3,4294970695,B.C4,4294970696,B.C5,4294970697,B.C6,4294970698,B.C7,4294970699,B.C8,4294970700,B.C9,4294970701,B.Ca,4294970702,B.Cb,4294970703,B.Cc,4294970704,B.Cd,4294970705,B.Ce,4294970706,B.Cf,4294970707,B.Cg,4294970708,B.Ch,4294970709,B.Ci,4294970710,B.Cj,4294970711,B.Ck,4294970712,B.Cl,4294970713,B.Cm,4294970714,B.Cn,4294970715,B.Co,4294970882,B.Cp,4294970884,B.Cq,4294970885,B.Cr,4294970886,B.Cs,4294970887,B.Ct,4294970888,B.Cu,4294970889,B.Cv,4294971137,B.Cw,4294971138,B.Cx,4294971393,B.Cy,4294971394,B.Cz,4294971395,B.CA,4294971396,B.CB,4294971397,B.CC,4294971398,B.CD,4294971399,B.CE,4294971400,B.CF,4294971401,B.CG,4294971402,B.CH,4294971403,B.CI,4294971649,B.CJ,4294971650,B.CK,4294971651,B.CL,4294971652,B.CM,4294971653,B.CN,4294971654,B.CO,4294971655,B.CP,4294971656,B.CQ,4294971657,B.CR,4294971658,B.CS,4294971659,B.CT,4294971660,B.CU,4294971661,B.CV,4294971662,B.CW,4294971663,B.CX,4294971664,B.CY,4294971665,B.CZ,4294971666,B.D_,4294971667,B.D0,4294971668,B.D1,4294971669,B.D2,4294971670,B.D3,4294971671,B.D4,4294971672,B.D5,4294971673,B.D6,4294971674,B.D7,4294971675,B.D8,4294971905,B.D9,4294971906,B.Da,8589934592,B.aqj,8589934593,B.aqk,8589934594,B.aql,8589934595,B.aqm,8589934608,B.aqn,8589934609,B.aqo,8589934610,B.aqp,8589934611,B.aqq,8589934612,B.aqr,8589934624,B.aqs,8589934625,B.aqt,8589934626,B.aqu,8589934848,B.jc,8589934849,B.lQ,8589934850,B.e1,8589934851,B.eD,8589934852,B.jd,8589934853,B.lR,8589934854,B.je,8589934855,B.lS,8589935088,B.qw,8589935090,B.qx,8589935092,B.qy,8589935094,B.qz,8589935117,B.lT,8589935144,B.aqv,8589935145,B.aqw,8589935146,B.Dp,8589935147,B.Dq,8589935148,B.aqx,8589935149,B.Dr,8589935150,B.ft,8589935151,B.Ds,8589935152,B.qA,8589935153,B.jf,8589935154,B.fu,8589935155,B.jg,8589935156,B.fv,8589935157,B.qB,8589935158,B.fw,8589935159,B.jh,8589935160,B.fx,8589935161,B.ji,8589935165,B.aqy,8589935361,B.aqz,8589935362,B.aqA,8589935363,B.aqB,8589935364,B.aqC,8589935365,B.aqD,8589935366,B.aqE,8589935367,B.aqF,8589935368,B.aqG,8589935369,B.aqH,8589935370,B.aqI,8589935371,B.aqJ,8589935372,B.aqK,8589935373,B.aqL,8589935374,B.aqM,8589935375,B.aqN,8589935376,B.aqO,8589935377,B.aqP,8589935378,B.aqQ,8589935379,B.aqR,8589935380,B.aqS,8589935381,B.aqT,8589935382,B.aqU,8589935383,B.aqV,8589935384,B.aqW,8589935385,B.aqX,8589935386,B.aqY,8589935387,B.aqZ,8589935388,B.ar_,8589935389,B.ar0,8589935390,B.ar1,8589935391,B.ar2],A.ac("e0<i,z>"))
-B.ayE={fire:0,frost:1,poison:2,shadow:3,slimeball:4,combust:5,wind:6,force:7,arcane:8,bolt:9,impact:10}
+B.ayF={fire:0,frost:1,poison:2,shadow:3,slimeball:4,combust:5,wind:6,force:7,arcane:8,bolt:9,impact:10}
 B.Y0=new A.lg("#fff1c2","#ffb347","#ff5a14")
 B.XY=new A.lg("#f2fdff","#9fe6ff","#22b0ff")
 B.Y2=new A.lg("#f3ffd6","#a6ec6a","#3fb81c")
@@ -152604,9 +152604,9 @@ B.Y3=new A.lg("#f2fffd","#7ff0e0","#19b8b0")
 B.Y4=new A.lg("#fffbe8","#ffe08a","#d49a17")
 B.Y5=new A.lg("#ffffff","#cfe6ff","#5f9dff")
 B.Y_=new A.lg("#ffffff","#ffd6a8","#ff8a3a")
-B.cX=new A.E(B.ayE,[B.Y0,B.XY,B.Y2,B.XZ,B.Y1,B.Y6,B.vY,B.Y3,B.Y4,B.Y5,B.Y_],A.ac("E<e,lg>"))
-B.axV={not_your_turn:0,in_placement:1,in_combat:2,bad_tile:3,not_in_fight:4,no_fight:5,not_leader:6,not_on_bar:7,bad_action:8,closed:9}
-B.as_=new A.E(B.axV,["Not your turn","The fight has not started","The fight has already started","Pick a blue tile","You are not in that fight","That fight is over","Only the leader starts the fight","Not on your bar","That action did not work","Joining has closed"],t.l)
+B.cX=new A.E(B.ayF,[B.Y0,B.XY,B.Y2,B.XZ,B.Y1,B.Y6,B.vY,B.Y3,B.Y4,B.Y5,B.Y_],A.ac("E<e,lg>"))
+B.axW={not_your_turn:0,in_placement:1,in_combat:2,bad_tile:3,not_in_fight:4,no_fight:5,not_leader:6,not_on_bar:7,bad_action:8,closed:9}
+B.as_=new A.E(B.axW,["Not your turn","The fight has not started","The fight has already started","Pick a blue tile","You are not in that fight","That fight is over","Only the leader starts the fight","Not on your bar","That action did not work","Joining has closed"],t.l)
 B.Es={walk:0,spellcast:1,idle:2}
 B.anv=s([1,2,3,4,5,6,7,8],t.t)
 B.anc=s([0,1,2,3,4,5,6,6,6],t.t)
@@ -152636,44 +152636,46 @@ B.aNK=new A.iG(B.c5,B.mu)
 B.aNJ=new A.iG(B.dI,B.mu)
 B.rd=new A.iG(B.c3,B.ju)
 B.as9=new A.e0([B.mH,B.Qo,B.mK,B.uh,B.aPJ,B.uh,B.JR,B.uj,B.JS,B.uo,B.JG,B.uq,B.jE,B.aNI,B.jF,B.aNH,B.hR,B.aNK,B.hS,B.aNJ,B.jy,B.rd,B.jB,B.mv],t.Fp)
-B.azy={mdef:0}
+B.azz={mdef:0}
 B.xj=s([1,3],t.a0)
-B.asC=new A.E(B.azy,[B.xj],t.nw)
-B.ayt={def:0,hp:1}
+B.asC=new A.E(B.azz,[B.xj],t.nw)
+B.ayu={def:0,hp:1}
 B.a5G=s([2,4],t.a0)
 B.aaf=s([8,12],t.a0)
-B.asX=new A.E(B.ayt,[B.a5G,B.aaf],t.nw)
+B.asX=new A.E(B.ayu,[B.a5G,B.aaf],t.nw)
 B.Er={def:0}
 B.av3=new A.E(B.Er,[B.xj],t.nw)
 B.pU=s([1,2],t.a0)
 B.av2=new A.E(B.Er,[B.pU],t.nw)
-B.ayu={def:0,mdef:1}
-B.avb=new A.E(B.ayu,[B.pU,B.pU],t.nw)
+B.ayv={def:0,mdef:1}
+B.avb=new A.E(B.ayv,[B.pU,B.pU],t.nw)
 B.Dz=new A.E(B.hF,[B.asC,B.asX,B.av3,B.av2,B.avb],A.ac("E<e,au<e,H<bg>>>"))
 B.DA=new A.E(B.hF,["Keeps the blows off your head.","The main piece. Most of your protection.","Covers your legs on the march.","Good boots save a long walk.","Gloves for a firmer grip."],t.l)
 B.asc=new A.E(B.hF,["Rag Hood","Rag Shirt","Rag Trousers","Rag Sandals","Rag Wraps"],t.l)
-B.axU={water:0,fire:1,earth:2,wind:3}
+B.axV={water:0,fire:1,earth:2,wind:3}
 B.a6z=s([402030,2783487,11853055],t.t)
 B.a81=s([5898240,16722448,16756800],t.t)
 B.a68=s([3815944,13152288,15788176],t.t)
 B.a4X=s([217182,1364700,12910586],t.t)
-B.asg=new A.E(B.axU,[B.a6z,B.a81,B.a68,B.a4X],t.SQ)
+B.asg=new A.E(B.axV,[B.a6z,B.a81,B.a68,B.a4X],t.SQ)
+B.axT={"music/village":0,"bgs_loops/forest_day/forest_day":1,"bgs_loops/cave/cave":2,"bgs_loops/beach/beach":3}
+B.DB=new A.E(B.axT,[0.22,0.66,0.46,0.4],t.J)
 B.axP={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Esc:49,Escape:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
 B.asi=new A.E(B.axP,[458907,458873,458978,458982,458833,458832,458831,458834,458881,458879,458880,458805,458801,458794,458799,458800,786544,786543,786980,786986,786981,786979,786983,786977,786982,458809,458806,458853,458976,458980,458890,458876,458875,458828,458791,458782,458783,458784,458785,458786,458787,458788,458789,458790,65717,786616,458829,458792,458798,458793,458793,458810,458819,458820,458821,458856,458857,458858,458859,458860,458861,458862,458811,458863,458864,458865,458866,458867,458812,458813,458814,458815,458816,458817,458818,458878,18,19,392961,392970,392971,392972,392973,392974,392975,392976,392962,392963,392964,392965,392966,392967,392968,392969,392977,392978,392979,392980,392981,392982,392983,392984,392985,392986,392987,392988,392989,392990,392991,458869,458826,16,458825,458852,458887,458889,458888,458756,458757,458758,458759,458760,458761,458762,458763,458764,458765,458766,458767,458768,458769,458770,458771,458772,458773,458774,458775,458776,458777,458778,458779,458780,458781,787101,458896,458897,458898,458899,458900,786836,786834,786891,786847,786826,786865,787083,787081,787084,786611,786609,786608,786637,786610,786612,786819,786615,786613,786614,458979,458983,24,458797,458891,458835,458850,458841,458842,458843,458844,458845,458846,458847,458848,458849,458839,458939,458968,458969,458885,458851,458836,458840,458855,458963,458962,458961,458960,458964,458837,458934,458935,458838,458868,458830,458827,458877,458824,458807,458854,458822,23,458915,458804,21,458823,458871,786850,458803,458977,458981,787103,458808,65666,458796,17,20,458795,22,458874,65667,786994],t.I)
-B.azA={equips:0,potions:1,food:2,bags:3,sell:4}
-B.DB=new A.E(B.azA,["Equips","Potions","Food","Bags","Sell"],t.l)
+B.azB={equips:0,potions:1,food:2,bags:3,sell:4}
+B.DC=new A.E(B.azB,["Equips","Potions","Food","Bags","Sell"],t.l)
 B.aIO=new A.hV("The village workbenches are there.","Walk to the huts")
 B.aId=new A.hV("It shows what you can make.","Tap the bench")
 B.aIL=new A.hV("Each row makes one thing.","Pick a recipe")
 B.aID=new A.hV("Your first craft.","Tap Craft")
-B.DC=new A.e0([1,B.aIO,2,B.aId,3,B.aIL,4,B.aID],t.Vb)
-B.azB={meadow:0,cave:1,village:2,village_chief:3,village_healer:4,village_family:5,hut_carpenter:6,hut_herbalist:7,hut_smithy:8,tent:9,shore:10,landing:11}
-B.asu=new A.E(B.azB,[7,6,4,0,0,0,0,0,0,0,0,0],t.I)
+B.DD=new A.e0([1,B.aIO,2,B.aId,3,B.aIL,4,B.aID],t.Vb)
+B.azC={meadow:0,cave:1,village:2,village_chief:3,village_healer:4,village_family:5,hut_carpenter:6,hut_herbalist:7,hut_smithy:8,tent:9,shore:10,landing:11}
+B.asu=new A.E(B.azC,[7,6,4,0,0,0,0,0,0,0,0,0],t.I)
 B.asv=new A.e0([0,"FontWeight.w100",1,"FontWeight.w200",2,"FontWeight.w300",3,"FontWeight.w400",4,"FontWeight.w500",5,"FontWeight.w600",6,"FontWeight.w700",7,"FontWeight.w800",8,"FontWeight.w900"],t.TM)
 B.Em={AVRInput:0,AVRPower:1,Accel:2,Accept:3,Again:4,AllCandidates:5,Alphanumeric:6,AltGraph:7,AppSwitch:8,ArrowDown:9,ArrowLeft:10,ArrowRight:11,ArrowUp:12,Attn:13,AudioBalanceLeft:14,AudioBalanceRight:15,AudioBassBoostDown:16,AudioBassBoostToggle:17,AudioBassBoostUp:18,AudioFaderFront:19,AudioFaderRear:20,AudioSurroundModeNext:21,AudioTrebleDown:22,AudioTrebleUp:23,AudioVolumeDown:24,AudioVolumeMute:25,AudioVolumeUp:26,Backspace:27,BrightnessDown:28,BrightnessUp:29,BrowserBack:30,BrowserFavorites:31,BrowserForward:32,BrowserHome:33,BrowserRefresh:34,BrowserSearch:35,BrowserStop:36,Call:37,Camera:38,CameraFocus:39,Cancel:40,CapsLock:41,ChannelDown:42,ChannelUp:43,Clear:44,Close:45,ClosedCaptionToggle:46,CodeInput:47,ColorF0Red:48,ColorF1Green:49,ColorF2Yellow:50,ColorF3Blue:51,ColorF4Grey:52,ColorF5Brown:53,Compose:54,ContextMenu:55,Convert:56,Copy:57,CrSel:58,Cut:59,DVR:60,Delete:61,Dimmer:62,DisplaySwap:63,Eisu:64,Eject:65,End:66,EndCall:67,Enter:68,EraseEof:69,Esc:70,Escape:71,ExSel:72,Execute:73,Exit:74,F1:75,F10:76,F11:77,F12:78,F13:79,F14:80,F15:81,F16:82,F17:83,F18:84,F19:85,F2:86,F20:87,F21:88,F22:89,F23:90,F24:91,F3:92,F4:93,F5:94,F6:95,F7:96,F8:97,F9:98,FavoriteClear0:99,FavoriteClear1:100,FavoriteClear2:101,FavoriteClear3:102,FavoriteRecall0:103,FavoriteRecall1:104,FavoriteRecall2:105,FavoriteRecall3:106,FavoriteStore0:107,FavoriteStore1:108,FavoriteStore2:109,FavoriteStore3:110,FinalMode:111,Find:112,Fn:113,FnLock:114,GoBack:115,GoHome:116,GroupFirst:117,GroupLast:118,GroupNext:119,GroupPrevious:120,Guide:121,GuideNextDay:122,GuidePreviousDay:123,HangulMode:124,HanjaMode:125,Hankaku:126,HeadsetHook:127,Help:128,Hibernate:129,Hiragana:130,HiraganaKatakana:131,Home:132,Hyper:133,Info:134,Insert:135,InstantReplay:136,JunjaMode:137,KanaMode:138,KanjiMode:139,Katakana:140,Key11:141,Key12:142,LastNumberRedial:143,LaunchApplication1:144,LaunchApplication2:145,LaunchAssistant:146,LaunchCalendar:147,LaunchContacts:148,LaunchControlPanel:149,LaunchMail:150,LaunchMediaPlayer:151,LaunchMusicPlayer:152,LaunchPhone:153,LaunchScreenSaver:154,LaunchSpreadsheet:155,LaunchWebBrowser:156,LaunchWebCam:157,LaunchWordProcessor:158,Link:159,ListProgram:160,LiveContent:161,Lock:162,LogOff:163,MailForward:164,MailReply:165,MailSend:166,MannerMode:167,MediaApps:168,MediaAudioTrack:169,MediaClose:170,MediaFastForward:171,MediaLast:172,MediaPause:173,MediaPlay:174,MediaPlayPause:175,MediaRecord:176,MediaRewind:177,MediaSkip:178,MediaSkipBackward:179,MediaSkipForward:180,MediaStepBackward:181,MediaStepForward:182,MediaStop:183,MediaTopMenu:184,MediaTrackNext:185,MediaTrackPrevious:186,MicrophoneToggle:187,MicrophoneVolumeDown:188,MicrophoneVolumeMute:189,MicrophoneVolumeUp:190,ModeChange:191,NavigateIn:192,NavigateNext:193,NavigateOut:194,NavigatePrevious:195,New:196,NextCandidate:197,NextFavoriteChannel:198,NextUserProfile:199,NonConvert:200,Notification:201,NumLock:202,OnDemand:203,Open:204,PageDown:205,PageUp:206,Pairing:207,Paste:208,Pause:209,PinPDown:210,PinPMove:211,PinPToggle:212,PinPUp:213,Play:214,PlaySpeedDown:215,PlaySpeedReset:216,PlaySpeedUp:217,Power:218,PowerOff:219,PreviousCandidate:220,Print:221,PrintScreen:222,Process:223,Props:224,RandomToggle:225,RcLowBattery:226,RecordSpeedNext:227,Redo:228,RfBypass:229,Romaji:230,STBInput:231,STBPower:232,Save:233,ScanChannelsToggle:234,ScreenModeNext:235,ScrollLock:236,Select:237,Settings:238,ShiftLevel5:239,SingleCandidate:240,Soft1:241,Soft2:242,Soft3:243,Soft4:244,Soft5:245,Soft6:246,Soft7:247,Soft8:248,SpeechCorrectionList:249,SpeechInputToggle:250,SpellCheck:251,SplitScreenToggle:252,Standby:253,Subtitle:254,Super:255,Symbol:256,SymbolLock:257,TV:258,TV3DMode:259,TVAntennaCable:260,TVAudioDescription:261,TVAudioDescriptionMixDown:262,TVAudioDescriptionMixUp:263,TVContentsMenu:264,TVDataService:265,TVInput:266,TVInputComponent1:267,TVInputComponent2:268,TVInputComposite1:269,TVInputComposite2:270,TVInputHDMI1:271,TVInputHDMI2:272,TVInputHDMI3:273,TVInputHDMI4:274,TVInputVGA1:275,TVMediaContext:276,TVNetwork:277,TVNumberEntry:278,TVPower:279,TVRadioService:280,TVSatellite:281,TVSatelliteBS:282,TVSatelliteCS:283,TVSatelliteToggle:284,TVTerrestrialAnalog:285,TVTerrestrialDigital:286,TVTimer:287,Tab:288,Teletext:289,Undo:290,Unidentified:291,VideoModeNext:292,VoiceDial:293,WakeUp:294,Wink:295,Zenkaku:296,ZenkakuHankaku:297,ZoomIn:298,ZoomOut:299,ZoomToggle:300}
 B.asx=new A.E(B.Em,[B.B4,B.B5,B.yL,B.z_,B.z0,B.zo,B.zp,B.lN,B.Cy,B.cD,B.cn,B.co,B.cE,B.z1,B.AY,B.AZ,B.B_,B.Cp,B.B0,B.B1,B.B2,B.B3,B.Cq,B.Cr,B.Az,B.AB,B.AA,B.bW,B.zd,B.ze,B.AR,B.AS,B.AT,B.AU,B.AV,B.AW,B.AX,B.Cz,B.zf,B.CA,B.z2,B.j8,B.B6,B.B7,B.qv,B.Am,B.Be,B.zq,B.B8,B.B9,B.Ba,B.Bb,B.Bc,B.Bd,B.zr,B.z3,B.zs,B.yS,B.yT,B.yU,B.Cc,B.bX,B.Bf,B.Bg,B.zH,B.zg,B.fr,B.CB,B.hs,B.yV,B.eC,B.eC,B.yW,B.z4,B.Bh,B.zR,B.A_,B.A0,B.A1,B.A2,B.A3,B.A4,B.A5,B.A6,B.A7,B.A8,B.zS,B.A9,B.Aa,B.Ab,B.Ac,B.Ad,B.zT,B.zU,B.zV,B.zW,B.zX,B.zY,B.zZ,B.Bi,B.Bj,B.Bk,B.Bl,B.Bm,B.Bn,B.Bo,B.Bp,B.Bq,B.Br,B.Bs,B.Bt,B.zt,B.z5,B.qu,B.yM,B.CC,B.CD,B.zu,B.zv,B.zw,B.zx,B.Bu,B.Bv,B.Bw,B.zE,B.zF,B.zI,B.CE,B.z6,B.zl,B.zJ,B.zK,B.fs,B.yN,B.Bx,B.jb,B.By,B.zG,B.zL,B.zM,B.zN,B.D9,B.Da,B.CF,B.AH,B.AC,B.AP,B.AD,B.AN,B.AQ,B.AE,B.AF,B.AG,B.AO,B.AI,B.AJ,B.AK,B.AL,B.AM,B.Bz,B.BA,B.BB,B.BC,B.zh,B.An,B.Ao,B.Ap,B.CH,B.BD,B.Cd,B.Co,B.BE,B.BF,B.BG,B.BH,B.Aq,B.BI,B.BJ,B.BK,B.Ce,B.Cf,B.Cg,B.Ch,B.Ar,B.Ci,B.As,B.At,B.Cs,B.Ct,B.Cv,B.Cu,B.zy,B.Cj,B.Ck,B.Cl,B.Cm,B.Au,B.zz,B.BL,B.BM,B.zA,B.CG,B.lO,B.BN,B.Av,B.j9,B.ja,B.Cn,B.yX,B.z7,B.BO,B.BP,B.BQ,B.BR,B.z8,B.BS,B.BT,B.BU,B.zi,B.zj,B.zB,B.Aw,B.zk,B.zC,B.z9,B.BV,B.BW,B.BX,B.yY,B.BY,B.zO,B.C2,B.C3,B.Ax,B.BZ,B.C_,B.lP,B.za,B.C0,B.yR,B.zD,B.Ae,B.Af,B.Ag,B.Ah,B.Ai,B.Aj,B.Ak,B.Al,B.Cw,B.Cx,B.Ay,B.C1,B.zm,B.C4,B.yO,B.yP,B.yQ,B.C6,B.CJ,B.CK,B.CL,B.CM,B.CN,B.CO,B.CP,B.C7,B.CQ,B.CR,B.CS,B.CT,B.CU,B.CV,B.CW,B.CX,B.CY,B.CZ,B.D_,B.D0,B.C8,B.D1,B.D2,B.D3,B.D4,B.D5,B.D6,B.D7,B.D8,B.lM,B.C5,B.yZ,B.yK,B.C9,B.CI,B.zn,B.Ca,B.zP,B.zQ,B.zb,B.zc,B.Cb],A.ac("E<e,z>"))
-B.ayo={chief:0}
-B.asy=new A.E(B.ayo,["voiceChiefLater"],t.l)
+B.ayp={chief:0}
+B.asy=new A.E(B.ayp,["voiceChiefLater"],t.l)
 B.asz=new A.E(B.Em,[4294970632,4294970633,4294967553,4294968577,4294968578,4294969089,4294969090,4294967555,4294971393,4294968065,4294968066,4294968067,4294968068,4294968579,4294970625,4294970626,4294970627,4294970882,4294970628,4294970629,4294970630,4294970631,4294970884,4294970885,4294969871,4294969873,4294969872,4294967304,4294968833,4294968834,4294970369,4294970370,4294970371,4294970372,4294970373,4294970374,4294970375,4294971394,4294968835,4294971395,4294968580,4294967556,4294970634,4294970635,4294968321,4294969857,4294970642,4294969091,4294970636,4294970637,4294970638,4294970639,4294970640,4294970641,4294969092,4294968581,4294969093,4294968322,4294968323,4294968324,4294970703,4294967423,4294970643,4294970644,4294969108,4294968836,4294968069,4294971396,4294967309,4294968325,4294967323,4294967323,4294968326,4294968582,4294970645,4294969345,4294969354,4294969355,4294969356,4294969357,4294969358,4294969359,4294969360,4294969361,4294969362,4294969363,4294969346,4294969364,4294969365,4294969366,4294969367,4294969368,4294969347,4294969348,4294969349,4294969350,4294969351,4294969352,4294969353,4294970646,4294970647,4294970648,4294970649,4294970650,4294970651,4294970652,4294970653,4294970654,4294970655,4294970656,4294970657,4294969094,4294968583,4294967558,4294967559,4294971397,4294971398,4294969095,4294969096,4294969097,4294969098,4294970658,4294970659,4294970660,4294969105,4294969106,4294969109,4294971399,4294968584,4294968841,4294969110,4294969111,4294968070,4294967560,4294970661,4294968327,4294970662,4294969107,4294969112,4294969113,4294969114,4294971905,4294971906,4294971400,4294970118,4294970113,4294970126,4294970114,4294970124,4294970127,4294970115,4294970116,4294970117,4294970125,4294970119,4294970120,4294970121,4294970122,4294970123,4294970663,4294970664,4294970665,4294970666,4294968837,4294969858,4294969859,4294969860,4294971402,4294970667,4294970704,4294970715,4294970668,4294970669,4294970670,4294970671,4294969861,4294970672,4294970673,4294970674,4294970705,4294970706,4294970707,4294970708,4294969863,4294970709,4294969864,4294969865,4294970886,4294970887,4294970889,4294970888,4294969099,4294970710,4294970711,4294970712,4294970713,4294969866,4294969100,4294970675,4294970676,4294969101,4294971401,4294967562,4294970677,4294969867,4294968071,4294968072,4294970714,4294968328,4294968585,4294970678,4294970679,4294970680,4294970681,4294968586,4294970682,4294970683,4294970684,4294968838,4294968839,4294969102,4294969868,4294968840,4294969103,4294968587,4294970685,4294970686,4294970687,4294968329,4294970688,4294969115,4294970693,4294970694,4294969869,4294970689,4294970690,4294967564,4294968588,4294970691,4294967569,4294969104,4294969601,4294969602,4294969603,4294969604,4294969605,4294969606,4294969607,4294969608,4294971137,4294971138,4294969870,4294970692,4294968842,4294970695,4294967566,4294967567,4294967568,4294970697,4294971649,4294971650,4294971651,4294971652,4294971653,4294971654,4294971655,4294970698,4294971656,4294971657,4294971658,4294971659,4294971660,4294971661,4294971662,4294971663,4294971664,4294971665,4294971666,4294971667,4294970699,4294971668,4294971669,4294971670,4294971671,4294971672,4294971673,4294971674,4294971675,4294967305,4294970696,4294968330,4294967297,4294970700,4294971403,4294968843,4294970701,4294969116,4294969117,4294968589,4294968590,4294970702],t.I)
 B.axO={swordsman_earthbreaker__unshaken:0,swordsman_earthbreaker__landslide:1,swordsman_warlord__pain_to_power:2,swordsman_runeknight__spark_edge:3,swordsman_spellblade__twin_brand:4,archer_breaker__wallbreaker:5,archer_venom__weakening_venom:6,archer_venom__necrosis:7,archer_stalker__wither:8,swordsman_warlord__menace:9,mage_stormcaller__cold_snap:10,mage_stormcaller__absolute_zero:11,swordsman_runeknight__spell_breaker:12,swordsman_warlord__unbreakable:13,mage_thermal__thermal_shock:14,priest_inquisitor__iron_faith:15,thief_nightblade__coup_de_grace:16,thief_assassin__cull:17,thief_dancer__blade_waltz:18,thief_assassin__serial:19,thief_dancer__momentum:20,thief_shadow__corrode:21,priest_hand_of_fate__rapture_lock:22,priest_inquisitor__chains_of_light:23}
 B.IA=new A.cm("assets/icons/mechanics/trait_block.png","assets/icons/mechanics/push.png")
@@ -152708,11 +152710,11 @@ B.bdK=s(["seed_copper","seed_tin","seed_iron","seed_coal","seed_silver","seed_mi
 B.awD=new A.Ft("ore","Ore vein","tool_pick","mining",B.ahU)
 B.dd=new A.E(B.En,[B.awE,B.awF,B.awD],A.ac("E<e,Ft>"))
 B.Eq={ap:0,mp:1,range:2,damage:3,heal:4,shield:5,cooldown:6,uses:7,los:8,no_los:9,area:10,line:11,push:12,pull:13,dash:14,teleport:15,zone:16,duration:17,status_chance:18,crit:19,lifesteal:20,summon:21,melee:22,cleanse:23}
-B.DD=new A.E(B.Eq,["AP","MP","Range","Damage","Heal","Shield","Cooldown","Uses","Line of sight","No line of sight","Area","Line","Push","Pull","Dash","Teleport","Zone","Duration","Status chance","Crit","Lifesteal","Summon","Melee","Cleanse"],t.l)
+B.DE=new A.E(B.Eq,["AP","MP","Range","Damage","Heal","Shield","Cooldown","Uses","Line of sight","No line of sight","Area","Line","Push","Pull","Dash","Teleport","Zone","Duration","Status chance","Crit","Lifesteal","Summon","Melee","Cleanse"],t.l)
 B.asD=new A.E(B.Eq,["What the skill costs to cast.","What a step costs to walk.","How far it reaches, in tiles.","The damage it deals.","Health it restores.","Damage absorbed before HP.","Turns before it is ready again.","Times it can be used in one fight.","Needs a clear line of sight.","Works without line of sight.","Hits an area, not one tile.","Hits in a straight line.","Knocks units away.","Drags units closer.","The caster moves.","Moves without crossing the tiles between.","Leaves a zone on the ground.","Turns it lasts.","Chance to apply its status.","Bonus on a critical hit.","Heals the caster for part of the damage.","Calls an ally onto the board.","Hits the tile next to you.","Removes statuses."],t.l)
 B.axM={stunned:0,frozen:1,chilled:2,poison:3,burn:4,rooted:5,snared:6,sticky:7,smoked:8,rattled:9,marked:10,taunted:11,shielded:12,guarded:13,blessed:14,divineGrace:15,charged:16,hawkEye:17,hidden:18,smokeVeil:19,reflect:20,mpBoost:21,apBoost:22,robbed:23}
 B.hu=new A.E(B.axM,["st_stun","st_freeze","st_freeze","st_poison","st_burn","st_rooted","st_rooted","st_sticky","st_smoked","st_fear","st_marked","st_taunted","st_shielded","st_guarded","st_blessed","st_blessed","st_charged","st_hawk_eye","st_hidden","st_hidden","st_reflect","st_mana_up","st_ap_up","st_robbed"],t.l)
-B.aA1={grass:0,forestFloor:1,flowers:2,stone:3,moss:4,grassWarm:5,grassCool:6,grassTuft:7,dirt:8,grout:9,wall:10,crev:11,rock:12,rockTop:13,rockFace:14,water:15,waterDeep:16,bank:17,foam:18,wood:19,woodDark:20}
+B.aA2={grass:0,forestFloor:1,flowers:2,stone:3,moss:4,grassWarm:5,grassCool:6,grassTuft:7,dirt:8,grout:9,wall:10,crev:11,rock:12,rockTop:13,rockFace:14,water:15,waterDeep:16,bank:17,foam:18,wood:19,woodDark:20}
 B.a9u=s([78,73,65],t.t)
 B.aav=s([90,84,74],t.t)
 B.a3x=s([101,94,83],t.t)
@@ -152723,8 +152725,8 @@ B.a7V=s([56,50,46],t.t)
 B.a8N=s([67,59,54],t.t)
 B.a9t=s([78,69,63],t.t)
 B.aaA=s([B.a79,B.a7V,B.a8N,B.a9t],t.r)
-B.DE=new A.E(B.aA1,[B.bI,B.fm,B.xB,B.fn,B.du,B.xC,B.xL,B.yl,B.xZ,B.pV,B.lx,B.iW,B.fk,B.aj9,B.aaA,B.q3,B.yi,B.qp,B.qo,B.j4,B.hr],t.yf)
-B.azJ={combo_armorBreak:0,combo_bulwark:1,combo_crashAura:2,combo_shatter:3}
+B.DF=new A.E(B.aA2,[B.bI,B.fm,B.xB,B.fn,B.du,B.xC,B.xL,B.yl,B.xZ,B.pV,B.lx,B.iW,B.fk,B.aj9,B.aaA,B.q3,B.yi,B.qp,B.qo,B.j4,B.hr],t.yf)
+B.azK={combo_armorBreak:0,combo_bulwark:1,combo_crashAura:2,combo_shatter:3}
 B.Zr=new A.cg("vfx_slash_ultimate","target",0,null,0.85,-24,18,0,!0)
 B.Zw=new A.cg("vfx_holy_gold","target",160,null,0.55,-8,0,0,!1)
 B.alE=s([B.Zr,B.Zw],t.E)
@@ -152737,19 +152739,19 @@ B.a4S=s([B.ZG,B.Z1],t.E)
 B.YW=new A.cg("vfx_cslash_gold","target",0,null,1.1,-24,0,-1.5707963267948966,!0)
 B.Zt=new A.cg("vfx_star_burst","target",300,null,1.05,-26,0,0,!1)
 B.amz=s([B.YW,B.Zt],t.E)
-B.asG=new A.E(B.azJ,[B.alE,B.aaE,B.a4S,B.amz],t.CR)
+B.asG=new A.E(B.azK,[B.alE,B.aaE,B.a4S,B.amz],t.CR)
 B.jl={adventurer:0,sword:1,archer:2,mage:3,thief:4,priest:5}
 B.asI=new A.E(B.jl,["Adventurer","Swordsman","Archer","Mage","Thief","Priest"],t.l)
 B.z=new A.E(B.b9,[],t.J)
-B.axZ={str:0,int:1,vit:2}
-B.arK=new A.E(B.axZ,[0.005,0.005,0.005],t.J)
+B.ay_={str:0,int:1,vit:2}
+B.arK=new A.E(B.ay_,[0.005,0.005,0.005],t.J)
 B.axD={str:0,int:1,agi:2}
 B.m0=new A.E(B.axD,[0.005,0.005,0.005],t.J)
 B.lY=new A.E(B.jl,[B.z,B.arK,B.m0,B.m0,B.m0,B.m0],t.Ic)
 B.asJ=new A.E(B.jl,["str","str","str","int","str","int"],t.l)
 B.asK=new A.E(B.jl,["phys","phys","phys","mag","phys","mag"],t.l)
-B.azx={alias:0,allScroll:1,basic:2,cell:3,click:4,contextMenu:5,copy:6,forbidden:7,grab:8,grabbing:9,help:10,move:11,none:12,noDrop:13,precise:14,progress:15,text:16,resizeColumn:17,resizeDown:18,resizeDownLeft:19,resizeDownRight:20,resizeLeft:21,resizeLeftRight:22,resizeRight:23,resizeRow:24,resizeUp:25,resizeUpDown:26,resizeUpLeft:27,resizeUpRight:28,resizeUpLeftDownRight:29,resizeUpRightDownLeft:30,verticalText:31,wait:32,zoomIn:33,zoomOut:34}
-B.asL=new A.E(B.azx,["alias","all-scroll","default","cell","pointer","context-menu","copy","not-allowed","grab","grabbing","help","move","none","no-drop","crosshair","progress","text","col-resize","s-resize","sw-resize","se-resize","w-resize","ew-resize","e-resize","row-resize","n-resize","ns-resize","nw-resize","ne-resize","nwse-resize","nesw-resize","vertical-text","wait","zoom-in","zoom-out"],t.l)
+B.azy={alias:0,allScroll:1,basic:2,cell:3,click:4,contextMenu:5,copy:6,forbidden:7,grab:8,grabbing:9,help:10,move:11,none:12,noDrop:13,precise:14,progress:15,text:16,resizeColumn:17,resizeDown:18,resizeDownLeft:19,resizeDownRight:20,resizeLeft:21,resizeLeftRight:22,resizeRight:23,resizeRow:24,resizeUp:25,resizeUpDown:26,resizeUpLeft:27,resizeUpRight:28,resizeUpLeftDownRight:29,resizeUpRightDownLeft:30,verticalText:31,wait:32,zoomIn:33,zoomOut:34}
+B.asL=new A.E(B.azy,["alias","all-scroll","default","cell","pointer","context-menu","copy","not-allowed","grab","grabbing","help","move","none","no-drop","crosshair","progress","text","col-resize","s-resize","sw-resize","se-resize","w-resize","ew-resize","e-resize","row-resize","n-resize","ns-resize","nw-resize","ne-resize","nwse-resize","nesw-resize","vertical-text","wait","zoom-in","zoom-out"],t.l)
 B.m9={red:0,blue:1,green:2,teal:3}
 B.asP=new A.E(B.m9,["fire","water","earth","wind"],t.l)
 B.bd5=new A.IZ(2,"up")
@@ -152767,62 +152769,62 @@ B.aPP=new A.aV(B.bW,!1,!0,!0,!1,B.E)
 B.aPG=new A.aV(B.bW,!1,!1,!0,!1,B.E)
 B.aQ2=new A.aV(B.bX,!1,!0,!0,!1,B.E)
 B.aPT=new A.aV(B.bX,!1,!1,!0,!1,B.E)
-B.DF=new A.e0([B.aPY,B.N,B.aPu,B.N,B.JF,B.N,B.JC,B.N,B.aPP,B.N,B.aPG,B.N,B.aQ2,B.N,B.aPT,B.N],t.Fp)
+B.DG=new A.e0([B.aPY,B.N,B.aPu,B.N,B.JF,B.N,B.JC,B.N,B.aPP,B.N,B.aPG,B.N,B.aQ2,B.N,B.aPT,B.N],t.Fp)
 B.ED={shootRapid:0}
 B.aaI=s([9,12,15],t.t)
 B.asU=new A.E(B.ED,[B.aaI],t.SQ)
 B.aj0=s([0,1,2,3,4,5,6,7,8,9,7,8,9,7,8,9,10],t.t)
-B.DG=new A.E(B.ED,[B.aj0],t.SQ)
+B.DH=new A.E(B.ED,[B.aj0],t.SQ)
 B.Ep={name:0,body:1,head:2,skin:3,eyes:4,hair:5,hairColor:6,shirt:7,shirtColor:8,legs:9,legsColor:10,feet:11,feetColor:12}
-B.DH=new A.E(B.Ep,["Hero","male","male","light","brown","plain","dark_brown","shortsleeve","grey","pants","grey","shoes","black"],t.l)
-B.DI=new A.E(B.Ep,["Hoz","male","male","light","brown","spiked","dark_brown","shortsleeve","white","pants","navy","shoes","white"],t.l)
-B.ayp={brute:0,skirmisher:1,ranger:2,caster:3,guardian:4,mystic:5}
-B.azX={str:0,vit:1}
-B.arL=new A.E(B.azX,[0.6,0.4],t.J)
-B.azV={str:0}
-B.avg=new A.E(B.azV,[0.005],t.J)
+B.DI=new A.E(B.Ep,["Hero","male","male","light","brown","plain","dark_brown","shortsleeve","grey","pants","grey","shoes","black"],t.l)
+B.DJ=new A.E(B.Ep,["Hoz","male","male","light","brown","spiked","dark_brown","shortsleeve","white","pants","navy","shoes","white"],t.l)
+B.ayq={brute:0,skirmisher:1,ranger:2,caster:3,guardian:4,mystic:5}
+B.azY={str:0,vit:1}
+B.arL=new A.E(B.azY,[0.6,0.4],t.J)
+B.azW={str:0}
+B.avg=new A.E(B.azW,[0.005],t.J)
 B.Ea=new A.rO("Brute",B.arL,B.avg)
 B.axs={agi:0,str:1,luk:2}
 B.aso=new A.E(B.axs,[0.5,0.4,0.1],t.J)
-B.ayi={agi:0}
-B.auP=new A.E(B.ayi,[0.005],t.J)
+B.ayj={agi:0}
+B.auP=new A.E(B.ayj,[0.005],t.J)
 B.avO=new A.rO("Skirmisher",B.aso,B.auP)
-B.azK={str:0,agi:1,luk:2}
-B.ast=new A.E(B.azK,[0.5,0.3,0.2],t.J)
-B.azW={str:0,agi:1}
-B.asH=new A.E(B.azW,[0.003,0.003],t.J)
+B.azL={str:0,agi:1,luk:2}
+B.ast=new A.E(B.azL,[0.5,0.3,0.2],t.J)
+B.azX={str:0,agi:1}
+B.asH=new A.E(B.azX,[0.003,0.003],t.J)
 B.avN=new A.rO("Ranger",B.ast,B.asH)
 B.aAj={int:0,wis:1,vit:2}
 B.atW=new A.E(B.aAj,[0.6,0.3,0.1],t.J)
-B.ayP={int:0}
-B.arB=new A.E(B.ayP,[0.005],t.J)
+B.ayQ={int:0}
+B.arB=new A.E(B.ayQ,[0.005],t.J)
 B.avQ=new A.rO("Caster",B.atW,B.arB)
-B.aAc={vit:0,str:1}
-B.att=new A.E(B.aAc,[0.6,0.4],t.J)
-B.aAb={vit:0}
-B.avk=new A.E(B.aAb,[0.005],t.J)
+B.aAd={vit:0,str:1}
+B.att=new A.E(B.aAd,[0.6,0.4],t.J)
+B.aAc={vit:0}
+B.avk=new A.E(B.aAc,[0.005],t.J)
 B.avR=new A.rO("Guardian",B.att,B.avk)
 B.axF={wis:0,vit:1,int:2}
 B.asr=new A.E(B.axF,[0.6,0.3,0.1],t.J)
 B.aAh={wis:0}
 B.asT=new A.E(B.aAh,[0.005],t.J)
 B.avP=new A.rO("Mystic",B.asr,B.asT)
-B.asZ=new A.E(B.ayp,[B.Ea,B.avO,B.avN,B.avQ,B.avR,B.avP],A.ac("E<e,rO>"))
-B.ayV={chest:0,legs:1,head:2,feet:3,hands:4}
-B.DK=new A.E(B.ayV,[0.3,0.2,0.2,0.15,0.15],t.J)
-B.axX={grey:0,red:1,blue:2,green:3,teal:4,rags:5}
-B.at_=new A.E(B.axX,[11844290,12597547,3108822,4102991,2074006,9134646],t.I)
-B.ayd={archer:0,mage:1,thief:2,sword:3,priest:4}
-B.at5=new A.E(B.ayd,["bow","staff","dagger","sword","book"],t.l)
+B.asZ=new A.E(B.ayq,[B.Ea,B.avO,B.avN,B.avQ,B.avR,B.avP],A.ac("E<e,rO>"))
+B.ayW={chest:0,legs:1,head:2,feet:3,hands:4}
+B.DL=new A.E(B.ayW,[0.3,0.2,0.2,0.15,0.15],t.J)
+B.axY={grey:0,red:1,blue:2,green:3,teal:4,rags:5}
+B.at_=new A.E(B.axY,[11844290,12597547,3108822,4102991,2074006,9134646],t.I)
+B.aye={archer:0,mage:1,thief:2,sword:3,priest:4}
+B.at5=new A.E(B.aye,["bow","staff","dagger","sword","book"],t.l)
 B.Eu={fx_fireball:0}
 B.at7=new A.E(B.Eu,[43],t.J)
-B.ay2={keeper:0,merchant:1,chief:2,homesteader:3}
-B.at8=new A.E(B.ay2,["voiceKeeper","voiceMerchant","voiceChief","voiceWyn"],t.l)
-B.azZ={stun:0}
-B.at9=new A.E(B.azZ,["stunned"],t.l)
+B.ay3={keeper:0,merchant:1,chief:2,homesteader:3}
+B.at8=new A.E(B.ay3,["voiceKeeper","voiceMerchant","voiceChief","voiceWyn"],t.l)
+B.aA_={stun:0}
+B.at9=new A.E(B.aA_,["stunned"],t.l)
 B.ata=new A.e0([1,"rocks/rock8_1",2,"rocks/rock5_1",3,"rocks/rock2_1",4,"rocks/rock7_1",5,"rocks/rock3_1",6,"rocks/rock3_1"],t.TM)
-B.ayR={str:0,agi:1,int:2,wis:3,luk:4,vit:5,crit:6,status:7,tenacity:8,ini:9,lock:10,dodge:11,lifesteal:12,healDone:13,healRecv:14,shieldGain:15,thorns:16,knockResist:17,apResist:18,mpResist:19,range:20,devotion:21,critDmg:22,hp:23,maxHp:24,atk:25,matk:26,def:27,mdef:28,finalDmg:29,finalRed:30}
-B.atd=new A.E(B.ayR,["str","agi","int","wis","luk","vit","crit","status","tenacity","ini","lock","dodge","lifesteal","heal_done","heal_recv","shield_gain","thorns","knock_resist","ap_resist","mp_resist","range","devotion","crit_dmg","hp","hp","atk","matk","def","mdef","final_dmg","final_red"],t.l)
+B.ayS={str:0,agi:1,int:2,wis:3,luk:4,vit:5,crit:6,status:7,tenacity:8,ini:9,lock:10,dodge:11,lifesteal:12,healDone:13,healRecv:14,shieldGain:15,thorns:16,knockResist:17,apResist:18,mpResist:19,range:20,devotion:21,critDmg:22,hp:23,maxHp:24,atk:25,matk:26,def:27,mdef:28,finalDmg:29,finalRed:30}
+B.atd=new A.E(B.ayS,["str","agi","int","wis","luk","vit","crit","status","tenacity","ini","lock","dodge","lifesteal","heal_done","heal_recv","shield_gain","thorns","knock_resist","ap_resist","mp_resist","range","devotion","crit_dmg","hp","hp","atk","matk","def","mdef","final_dmg","final_red"],t.l)
 B.axI={"weapon/sword":0,"weapon/dagger":1,"weapon/staff":2,"weapon/mace":3,"weapon/bow":4}
 B.axb={walk:0,idle:1,hurt:2}
 B.baV=new A.dY(8,"assets/lpc/weapon/sword/arming/universal/bg/walk/steel.png",64)
@@ -152856,11 +152858,11 @@ B.bbh=new A.dY(9,"assets/lpc/weapon/blunt/mace/universal_behind/hurt/mace.png",6
 B.bb_=new A.dY(140,"assets/lpc/weapon/blunt/mace/hurt/mace.png",64)
 B.ak2=s([B.bbh,B.bb_],t.w4)
 B.at2=new A.E(B.qT,[B.akK,B.ak2],t.kr)
-B.ayL={hurt:0}
+B.ayM={hurt:0}
 B.baU=new A.dY(-1,"assets/lpc/weapon/ranged/bow/normal/universal/background/hurt.png",64)
 B.baX=new A.dY(140,"assets/lpc/weapon/ranged/bow/normal/universal/foreground/hurt.png",64)
 B.aoa=s([B.baU,B.baX],t.w4)
-B.atH=new A.E(B.ayL,[B.aoa],t.kr)
+B.atH=new A.E(B.ayM,[B.aoa],t.kr)
 B.qF=new A.E(B.axI,[B.avl,B.at1,B.at0,B.at2,B.atH],A.ac("E<e,au<e,H<dY>>>"))
 B.axh={chief_ouru:0,chief_ouru_happy:1,neva:2,sela:3,wyn:4,vesh:5}
 B.pX=s([2,1],t.t)
@@ -152878,12 +152880,12 @@ B.a3f=s([0,4,5],t.t)
 B.Ej=new A.vR(B.yh,B.a3f,3,null)
 B.ax6=new A.vR(B.ajH,B.xd,1,2)
 B.ate=new A.E(B.axh,[B.ax4,B.ax7,B.ax5,B.Ej,B.Ej,B.ax6],A.ac("E<e,vR>"))
-B.ayw={poison:0,burn:1,frozen:2,stunned:3}
+B.ayx={poison:0,burn:1,frozen:2,stunned:3}
 B.Rz=new A.N(1,0.24705882352941178,0.7215686274509804,0.10980392156862745,B.h)
 B.SL=new A.N(1,1,0.5411764705882353,0.22745098039215686,B.h)
 B.Tc=new A.N(1,0.4980392156862745,0.8313725490196079,1,B.h)
 B.Sn=new A.N(1,1,0.8862745098039215,0.5411764705882353,B.h)
-B.DL=new A.E(B.ayw,[B.Rz,B.SL,B.Tc,B.Sn],A.ac("E<e,N>"))
+B.DM=new A.E(B.ayx,[B.Rz,B.SL,B.Tc,B.Sn],A.ac("E<e,N>"))
 B.axa={combo_keenEye:0,combo_snapback:1,combo_plagueCloud:2,combo_barbTrap:3}
 B.Z2=new A.cg("vfx_slash_wind","caster",0,null,1.2,-34,0,0,!1)
 B.Z4=new A.cg("vfx_slash_wind","caster",140,null,1,-16,0,3.141592653589793,!1)
@@ -152900,17 +152902,17 @@ B.ZA=new A.cg("vfx_ice_spikes","target",0,"#d4ff6a",1,-4,0,0,!1)
 B.Zg=new A.cg("vfx_cross_spark","target",160,"#c890ff",0.8,-22,0,0,!1)
 B.apw=s([B.ZA,B.Zg],t.E)
 B.atf=new A.E(B.axa,[B.aob,B.alv,B.ahB,B.apw],t.CR)
-B.ay8={heavy:0,medium:1,light:2,any:3}
-B.DM=new A.E(B.ay8,["Plate","Leather","Cloth","Rags"],t.l)
-B.axW={bee:0,snake:1,small_worm:2,beetle:3,mantis:4,weaver:5}
-B.qG=new A.E(B.axW,[32,64,64,96,96,96],t.I)
-B.azU={burn:0,chilled:1,shocked:2}
-B.hv=new A.E(B.azU,["fire","water","wind"],t.l)
-B.ayQ={bash:0,bloodStrike:1,rageSlam:2,charge:3,ironPull:4,frostLunge:5,flameArc:6,thunderLeap:7,runeBurst:8,pushArrow:9,shrapnel:10,ballista:11,quickShot:12,stormOfArrows:13,poisonArrow:14,plagueArrow:15,smokeStep:16,flameDart:17,flameDash:18,thunderclap:19,stormCall:20,frostBolt:21,gravityBolt:22,vortex:23,riftGate:24,blink:25,shieldCharge:26,aegis:27,graceStep:28,miracle:29,rapture:30,backstab:31,thousandCuts:32,stealth:33,nightfall:34,flicker:35}
-B.DN=new A.E(B.ayQ,["bash","bash","bash","charge","charge","ice","bolt","bolt","agate","arrow","arrow","arrow","arrow","arrow","poison","poison","shadow","bolt","bolt","bolt","bolt","ice","charge","mirror","shadow","shadow","charge","book","boot","heart","staff","dagger","dagger","shadow","shadow","charge"],t.l)
-B.aA0={swordsman:0,sword:1}
-B.atl=new A.E(B.aA0,["sword","sword"],t.l)
-B.azN={boulder_a:0,boulder_b:1,boulder_c:2,boulder_d:3,"buildings/abandoned_house":4,"buildings/abandoned_house_2":5,"buildings/abandoned_tower":6,bush_fern:7,"elements/lamp_post":8,"elements/stump_a":9,rock_flat_moss:10,rock_pile:11,"rocks/rock1_1":12,"rocks/rock1_2":13,"rocks/rock2_1":14,"rocks/rock2_2":15,"rocks/rock3_1":16,"rocks/rock3_2":17,"rocks/rock4_1":18,"rocks/rock4_2":19,"rocks/rock5_1":20,"rocks/rock5_2":21,"rocks/rock6_1":22,"rocks/rock6_2":23,"rocks/rock7_1":24,"rocks/rock7_2":25,"rocks/rock8_1":26,"rocks/rock8_2":27,standing_stone:28,stump:29,tree_broadleaf:30,tree_oak_a:31,tree_oak_b:32,tree_pine_a:33,tree_pine_b:34,tree_small:35,village_banner:36,village_bed:37,village_hut_chief:38,village_hut_family:39,village_hut_healer:40,village_rack:41,village_skull_pole:42,village_stall_thatch:43,village_tent:44,tent_pitched:45,village_totem:46}
+B.ay9={heavy:0,medium:1,light:2,any:3}
+B.DN=new A.E(B.ay9,["Plate","Leather","Cloth","Rags"],t.l)
+B.axX={bee:0,snake:1,small_worm:2,beetle:3,mantis:4,weaver:5}
+B.qG=new A.E(B.axX,[32,64,64,96,96,96],t.I)
+B.azV={burn:0,chilled:1,shocked:2}
+B.hv=new A.E(B.azV,["fire","water","wind"],t.l)
+B.ayR={bash:0,bloodStrike:1,rageSlam:2,charge:3,ironPull:4,frostLunge:5,flameArc:6,thunderLeap:7,runeBurst:8,pushArrow:9,shrapnel:10,ballista:11,quickShot:12,stormOfArrows:13,poisonArrow:14,plagueArrow:15,smokeStep:16,flameDart:17,flameDash:18,thunderclap:19,stormCall:20,frostBolt:21,gravityBolt:22,vortex:23,riftGate:24,blink:25,shieldCharge:26,aegis:27,graceStep:28,miracle:29,rapture:30,backstab:31,thousandCuts:32,stealth:33,nightfall:34,flicker:35}
+B.DO=new A.E(B.ayR,["bash","bash","bash","charge","charge","ice","bolt","bolt","agate","arrow","arrow","arrow","arrow","arrow","poison","poison","shadow","bolt","bolt","bolt","bolt","ice","charge","mirror","shadow","shadow","charge","book","boot","heart","staff","dagger","dagger","shadow","shadow","charge"],t.l)
+B.aA1={swordsman:0,sword:1}
+B.atl=new A.E(B.aA1,["sword","sword"],t.l)
+B.azO={boulder_a:0,boulder_b:1,boulder_c:2,boulder_d:3,"buildings/abandoned_house":4,"buildings/abandoned_house_2":5,"buildings/abandoned_tower":6,bush_fern:7,"elements/lamp_post":8,"elements/stump_a":9,rock_flat_moss:10,rock_pile:11,"rocks/rock1_1":12,"rocks/rock1_2":13,"rocks/rock2_1":14,"rocks/rock2_2":15,"rocks/rock3_1":16,"rocks/rock3_2":17,"rocks/rock4_1":18,"rocks/rock4_2":19,"rocks/rock5_1":20,"rocks/rock5_2":21,"rocks/rock6_1":22,"rocks/rock6_2":23,"rocks/rock7_1":24,"rocks/rock7_2":25,"rocks/rock8_1":26,"rocks/rock8_2":27,standing_stone:28,stump:29,tree_broadleaf:30,tree_oak_a:31,tree_oak_b:32,tree_pine_a:33,tree_pine_b:34,tree_small:35,village_banner:36,village_bed:37,village_hut_chief:38,village_hut_family:39,village_hut_healer:40,village_rack:41,village_skull_pole:42,village_stall_thatch:43,village_tent:44,tent_pitched:45,village_totem:46}
 B.bf=s([B.db,B.da],t.r)
 B.lH=s([-2,-2],t.t)
 B.j2=s([-1,-2],t.t)
@@ -152936,9 +152938,9 @@ B.a5H=s([2,-3],t.t)
 B.aif=s([B.aln,B.alm,B.a3l,B.a4O,B.a5H,B.lH,B.j2,B.iT,B.iV,B.lr,B.lG,B.ez,B.dt,B.ey,B.lq,B.qj,B.db,B.da,B.c8,B.pW],t.r)
 B.a8Z=s([B.lH,B.j2,B.iT,B.iV,B.lr,B.lG,B.ez,B.dt,B.ey,B.lq,B.db,B.da,B.c8],t.r)
 B.q1=s([B.ez,B.dt,B.ey,B.db,B.da,B.c8],t.r)
-B.jj=new A.E(B.azN,[B.bf,B.bf,B.bf,B.bf,B.anI,B.yu,B.aoF,B.cj,B.cj,B.bf,B.cj,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.cj,B.cj,B.ql,B.cj,B.ql,B.ahf,B.cj,B.cj,B.cj,B.aj6,B.aif,B.yu,B.a8Z,B.ql,B.cj,B.q1,B.q1,B.q1,B.cj],A.ac("E<e,H<H<i>>>"))
-B.azG={ap:0,mp:1,range:2,damage:3,heal:4,shield:5,cooldown:6,uses:7,los:8,no_los:9,area:10,line:11,push:12,pull:13,dash:14,teleport:15,zone:16,duration:17,status_chance:18,crit:19,lifesteal:20,summon:21,melee:22,cleanse:23,trait_boost:24}
-B.jk=new A.E(B.azG,["assets/icons/mechanics/ap.png","assets/icons/mechanics/mp.png","assets/icons/mechanics/range.png","assets/icons/mechanics/damage.png","assets/icons/mechanics/heal.png","assets/icons/mechanics/shield.png","assets/icons/mechanics/cooldown.png","assets/icons/mechanics/uses.png","assets/icons/mechanics/los.png","assets/icons/mechanics/no_los.png","assets/icons/mechanics/area.png","assets/icons/mechanics/line.png","assets/icons/mechanics/push.png","assets/icons/mechanics/pull.png","assets/icons/mechanics/dash.png","assets/icons/mechanics/teleport.png","assets/icons/mechanics/zone.png","assets/icons/mechanics/duration.png","assets/icons/mechanics/status_chance.png","assets/icons/mechanics/crit.png","assets/icons/mechanics/lifesteal.png","assets/icons/mechanics/summon.png","assets/icons/mechanics/melee.png","assets/icons/mechanics/cleanse.png","assets/icons/mechanics/trait_boost.png"],t.l)
+B.jj=new A.E(B.azO,[B.bf,B.bf,B.bf,B.bf,B.anI,B.yu,B.aoF,B.cj,B.cj,B.bf,B.cj,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.bf,B.cj,B.cj,B.ql,B.cj,B.ql,B.ahf,B.cj,B.cj,B.cj,B.aj6,B.aif,B.yu,B.a8Z,B.ql,B.cj,B.q1,B.q1,B.q1,B.cj],A.ac("E<e,H<H<i>>>"))
+B.azH={ap:0,mp:1,range:2,damage:3,heal:4,shield:5,cooldown:6,uses:7,los:8,no_los:9,area:10,line:11,push:12,pull:13,dash:14,teleport:15,zone:16,duration:17,status_chance:18,crit:19,lifesteal:20,summon:21,melee:22,cleanse:23,trait_boost:24}
+B.jk=new A.E(B.azH,["assets/icons/mechanics/ap.png","assets/icons/mechanics/mp.png","assets/icons/mechanics/range.png","assets/icons/mechanics/damage.png","assets/icons/mechanics/heal.png","assets/icons/mechanics/shield.png","assets/icons/mechanics/cooldown.png","assets/icons/mechanics/uses.png","assets/icons/mechanics/los.png","assets/icons/mechanics/no_los.png","assets/icons/mechanics/area.png","assets/icons/mechanics/line.png","assets/icons/mechanics/push.png","assets/icons/mechanics/pull.png","assets/icons/mechanics/dash.png","assets/icons/mechanics/teleport.png","assets/icons/mechanics/zone.png","assets/icons/mechanics/duration.png","assets/icons/mechanics/status_chance.png","assets/icons/mechanics/crit.png","assets/icons/mechanics/lifesteal.png","assets/icons/mechanics/summon.png","assets/icons/mechanics/melee.png","assets/icons/mechanics/cleanse.png","assets/icons/mechanics/trait_boost.png"],t.l)
 B.aAm={stats:0,quests:1,skill_trees:2,equipment:3,appearance:4,characters:5,professions:6,settings:7,credits:8,bag:9,close:10,menu:11,zoom_in:12,zoom_out:13,ready:14,cast:15,view_scene:16,view_clear:17}
 B.atn=new A.E(B.aAm,["assets/icons/menu/stats.png","assets/icons/menu/quests.png","assets/icons/menu/skill_trees.png","assets/icons/menu/equipment.png","assets/icons/menu/appearance.png","assets/icons/menu/characters.png","assets/icons/menu/professions.png","assets/icons/menu/settings.png","assets/icons/menu/credits.png","assets/icons/menu/bag.png","assets/icons/menu/close.png","assets/icons/menu/menu.png","assets/icons/menu/zoom_in.png","assets/icons/menu/zoom_out.png","assets/icons/menu/ready.png","assets/icons/menu/cast.png","assets/icons/menu/view_scene.png","assets/icons/menu/view_clear.png"],t.l)
 B.Ix=new A.hV("Tap Menu.","Open the menu")
@@ -152955,8 +152957,8 @@ B.aI0=new A.hV("Your tent has ten plots.","Tap a plot")
 B.aIG=new A.hV("Tap a seed to plant it.","Pick a seed")
 B.aKe=new A.hV("The can halves the wait.","Water it")
 B.aIp=new A.hV("It grows on its own.","Come back later")
-B.DO=new A.e0([1,B.Ix,2,B.aK2,3,B.aIl,4,B.II,5,B.aIC,6,B.Ix,7,B.aIP,8,B.aIM,9,B.aIq,10,B.II,11,B.aIN,12,B.aK3,13,B.aI0,14,B.aIG,15,B.aKe,16,B.aIp],t.Vb)
-B.ayy={combo_protection:0,combo_radiantVow:1,combo_hallowedGround:2,combo_divinePull:3}
+B.DP=new A.e0([1,B.Ix,2,B.aK2,3,B.aIl,4,B.II,5,B.aIC,6,B.Ix,7,B.aIP,8,B.aIM,9,B.aIq,10,B.II,11,B.aIN,12,B.aK3,13,B.aI0,14,B.aIG,15,B.aKe,16,B.aIp],t.Vb)
+B.ayz={combo_protection:0,combo_radiantVow:1,combo_hallowedGround:2,combo_divinePull:3}
 B.Z8=new A.cg("vfx_holy_gold","caster",0,null,0.45,-30,0,0,!1)
 B.Ze=new A.cg("vfx_water_bubble","target",100,"rgba(230,244,255,.75)",0.9,-28,0,0,!1)
 B.a90=s([B.Z8,B.Ze],t.E)
@@ -152968,48 +152970,46 @@ B.afM=s([B.ZD],t.E)
 B.Zd=new A.cg("vfx_light_streak","caster",0,"#ffe08a",1.7,-26,-40,3.141592653589793,!0)
 B.ZE=new A.cg("vfx_light_streak","caster",90,"#ffd166",1.3,-14,-56,3.141592653589793,!0)
 B.adh=s([B.Zd,B.ZE],t.E)
-B.atp=new A.E(B.ayy,[B.a90,B.ak9,B.afM,B.adh],t.CR)
-B.azD={"iso_8859-1:1987":0,"iso-ir-100":1,"iso_8859-1":2,"iso-8859-1":3,latin1:4,l1:5,ibm819:6,cp819:7,csisolatin1:8,"iso-ir-6":9,"ansi_x3.4-1968":10,"ansi_x3.4-1986":11,"iso_646.irv:1991":12,"iso646-us":13,"us-ascii":14,us:15,ibm367:16,cp367:17,csascii:18,ascii:19,csutf8:20,"utf-8":21}
-B.atq=new A.E(B.azD,[B.d5,B.d5,B.d5,B.d5,B.d5,B.d5,B.d5,B.d5,B.d5,B.cP,B.cP,B.cP,B.cP,B.cP,B.cP,B.cP,B.cP,B.cP,B.cP,B.cP,B.aC,B.aC],A.ac("E<e,vc>"))
-B.ayn={body:0,name:1}
-B.atu=new A.E(B.ayn,["male","Wanderer"],t.l)
+B.atp=new A.E(B.ayz,[B.a90,B.ak9,B.afM,B.adh],t.CR)
+B.azE={"iso_8859-1:1987":0,"iso-ir-100":1,"iso_8859-1":2,"iso-8859-1":3,latin1:4,l1:5,ibm819:6,cp819:7,csisolatin1:8,"iso-ir-6":9,"ansi_x3.4-1968":10,"ansi_x3.4-1986":11,"iso_646.irv:1991":12,"iso646-us":13,"us-ascii":14,us:15,ibm367:16,cp367:17,csascii:18,ascii:19,csutf8:20,"utf-8":21}
+B.atq=new A.E(B.azE,[B.d5,B.d5,B.d5,B.d5,B.d5,B.d5,B.d5,B.d5,B.d5,B.cP,B.cP,B.cP,B.cP,B.cP,B.cP,B.cP,B.cP,B.cP,B.cP,B.cP,B.aC,B.aC],A.ac("E<e,vc>"))
+B.ayo={body:0,name:1}
+B.atu=new A.E(B.ayo,["male","Wanderer"],t.l)
 B.axl={hut_carpenter:0,hut_herbalist:1,hut_smithy:2}
 B.atx=new A.E(B.axl,["interact_chop","interact_pick","interact_craft"],t.l)
 B.El={neutral:0,fire:1,water:2,earth:3,wind:4,holy:5,shadow:6,poison:7}
-B.azF={neutral:0,undead:1}
-B.ass=new A.E(B.azF,[1,1],t.J)
-B.ayz={neutral:0,undead:1,water:2,earth:3,fire:4,holy:5}
-B.atO=new A.E(B.ayz,[1,1.5,0.5,1.5,0.25,0.75],t.J)
-B.ayT={neutral:0,undead:1,water:2,fire:3,wind:4,holy:5}
-B.arm=new A.E(B.ayT,[1,1,0.25,1.5,0.5,0.75],t.J)
-B.aA7={neutral:0,undead:1,earth:2,fire:3,wind:4,holy:5}
-B.arG=new A.E(B.aA7,[1,1,0.25,0.5,1.5,0.75],t.J)
-B.axT={neutral:0,undead:1,water:2,earth:3,wind:4,holy:5}
-B.asj=new A.E(B.axT,[1,1,1.5,0.5,0.25,0.75],t.J)
-B.ay7={neutral:0,undead:1,holy:2,shadow:3}
-B.asq=new A.E(B.ay7,[1,1.75,0.25,1.25],t.J)
-B.ayN={neutral:0,undead:1,holy:2,shadow:3,poison:4}
-B.asA=new A.E(B.ayN,[1,0.5,1.25,0.25,0.5],t.J)
-B.aA2={neutral:0,undead:1,poison:2,holy:3,shadow:4}
-B.aty=new A.E(B.aA2,[1,0.25,0.25,0.75,0.5],t.J)
+B.azG={neutral:0,undead:1}
+B.ass=new A.E(B.azG,[1,1],t.J)
+B.ayA={neutral:0,undead:1,water:2,earth:3,fire:4,holy:5}
+B.atO=new A.E(B.ayA,[1,1.5,0.5,1.5,0.25,0.75],t.J)
+B.ayU={neutral:0,undead:1,water:2,fire:3,wind:4,holy:5}
+B.arm=new A.E(B.ayU,[1,1,0.25,1.5,0.5,0.75],t.J)
+B.aA8={neutral:0,undead:1,earth:2,fire:3,wind:4,holy:5}
+B.arG=new A.E(B.aA8,[1,1,0.25,0.5,1.5,0.75],t.J)
+B.axU={neutral:0,undead:1,water:2,earth:3,wind:4,holy:5}
+B.asj=new A.E(B.axU,[1,1,1.5,0.5,0.25,0.75],t.J)
+B.ay8={neutral:0,undead:1,holy:2,shadow:3}
+B.asq=new A.E(B.ay8,[1,1.75,0.25,1.25],t.J)
+B.ayO={neutral:0,undead:1,holy:2,shadow:3,poison:4}
+B.asA=new A.E(B.ayO,[1,0.5,1.25,0.25,0.5],t.J)
+B.aA3={neutral:0,undead:1,poison:2,holy:3,shadow:4}
+B.aty=new A.E(B.aA3,[1,0.25,0.25,0.75,0.5],t.J)
 B.m_=new A.E(B.El,[B.ass,B.atO,B.arm,B.arG,B.asj,B.asq,B.asA,B.aty],t.Ic)
-B.azQ={damage:0,heal:1,heal_magic:2,shield:3,push:4,gap_close:5,back_off:6,warp:7,swap:8,cleanse:9,summon:10,status:11,aura:12,extend_poison:13,blast:14,area:15,chain:16,around:17,nearby:18,zone:19,bonus_if:20,lethal:21,steal:22,burrow:23}
-B.atC=new A.E(B.azQ,["damage","heal","heal","shield","push","dash","dash","teleport","teleport","cleanse","summon","status_chance","duration","duration","area","area","area","area","area","zone","crit","crit","uses","no_los"],t.l)
-B.aAa={king:0,flower:1,bone_knight:2}
-B.atD=new A.E(B.aAa,["blue","green","red"],t.l)
-B.azS={"Slime Gel":0,"Sticky Residue":1,"Slime Core":2,"Royal Gel":3,"King's Jelly":4,"Crown Shard":5,"Beetle Shell":6,"Beetle Leg":7,"Shiny Carapace":8,"Bone Shard":9,"Rusty Nail":10,"Old Skull":11,"Rat Tail":12,"Matted Fur":13,"Gnawed Coin":14,"Bee Wing":15,"Mantis Scythe":16,"Web Silk":17,Honeycomb:18,"Royal Stinger":19,"Snake Fang":20,"Shed Skin":21,"Venom Sac":22,"Worm Guts":23,"Mud Clump":24,"Glow Segment":25,"Rusted Plate":26,"Cursed Sigil":27,"Knight Helm":28,Petal:29,Thorn:30,"Pollen Dust":31,"Seed Pod":32,"Flower Head":33,Bread:34,"Orc Tusk":35,"Rough Hide":36,"Crude Arrowhead":37,"Iron Scrap":38,"Rusty Spearhead":39,"Shaman Bead":40,"War Paint":41,"Captain's Badge":42,"Warchief's Horn":43,"Small Potion":44,"Large Potion":45,"Wooden Sword":46,Riverbloom:47,"Snapped Antler":48,"Torn Satchel":49,"Sealed Letter":50,"Folded Reply":51,"Dented Bell":52,"Empty Ration Sack":53,"Warden's Ledger":54,"Burnt Music Box":55,"Soldier's Tag":56,"Nan's Charm":57,"Slime Jelly":58,"Marl's Parcel":59,"Brass Lamp":60,"Tin Star":61,"Wyn's Bundle":62}
-B.DP=new A.E(B.azS,["slime_gel","sticky_residue","slime_core","royal_gel","kings_jelly","crown_shard","beetle_shell","beetle_leg","shiny_carapace","bone_shard","rusty_nail","old_skull","rat_tail","matted_fur","gnawed_coin","bee_wing","mantis_scythe","web_silk","honeycomb","royal_stinger","snake_fang","shed_skin","venom_sac","worm_guts","mud_clump","glow_segment","rusted_plate","cursed_sigil","knight_helm","petal","thorn","pollen_dust","seed_pod","flower_head","bread","orc_tusk","rough_hide","crude_arrowhead","iron_scrap","rusty_spearhead","shaman_bead","war_paint","captains_badge","warchief_horn","small","large","quest_wooden_sword","quest_riverbloom","quest_snapped_antler","quest_torn_satchel","quest_sealed_letter","quest_folded_reply","quest_dented_bell","quest_ration_sack","quest_warden_ledger","quest_music_box","quest_soldier_tag","quest_nan_charm","quest_slime_jelly","quest_marl_parcel","quest_brass_lamp","quest_tin_star","quest_wyn_bundle"],t.l)
-B.aAd={"music/village":0}
-B.DQ=new A.E(B.aAd,[0.22],t.J)
+B.azR={damage:0,heal:1,heal_magic:2,shield:3,push:4,gap_close:5,back_off:6,warp:7,swap:8,cleanse:9,summon:10,status:11,aura:12,extend_poison:13,blast:14,area:15,chain:16,around:17,nearby:18,zone:19,bonus_if:20,lethal:21,steal:22,burrow:23}
+B.atC=new A.E(B.azR,["damage","heal","heal","shield","push","dash","dash","teleport","teleport","cleanse","summon","status_chance","duration","duration","area","area","area","area","area","zone","crit","crit","uses","no_los"],t.l)
+B.aAb={king:0,flower:1,bone_knight:2}
+B.atD=new A.E(B.aAb,["blue","green","red"],t.l)
+B.azT={"Slime Gel":0,"Sticky Residue":1,"Slime Core":2,"Royal Gel":3,"King's Jelly":4,"Crown Shard":5,"Beetle Shell":6,"Beetle Leg":7,"Shiny Carapace":8,"Bone Shard":9,"Rusty Nail":10,"Old Skull":11,"Rat Tail":12,"Matted Fur":13,"Gnawed Coin":14,"Bee Wing":15,"Mantis Scythe":16,"Web Silk":17,Honeycomb:18,"Royal Stinger":19,"Snake Fang":20,"Shed Skin":21,"Venom Sac":22,"Worm Guts":23,"Mud Clump":24,"Glow Segment":25,"Rusted Plate":26,"Cursed Sigil":27,"Knight Helm":28,Petal:29,Thorn:30,"Pollen Dust":31,"Seed Pod":32,"Flower Head":33,Bread:34,"Orc Tusk":35,"Rough Hide":36,"Crude Arrowhead":37,"Iron Scrap":38,"Rusty Spearhead":39,"Shaman Bead":40,"War Paint":41,"Captain's Badge":42,"Warchief's Horn":43,"Small Potion":44,"Large Potion":45,"Wooden Sword":46,Riverbloom:47,"Snapped Antler":48,"Torn Satchel":49,"Sealed Letter":50,"Folded Reply":51,"Dented Bell":52,"Empty Ration Sack":53,"Warden's Ledger":54,"Burnt Music Box":55,"Soldier's Tag":56,"Nan's Charm":57,"Slime Jelly":58,"Marl's Parcel":59,"Brass Lamp":60,"Tin Star":61,"Wyn's Bundle":62}
+B.DQ=new A.E(B.azT,["slime_gel","sticky_residue","slime_core","royal_gel","kings_jelly","crown_shard","beetle_shell","beetle_leg","shiny_carapace","bone_shard","rusty_nail","old_skull","rat_tail","matted_fur","gnawed_coin","bee_wing","mantis_scythe","web_silk","honeycomb","royal_stinger","snake_fang","shed_skin","venom_sac","worm_guts","mud_clump","glow_segment","rusted_plate","cursed_sigil","knight_helm","petal","thorn","pollen_dust","seed_pod","flower_head","bread","orc_tusk","rough_hide","crude_arrowhead","iron_scrap","rusty_spearhead","shaman_bead","war_paint","captains_badge","warchief_horn","small","large","quest_wooden_sword","quest_riverbloom","quest_snapped_antler","quest_torn_satchel","quest_sealed_letter","quest_folded_reply","quest_dented_bell","quest_ration_sack","quest_warden_ledger","quest_music_box","quest_soldier_tag","quest_nan_charm","quest_slime_jelly","quest_marl_parcel","quest_brass_lamp","quest_tin_star","quest_wyn_bundle"],t.l)
 B.axu={village:0,village_chief:1,village_healer:2,village_family:3,cave:4,ashlands:5,orc_whelps:6,orc_warcamp:7,orc_fortress:8}
 B.atG=new A.E(B.axu,["assets/ui/loading/village.jpg","assets/ui/loading/village.jpg","assets/ui/loading/village.jpg","assets/ui/loading/village.jpg","assets/ui/loading/cave.jpg","assets/ui/loading/ashlands.jpg","assets/ui/loading/orc_whelps.jpg","assets/ui/loading/orc_warcamp.jpg","assets/ui/loading/orc_fortress.jpg"],t.l)
-B.ay0={str:0,agi:1,int:2,vit:3}
-B.DR=new A.E(B.ay0,["green","teal","blue","red"],t.l)
-B.ayj={landing:0,meadow:1,riverlands:2,cave:3,eastgate:4,ashlands:5,orc_whelps:6,orc_warcamp:7,orc_fortress:8,village:9,village_chief:10,village_healer:11,village_family:12}
-B.DS=new A.E(B.ayj,["bgs_loops/forest_day/forest_day","bgs_loops/forest_day/forest_day","bgs_loops/forest_day/forest_day","bgs_loops/cave/cave","bgs_loops/forest_day/forest_day","bgs_loops/beach/beach","bgs_loops/beach/beach","bgs_loops/beach/beach","bgs_loops/beach/beach","music/village","music/village","music/village","music/village"],t.l)
+B.ay1={str:0,agi:1,int:2,vit:3}
+B.DR=new A.E(B.ay1,["green","teal","blue","red"],t.l)
+B.ayk={landing:0,meadow:1,riverlands:2,cave:3,eastgate:4,ashlands:5,orc_whelps:6,orc_warcamp:7,orc_fortress:8,village:9,village_chief:10,village_healer:11,village_family:12}
+B.DS=new A.E(B.ayk,["bgs_loops/forest_day/forest_day","bgs_loops/forest_day/forest_day","bgs_loops/forest_day/forest_day","bgs_loops/cave/cave","bgs_loops/forest_day/forest_day","bgs_loops/beach/beach","bgs_loops/beach/beach","bgs_loops/beach/beach","bgs_loops/beach/beach","music/village","music/village","music/village","music/village"],t.l)
 B.aAe={body:0,eye:1,hair:2,cloth:3,heavy:4,medium:5,light:6,rags:7}
 B.y_=s(["#271920","#99423c","#cc8665","#E4A47C","#F9D5BA","#FAECE7"],t.s)
-B.ayG={light:0,amber:1,olive:2,taupe:3,bronze:4,brown:5,black:6,blue:7,green:8,lavender:9,zombie:10}
+B.ayH={light:0,amber:1,olive:2,taupe:3,bronze:4,brown:5,black:6,blue:7,green:8,lavender:9,zombie:10}
 B.ae1=s(["#281716","#9E3E37","#D28144","#EA9F54","#FDD082","#FBE7A4"],t.s)
 B.ae2=s(["#271920","#442725","#7F4C31","#AE6B3F","#D38B59","#E4A47C"],t.s)
 B.ama=s(["#271920","#503734","#785946","#936849","#BA8454","#C7935F"],t.s)
@@ -153020,10 +153020,10 @@ B.a32=s(["#16171B","#46425D","#586B90","#748DA4","#A9C9CA","#C8E8E8"],t.s)
 B.akf=s(["#140C09","#09320B","#19541D","#228236","#39AA4E","#53BF71"],t.s)
 B.ags=s(["#16171B","#393B44","#787C8F","#A0A5BC","#C9D0EE","#FBECE6"],t.s)
 B.aau=s(["#281820","#6B5C40","#928364","#A79778","#C5B38F","#DBCBAB"],t.s)
-B.auQ=new A.E(B.ayG,[B.y_,B.ae1,B.ae2,B.ama,B.aox,B.ahr,B.al5,B.a32,B.akf,B.ags,B.aau],t.VJ)
+B.auQ=new A.E(B.ayH,[B.y_,B.ae1,B.ae2,B.ama,B.aox,B.ahr,B.al5,B.a32,B.akf,B.ags,B.aau],t.VJ)
 B.aDa=new A.n7(B.y_,B.auQ)
 B.yq=s(["#2a3c49","#5686ae","#57cee4"],t.s)
-B.aye={blue:0,green:1,purple:2,red:3,orange:4,yellow:5,brown:6,gray:7}
+B.ayf={blue:0,green:1,purple:2,red:3,orange:4,yellow:5,brown:6,gray:7}
 B.a7o=s(["#2b4b29","#53b351","#84ec50"],t.s)
 B.ahY=s(["#710862","#b90da0","#eba0e0"],t.s)
 B.abV=s(["#532421","#cb4a39","#ff3d62"],t.s)
@@ -153031,7 +153031,7 @@ B.aaD=s(["#a45227","#be734b","#ea9b71"],t.s)
 B.afI=s(["#b69953","#d9bf46","#fedf47"],t.s)
 B.am0=s(["#232017","#544c2e","#7e4e20"],t.s)
 B.aia=s(["#3d3c37","#8b8979","#ada18f"],t.s)
-B.ato=new A.E(B.aye,[B.yq,B.a7o,B.ahY,B.abV,B.aaD,B.afI,B.am0,B.aia],t.VJ)
+B.ato=new A.E(B.ayf,[B.yq,B.a7o,B.ahY,B.abV,B.aaD,B.afI,B.am0,B.aia],t.VJ)
 B.aD7=new A.n7(B.yq,B.ato)
 B.xx=s(["#260D14","#6A1108","#A42600","#BF4000","#E55600","#FF8A00"],t.s)
 B.axE={orange:0,ash:1,platinum:2,white:3,gray:4,blonde:5,sandy:6,strawberry:7,gold:8,ginger:9,carrot:10,redhead:11,red:12,light_brown:13,chestnut:14,dark_brown:15,dark_gray:16,black:17,raven:18,rose:19,pink:20,purple:21,violet:22,navy:23,blue:24,green:25}
@@ -153084,14 +153084,14 @@ B.a3p=s(["#0c2321","#133f3b","#1a5b55","#217169","#27877c","#2f9b8e","#36ab9c","
 B.asM=new A.E(B.m9,[B.afs,B.acL,B.afY,B.a3p],t.VJ)
 B.aD8=new A.n7(B.a6l,B.asM)
 B.al2=s(["#281820","#4d4a5d","#958080","#c4b59f","#e5e6c7","#ffffff"],t.s)
-B.azO={rags:0}
+B.azP={rags:0}
 B.aig=s(["#1b130d","#3a2a1c","#56402c","#6e5638","#8a7150","#a89277"],t.s)
-B.asW=new A.E(B.azO,[B.aig],t.VJ)
+B.asW=new A.E(B.azP,[B.aig],t.VJ)
 B.aDe=new A.n7(B.al2,B.asW)
 B.m1=new A.E(B.aAe,[B.aDa,B.aD7,B.aD6,B.aD9,B.aDb,B.aDc,B.aD8,B.aDe],t.Ao)
-B.aA6={type:0}
-B.atI=new A.E(B.aA6,["line"],t.l)
-B.ay4={"heavy/head":0,"heavy/chest":1,"heavy/legs":2,"heavy/feet":3,"heavy/hands":4,"medium/head":5,"medium/chest":6,"medium/legs":7,"medium/feet":8,"medium/hands":9,"light/head":10,"light/chest":11,"light/legs":12,"light/feet":13,"light/hands":14,"rags/head":15,"rags/chest":16,"rags/legs":17,"rags/feet":18,"rags/hands":19}
+B.aA7={type:0}
+B.atI=new A.E(B.aA7,["line"],t.l)
+B.ay5={"heavy/head":0,"heavy/chest":1,"heavy/legs":2,"heavy/feet":3,"heavy/hands":4,"medium/head":5,"medium/chest":6,"medium/legs":7,"medium/feet":8,"medium/hands":9,"light/head":10,"light/chest":11,"light/legs":12,"light/feet":13,"light/hands":14,"rags/head":15,"rags/chest":16,"rags/legs":17,"rags/feet":18,"rags/hands":19}
 B.a0_=new A.h1(125,"assets/lpc/hat/helmet/kettle/adult/","assets/lpc/hat/helmet/kettle/adult/","heavy",".png")
 B.a00=new A.h1(36,"assets/lpc/torso/chainmail/male/","assets/lpc/torso/chainmail/female/","heavy",".png")
 B.a0a=new A.h1(21,"assets/lpc/legs/armour/plate/male/","assets/lpc/legs/armour/plate/thin/","heavy",".png")
@@ -153112,7 +153112,7 @@ B.a_W=new A.h1(36,u.x,u._,"rags",".png")
 B.a0b=new A.h1(21,"assets/lpc/legs/cuffed/male/","assets/lpc/legs/cuffed/thin/","rags",".png")
 B.a_V=new A.h1(16,"assets/lpc/feet/sandals/male/","assets/lpc/feet/sandals/thin/","rags",".png")
 B.a06=new A.h1(37,"assets/lpc/arms/wrists/cuffs/male/","assets/lpc/arms/wrists/cuffs/thin/","rags",".png")
-B.DT=new A.E(B.ay4,[B.a0_,B.a00,B.a0a,B.a_Y,B.a05,B.a0c,B.a_X,B.a09,B.a07,B.a01,B.a02,B.a08,B.a0d,B.a04,B.a_Z,B.a03,B.a_W,B.a0b,B.a_V,B.a06],A.ac("E<e,h1>"))
+B.DT=new A.E(B.ay5,[B.a0_,B.a00,B.a0a,B.a_Y,B.a05,B.a0c,B.a_X,B.a09,B.a07,B.a01,B.a02,B.a08,B.a0d,B.a04,B.a_Z,B.a03,B.a_W,B.a0b,B.a_V,B.a06],A.ac("E<e,h1>"))
 B.DW=new A.E(B.b9,[],A.ac("E<Q,bxN>"))
 B.m2=new A.E(B.b9,[],A.ac("E<GF,bZ>"))
 B.atM=new A.E(B.b9,[],A.ac("E<e,l(a5)>"))
@@ -153267,14 +153267,14 @@ B.a_4=new A.bT(112,72,10,45,1,0.5,0)
 B.atR=new A.E(B.axq,[B.a_q,B.a_u,B.a_C,B.a_G,B.a_x,B.a_y,B.a_a,B.a_O,B.a_p,B.a_I,B.ZU,B.ww,B.ww,B.a_N,B.a_3,B.a_g,B.a_R,B.a_1,B.a_v,B.a_Q,B.a_j,B.a_b,B.a_m,B.a_F,B.a_E,B.a_0,B.a_J,B.ZR,B.a_8,B.a_r,B.a_i,B.a_5,B.a_B,B.a_o,B.a_2,B.a_z,B.a_S,B.ZZ,B.a_l,B.a_9,B.a_6,B.a_s,B.a_K,B.a_T,B.a_e,B.ZV,B.a_k,B.ZY,B.a_d,B.a__,B.a_t,B.a_L,B.a_w,B.a_M,B.ZW,B.ZX,B.wx,B.wx,B.ZT,B.a_D,B.a_f,B.ZS,B.a_n,B.a_h,B.a_7,B.a_P,B.a_c,B.a_H,B.a_A,B.a_4],A.ac("E<e,bT>"))
 B.axt={bee:0,snake:1,small_worm:2,beetle:3,mantis:4,weaver:5,plant1:6,plant2:7,plant3:8}
 B.atT=new A.E(B.axt,[29,47,48,82,92,83,47,47,47],t.uW)
-B.ay5={"meadow:taliSword":0,"meadow:wynCamp":1,"eastgate:rationSack":2,"cave:minerLamp":3,"orc_whelps:bonePile":4,"ashlands:burntMill":5,"riverlands:southLanding":6,"eastgate:herdStand":7}
-B.m3=new A.E(B.ay5,["quest_prop_sword","quest_prop_bundle","quest_prop_sack","quest_prop_lamp","quest_prop_bones","quest_prop_debris","quest_prop_post","quest_prop_tracks"],t.l)
-B.ayv={lumber:0,mining:1,herb:2,fish:3}
+B.ay6={"meadow:taliSword":0,"meadow:wynCamp":1,"eastgate:rationSack":2,"cave:minerLamp":3,"orc_whelps:bonePile":4,"ashlands:burntMill":5,"riverlands:southLanding":6,"eastgate:herdStand":7}
+B.m3=new A.E(B.ay6,["quest_prop_sword","quest_prop_bundle","quest_prop_sack","quest_prop_lamp","quest_prop_bones","quest_prop_debris","quest_prop_post","quest_prop_tracks"],t.l)
+B.ayw={lumber:0,mining:1,herb:2,fish:3}
 B.aEM=new A.Aj("lumber","Lumberjack","tool_axe","tool_bronze_axe")
 B.aEN=new A.Aj("mining","Miner","tool_pick","tool_bronze_pickaxe")
 B.aEL=new A.Aj("herb","Herbalist","tool_water","tool_watering_can")
 B.aEO=new A.Aj("fish","Fisher","tool_fish","tool_bronze_rod")
-B.c9=new A.E(B.ayv,[B.aEM,B.aEN,B.aEL,B.aEO],A.ac("E<e,Aj>"))
+B.c9=new A.E(B.ayw,[B.aEM,B.aEN,B.aEL,B.aEO],A.ac("E<e,Aj>"))
 B.EE={neutral:0,undead:1,fire:2,water:3,earth:4,wind:5,holy:6,shadow:7,poison:8}
 B.fy=new A.E(B.EE,["assets/icons/elements/neutral.png","assets/icons/elements/undead.png","assets/icons/elements/fire.png","assets/icons/elements/water.png","assets/icons/elements/earth.png","assets/icons/elements/wind.png","assets/icons/elements/holy.png","assets/icons/elements/shadow.png","assets/icons/elements/poison.png"],t.l)
 B.Y7=new A.mT("Neutral","NEUTRAL","#9aa3ad")
@@ -153287,7 +153287,7 @@ B.Y9=new A.mT("Holy","HOLY","#ffd166")
 B.Ye=new A.mT("Shadow","SHADOW","#b276e8")
 B.Ya=new A.mT("Poison","POISON","#66c95c")
 B.bi=new A.E(B.EE,[B.Y7,B.Yd,B.Y8,B.Yb,B.Yf,B.Yc,B.Y9,B.Ye,B.Ya],A.ac("E<e,mT>"))
-B.ayf={combo_heal:0,combo_holyShield:1,combo_bless:2,combo_swap:3,combo_purify:4,combo_sanctuary:5,combo_divineGrace:6,combo_renew:7,combo_repel:8,combo_judgment:9,combo_mending:10,combo_radiantRay:11}
+B.ayg={combo_heal:0,combo_holyShield:1,combo_bless:2,combo_swap:3,combo_purify:4,combo_sanctuary:5,combo_divineGrace:6,combo_renew:7,combo_repel:8,combo_judgment:9,combo_mending:10,combo_radiantRay:11}
 B.Z3=new A.cg("vfx_holy_bloom","target",0,null,1,-20,0,0,!1)
 B.a4Q=s([B.Z3],t.E)
 B.ZO=new A.cg("vfx_holy_crown","target",0,"rgba(255,240,190,.8)",1,-6,0,0,!1)
@@ -153315,8 +153315,8 @@ B.Zk=new A.cg("vfx_holy_petals","target",0,"rgba(255,245,210,.6)",1.2,-6,0,0,!1)
 B.agd=s([B.Zk],t.E)
 B.Z6=new A.cg("vfx_holy_beam","target",0,null,1.1,-12,0,0,!0)
 B.acx=s([B.Z6],t.E)
-B.atY=new A.E(B.ayf,[B.a4Q,B.am5,B.agF,B.aeI,B.acu,B.abp,B.abk,B.ahO,B.a5I,B.adj,B.agd,B.acx],t.CR)
-B.azz={swing:0,swordHit:1,dagger:2,daggerHit:3,punchHit:4,bow:5,arrowHit:6,quickShot:7,pushArrow:8,poisonArrow:9,hawkEye:10,shrapnel:11,spreadShot:12,volleyShot:13,pinningShot:14,snapback:15,smokeStep:16,backstepShot:17,keenEye:18,ballista:19,plagueArrow:20,stormOfArrows:21,windrunner:22,flameDart:23,frostBolt:24,gravityBolt:25,arcFocus:26,fireball:27,chainLightning:28,vortex:29,iceWall:30,flameDash:31,thunderclap:32,blink:33,frostNova:34,meteor:35,stormCall:36,riftGate:37,overcharge:38,backstab:39,toxicCut:40,vanishStrike:41,knifeRain:42,venomSlash:43,shadowSweep:44,ambushLunge:45,shadowstep:46,flicker:47,steal:48,assassinate:49,thousandCuts:50,lightFeet:51,smokeBomb:52,nightfall:53,stealthCast:54,bash:55,bloodStrike:56,frostLunge:57,guard:58,cleave:59,quake:60,flameArc:61,bulwark:62,charge:63,ironPull:64,thunderLeap:65,battleCry:66,shatter:67,rageSlam:68,runeBurst:69,armorBreak:70,staff:71,heal:72,bless:73,purify:74,holySmite:75,holyJudgment:76,holyPull:77,holyPurify:78,holyRadiance:79,holySanctuary:80,holyRay:81,holyBless:82,holyGraceStep:83,holySwap:84,holyShieldCast:85,holyAegis:86,holyMiracle:87,holyRapture:88,holyGrace:89,arcaneHit:90,frost:91,frostHit:92,lightning:93,thunder:94,stealth:95,dash:96,orcCry:97,powerUp:98,webSplat:99,plantPuff:100,fire:101,fireHit:102,meteorHit:103,slimeJump:104,slimeHit:105,kingJump:106,kingHit:107,ratSqueak:108,ratBite:109,victory:110,defeat:111,levelUp:112,fight_start:113,unsheath:114,tick:115,slimeStep:116,kingStep:117,stepDirt:118,stepStone:119,stepDirtRun:120,stepStoneRun:121,stepWood:122,stepWoodRun:123,stepGrass:124,stepGrassRun:125,stepTallGrass:126,stepSand:127,stepSandRun:128,stepStomp:129,stepBones:130,stepSkitter:131,stepPaws:132,stepSlither:133,stepBuzz:134,stepPlant:135,doorOpen:136,doorClose:137,chop:138,mine:139,uiClick:140,mapTravel:141,bonfire:142,boneSwing:143,boneHit:144,voiceKeeper:145,voiceMerchant:146,voiceWyn:147,voiceChief:148,voiceChiefLater:149}
+B.atY=new A.E(B.ayg,[B.a4Q,B.am5,B.agF,B.aeI,B.acu,B.abp,B.abk,B.ahO,B.a5I,B.adj,B.agd,B.acx],t.CR)
+B.azA={swing:0,swordHit:1,dagger:2,daggerHit:3,punchHit:4,bow:5,arrowHit:6,quickShot:7,pushArrow:8,poisonArrow:9,hawkEye:10,shrapnel:11,spreadShot:12,volleyShot:13,pinningShot:14,snapback:15,smokeStep:16,backstepShot:17,keenEye:18,ballista:19,plagueArrow:20,stormOfArrows:21,windrunner:22,flameDart:23,frostBolt:24,gravityBolt:25,arcFocus:26,fireball:27,chainLightning:28,vortex:29,iceWall:30,flameDash:31,thunderclap:32,blink:33,frostNova:34,meteor:35,stormCall:36,riftGate:37,overcharge:38,backstab:39,toxicCut:40,vanishStrike:41,knifeRain:42,venomSlash:43,shadowSweep:44,ambushLunge:45,shadowstep:46,flicker:47,steal:48,assassinate:49,thousandCuts:50,lightFeet:51,smokeBomb:52,nightfall:53,stealthCast:54,bash:55,bloodStrike:56,frostLunge:57,guard:58,cleave:59,quake:60,flameArc:61,bulwark:62,charge:63,ironPull:64,thunderLeap:65,battleCry:66,shatter:67,rageSlam:68,runeBurst:69,armorBreak:70,staff:71,heal:72,bless:73,purify:74,holySmite:75,holyJudgment:76,holyPull:77,holyPurify:78,holyRadiance:79,holySanctuary:80,holyRay:81,holyBless:82,holyGraceStep:83,holySwap:84,holyShieldCast:85,holyAegis:86,holyMiracle:87,holyRapture:88,holyGrace:89,arcaneHit:90,frost:91,frostHit:92,lightning:93,thunder:94,stealth:95,dash:96,orcCry:97,powerUp:98,webSplat:99,plantPuff:100,fire:101,fireHit:102,meteorHit:103,slimeJump:104,slimeHit:105,kingJump:106,kingHit:107,ratSqueak:108,ratBite:109,victory:110,defeat:111,levelUp:112,fight_start:113,unsheath:114,tick:115,slimeStep:116,kingStep:117,stepDirt:118,stepStone:119,stepDirtRun:120,stepStoneRun:121,stepWood:122,stepWoodRun:123,stepGrass:124,stepGrassRun:125,stepTallGrass:126,stepSand:127,stepSandRun:128,stepStomp:129,stepBones:130,stepSkitter:131,stepPaws:132,stepSlither:133,stepBuzz:134,stepPlant:135,doorOpen:136,doorClose:137,chop:138,mine:139,uiClick:140,mapTravel:141,bonfire:142,boneSwing:143,boneHit:144,voiceKeeper:145,voiceMerchant:146,voiceWyn:147,voiceChief:148,voiceChiefLater:149}
 B.abI=s(["spells/sword_swing_01","spells/sword_swing_02","spells/sword_swing_03"],t.s)
 B.aKH=new A.aj(B.abI,1,0.8)
 B.aoY=s(["spells/sword_hit_01","spells/sword_hit_02","spells/sword_hit_03"],t.s)
@@ -153330,17 +153330,17 @@ B.aKZ=new A.aj(B.aiZ,1,0.9)
 B.an4=s(["spells/bow_release_01","spells/bow_release_02","spells/bow_release_03"],t.s)
 B.aLT=new A.aj(B.an4,1,0.8)
 B.af6=s(["spells/arrow_hit_01","spells/arrow_hit_02","spells/arrow_hit_03"],t.s)
-B.aLx=new A.aj(B.af6,1,0.9)
+B.aLw=new A.aj(B.af6,1,0.9)
 B.agE=s(["spells/quick_shot_01","spells/quick_shot_02","spells/quick_shot_03"],t.s)
 B.aKs=new A.aj(B.agE,1,0.7)
 B.aj4=s(["spells/push_arrow_01","spells/push_arrow_02","spells/push_arrow_03"],t.s)
 B.aLR=new A.aj(B.aj4,1,0.7)
 B.a9A=s(["spells/poison_arrow_01","spells/poison_arrow_02","spells/poison_arrow_03"],t.s)
-B.aLG=new A.aj(B.a9A,1,0.7)
+B.aLF=new A.aj(B.a9A,1,0.7)
 B.a6v=s(["spells/hawk_eye_01","spells/hawk_eye_02","spells/hawk_eye_03"],t.s)
-B.aMy=new A.aj(B.a6v,1,0.7)
+B.aMz=new A.aj(B.a6v,1,0.7)
 B.ahI=s(["spells/shrapnel_01","spells/shrapnel_02","spells/shrapnel_03"],t.s)
-B.aMt=new A.aj(B.ahI,1,0.7)
+B.aMu=new A.aj(B.ahI,1,0.7)
 B.akh=s(["spells/spread_shot_01","spells/spread_shot_02","spells/spread_shot_03"],t.s)
 B.aMh=new A.aj(B.akh,1,0.7)
 B.ady=s(["spells/volley_01","spells/volley_02","spells/volley_03"],t.s)
@@ -153350,11 +153350,11 @@ B.aMO=new A.aj(B.aps,1,0.7)
 B.ajT=s(["spells/snapback_01","spells/snapback_02","spells/snapback_03"],t.s)
 B.aKV=new A.aj(B.ajT,1,0.7)
 B.ah2=s(["spells/smoke_step_01","spells/smoke_step_02","spells/smoke_step_03"],t.s)
-B.aLw=new A.aj(B.ah2,1,0.7)
+B.aLv=new A.aj(B.ah2,1,0.7)
 B.anM=s(["spells/backstep_shot_01","spells/backstep_shot_02","spells/backstep_shot_03"],t.s)
 B.aLP=new A.aj(B.anM,1,0.7)
 B.ai0=s(["spells/keen_eye_01","spells/keen_eye_02","spells/keen_eye_03"],t.s)
-B.aLK=new A.aj(B.ai0,1,0.7)
+B.aLJ=new A.aj(B.ai0,1,0.7)
 B.aa_=s(["spells/ballista_01","spells/ballista_02","spells/ballista_03"],t.s)
 B.aMD=new A.aj(B.aa_,1,0.7)
 B.acy=s(["spells/plague_arrow_01","spells/plague_arrow_02","spells/plague_arrow_03"],t.s)
@@ -153362,7 +153362,7 @@ B.aKF=new A.aj(B.acy,1,0.7)
 B.aj2=s(["spells/storm_of_arrows_01","spells/storm_of_arrows_02","spells/storm_of_arrows_03"],t.s)
 B.aKy=new A.aj(B.aj2,1,0.7)
 B.adY=s(["spells/windrunner_01","spells/windrunner_02","spells/windrunner_03"],t.s)
-B.aLA=new A.aj(B.adY,1,0.7)
+B.aLz=new A.aj(B.adY,1,0.7)
 B.apg=s(["spells/flame_dart_01","spells/flame_dart_02","spells/flame_dart_03"],t.s)
 B.aM6=new A.aj(B.apg,1,0.7)
 B.acF=s(["spells/frost_bolt_01","spells/frost_bolt_02","spells/frost_bolt_03"],t.s)
@@ -153408,7 +153408,7 @@ B.aL6=new A.aj(B.am9,1,0.7)
 B.ag9=s(["spells/shadow_sweep_01","spells/shadow_sweep_02","spells/shadow_sweep_03"],t.s)
 B.aLY=new A.aj(B.ag9,1,0.7)
 B.anz=s(["spells/ambush_lunge_01","spells/ambush_lunge_02","spells/ambush_lunge_03"],t.s)
-B.aLz=new A.aj(B.anz,1,0.7)
+B.aLy=new A.aj(B.anz,1,0.7)
 B.anF=s(["spells/shadowstep_01","spells/shadowstep_02","spells/shadowstep_03"],t.s)
 B.aKt=new A.aj(B.anF,1,0.7)
 B.acb=s(["spells/flicker_01","spells/flicker_02","spells/flicker_03"],t.s)
@@ -153438,11 +153438,11 @@ B.aKU=new A.aj(B.adN,1,0.7)
 B.ag4=s(["spells/cleave_01","spells/cleave_02","spells/cleave_03"],t.s)
 B.aL_=new A.aj(B.ag4,1,0.7)
 B.add=s(["spells/quake_01","spells/quake_02","spells/quake_03"],t.s)
-B.aLM=new A.aj(B.add,1,0.7)
+B.aLL=new A.aj(B.add,1,0.7)
 B.anf=s(["spells/flame_arc_01","spells/flame_arc_02","spells/flame_arc_03"],t.s)
-B.aLI=new A.aj(B.anf,1,0.7)
+B.aLH=new A.aj(B.anf,1,0.7)
 B.adb=s(["spells/bulwark_01","spells/bulwark_02","spells/bulwark_03"],t.s)
-B.aLD=new A.aj(B.adb,1,0.7)
+B.aLC=new A.aj(B.adb,1,0.7)
 B.a5K=s(["spells/charge_01","spells/charge_02","spells/charge_03"],t.s)
 B.aKT=new A.aj(B.a5K,1,0.7)
 B.abX=s(["spells/iron_pull_01","spells/iron_pull_02","spells/iron_pull_03"],t.s)
@@ -153454,7 +153454,7 @@ B.aM1=new A.aj(B.afC,1,0.7)
 B.agr=s(["spells/shatter_01","spells/shatter_02","spells/shatter_03"],t.s)
 B.aLc=new A.aj(B.agr,1,0.7)
 B.ap8=s(["spells/rage_slam_01","spells/rage_slam_02","spells/rage_slam_03"],t.s)
-B.aMv=new A.aj(B.ap8,1,0.7)
+B.aMw=new A.aj(B.ap8,1,0.7)
 B.aj5=s(["spells/rune_burst_01","spells/rune_burst_02","spells/rune_burst_03"],t.s)
 B.aLS=new A.aj(B.aj5,1,0.7)
 B.aoQ=s(["spells/armor_break_01","spells/armor_break_02","spells/armor_break_03"],t.s)
@@ -153466,35 +153466,35 @@ B.aMr=new A.aj(B.any,1.3,0.6)
 B.ahP=s(["spells/bless_1","spells/bless_1"],t.s)
 B.IJ=new A.aj(B.ahP,1.3,0.6)
 B.alG=s(["spells/holy_impact_09"],t.s)
-B.aLh=new A.aj(B.alG,1,0.8)
+B.aLg=new A.aj(B.alG,1,0.8)
 B.alH=s(["spells/holy_impact_01"],t.s)
-B.aLi=new A.aj(B.alH,1,0.8)
+B.aLh=new A.aj(B.alH,1,0.8)
 B.alI=s(["spells/holy_impact_02"],t.s)
-B.aLj=new A.aj(B.alI,1,0.8)
+B.aLi=new A.aj(B.alI,1,0.8)
 B.alN=s(["spells/holy_impact_06"],t.s)
-B.aLo=new A.aj(B.alN,1,0.8)
+B.aLn=new A.aj(B.alN,1,0.8)
 B.alO=s(["spells/holy_impact_03"],t.s)
-B.aLp=new A.aj(B.alO,1,0.8)
+B.aLo=new A.aj(B.alO,1,0.8)
 B.alP=s(["spells/holy_impact_13"],t.s)
-B.aLq=new A.aj(B.alP,1,0.8)
+B.aLp=new A.aj(B.alP,1,0.8)
 B.alQ=s(["spells/holy_impact_12"],t.s)
-B.aLr=new A.aj(B.alQ,1,0.8)
+B.aLq=new A.aj(B.alQ,1,0.8)
 B.alR=s(["spells/holy_impact_04"],t.s)
-B.aLs=new A.aj(B.alR,1,0.8)
+B.aLr=new A.aj(B.alR,1,0.8)
 B.alS=s(["spells/holy_impact_07"],t.s)
-B.aLt=new A.aj(B.alS,1,0.8)
+B.aLs=new A.aj(B.alS,1,0.8)
 B.alT=s(["spells/holy_impact_11"],t.s)
-B.aLu=new A.aj(B.alT,1,0.8)
+B.aLt=new A.aj(B.alT,1,0.8)
 B.alU=s(["spells/holy_impact_14"],t.s)
-B.aLv=new A.aj(B.alU,1,0.8)
+B.aLu=new A.aj(B.alU,1,0.8)
 B.alJ=s(["spells/holy_impact_10"],t.s)
-B.aLk=new A.aj(B.alJ,1,0.8)
+B.aLj=new A.aj(B.alJ,1,0.8)
 B.alK=s(["spells/holy_impact_08"],t.s)
-B.aLl=new A.aj(B.alK,1,0.8)
+B.aLk=new A.aj(B.alK,1,0.8)
 B.alL=s(["spells/holy_impact_15"],t.s)
-B.aLm=new A.aj(B.alL,1,0.8)
+B.aLl=new A.aj(B.alL,1,0.8)
 B.alM=s(["spells/holy_impact_05"],t.s)
-B.aLn=new A.aj(B.alM,1,0.8)
+B.aLm=new A.aj(B.alM,1,0.8)
 B.aeW=s(["spells/arcane_hit_01","spells/arcane_hit_02","spells/arcane_hit_03"],t.s)
 B.aKB=new A.aj(B.aeW,1,0.8)
 B.anL=s(["spells/ice_cast_01","spells/ice_cast_02","spells/ice_cast_03"],t.s)
@@ -153508,7 +153508,7 @@ B.aL0=new A.aj(B.adQ,1,1)
 B.afx=s(["spells/smoke_vanish_01","spells/smoke_vanish_02","spells/smoke_vanish_03"],t.s)
 B.aKM=new A.aj(B.afx,1,0.6)
 B.ajL=s(["spells/dash_01","spells/dash_02","spells/dash_03"],t.s)
-B.aMu=new A.aj(B.ajL,1,0.6)
+B.aMv=new A.aj(B.ajL,1,0.6)
 B.amh=s(["spells/orc_cry_01","spells/orc_cry_02","spells/orc_cry_03"],t.s)
 B.aMH=new A.aj(B.amh,1,0.6)
 B.a6h=s(["spells/power_up_01","spells/power_up_02","spells/power_up_03"],t.s)
@@ -153518,7 +153518,7 @@ B.aL5=new A.aj(B.ah1,1,0.6)
 B.am4=s(["spells/plant_01","spells/plant_02","spells/plant_03"],t.s)
 B.aLV=new A.aj(B.am4,1,0.6)
 B.alV=s(["spells/fire_cast_01","spells/fire_cast_02","spells/fire_cast_03"],t.s)
-B.aLL=new A.aj(B.alV,1,0.7)
+B.aLK=new A.aj(B.alV,1,0.7)
 B.af_=s(["spells/fire_hit_01","spells/fire_hit_02","spells/fire_hit_03"],t.s)
 B.aKL=new A.aj(B.af_,1,0.9)
 B.afu=s(["spells/rock_meteor_swarm_1","spells/rock_meteor_swarm_2"],t.s)
@@ -153526,17 +153526,17 @@ B.aMo=new A.aj(B.afu,0.75,1)
 B.a9C=s(["spells/slime_bounce_01","spells/slime_bounce_02","spells/slime_bounce_03"],t.s)
 B.aL1=new A.aj(B.a9C,1,0.7)
 B.a5J=s(["spells/slime_splat_01","spells/slime_splat_02","spells/slime_splat_03"],t.s)
-B.aLy=new A.aj(B.a5J,1,0.9)
+B.aLx=new A.aj(B.a5J,1,0.9)
 B.ahj=s(["spells/king_jump_01","spells/king_jump_02","spells/king_jump_03"],t.s)
 B.aKz=new A.aj(B.ahj,1,0.9)
 B.agm=s(["spells/king_slam_01","spells/king_slam_02","spells/king_slam_03"],t.s)
 B.aMf=new A.aj(B.agm,1,1)
 B.a8V=s(["spells/rat_squeak_01","spells/rat_squeak_02","spells/rat_squeak_03"],t.s)
-B.aLJ=new A.aj(B.a8V,1,0.6)
+B.aLI=new A.aj(B.a8V,1,0.6)
 B.aeC=s(["spells/rat_bite_01","spells/rat_bite_02","spells/rat_bite_03"],t.s)
-B.aMB=new A.aj(B.aeC,1,0.7)
+B.aMC=new A.aj(B.aeC,1,0.7)
 B.aab=s(["jingles/combat_success"],t.s)
-B.aLC=new A.aj(B.aab,1,0.8)
+B.aLB=new A.aj(B.aab,1,0.8)
 B.amu=s(["jingles/jingles_pizzi01"],t.s)
 B.aMF=new A.aj(B.amu,1,0.8)
 B.ab_=s(["jingles/level_up"],t.s)
@@ -153544,7 +153544,7 @@ B.aKK=new A.aj(B.ab_,1,0.8)
 B.abC=s(["jingles/jingles_hit13"],t.s)
 B.aKq=new A.aj(B.abC,1,0.8)
 B.aiE=s(["attacks/sword_attacks_hits_and_blocks/sword_unsheath_1"],t.s)
-B.aLE=new A.aj(B.aiE,1,0.9)
+B.aLD=new A.aj(B.aiE,1,0.9)
 B.ann=s(["spells/status_tick_01","spells/status_tick_02","spells/status_tick_03"],t.s)
 B.aMM=new A.aj(B.ann,1,0.3)
 B.act=s(["footsteps/water/water_walk_1","footsteps/water/water_walk_2","footsteps/water/water_walk_3","footsteps/water/water_walk_4","footsteps/water/water_walk_5"],t.s)
@@ -153554,13 +153554,13 @@ B.aMc=new A.aj(B.amo,0.7,0.35)
 B.afA=s(["footsteps/dirt/dirt_walk_1","footsteps/dirt/dirt_walk_2","footsteps/dirt/dirt_walk_3","footsteps/dirt/dirt_walk_4","footsteps/dirt/dirt_walk_5"],t.s)
 B.aMe=new A.aj(B.afA,1,0.2)
 B.abd=s(["footsteps/stone/stone_walk_1","footsteps/stone/stone_walk_2","footsteps/stone/stone_walk_3","footsteps/stone/stone_walk_4","footsteps/stone/stone_walk_5"],t.s)
-B.aLF=new A.aj(B.abd,1,0.2)
+B.aLE=new A.aj(B.abd,1,0.2)
 B.ako=s(["footsteps/dirt/dirt_run_1","footsteps/dirt/dirt_run_2","footsteps/dirt/dirt_run_3","footsteps/dirt/dirt_run_4","footsteps/dirt/dirt_run_5"],t.s)
-B.aMs=new A.aj(B.ako,1,0.2)
+B.aMt=new A.aj(B.ako,1,0.2)
 B.agZ=s(["footsteps/stone/stone_run_1","footsteps/stone/stone_run_2","footsteps/stone/stone_run_3","footsteps/stone/stone_run_4","footsteps/stone/stone_run_5"],t.s)
 B.aLZ=new A.aj(B.agZ,1,0.2)
 B.a6j=s(["footsteps/wood/wood_walk_1","footsteps/wood/wood_walk_2","footsteps/wood/wood_walk_3","footsteps/wood/wood_walk_4","footsteps/wood/wood_walk_5"],t.s)
-B.aMA=new A.aj(B.a6j,1,0.2)
+B.aMB=new A.aj(B.a6j,1,0.2)
 B.a33=s(["footsteps/wood/wood_run_1","footsteps/wood/wood_run_2","footsteps/wood/wood_run_3","footsteps/wood/wood_run_4","footsteps/wood/wood_run_5"],t.s)
 B.aMR=new A.aj(B.a33,1,0.2)
 B.agy=s(["footsteps/grass/grass_walk_01","footsteps/grass/grass_walk_02","footsteps/grass/grass_walk_03"],t.s)
@@ -153568,21 +153568,21 @@ B.aM9=new A.aj(B.agy,1,0.2)
 B.aeZ=s(["footsteps/grass/grass_run_01","footsteps/grass/grass_run_02","footsteps/grass/grass_run_03"],t.s)
 B.aKR=new A.aj(B.aeZ,1,0.2)
 B.acC=s(["footsteps/grass/tall_grass_01","footsteps/grass/tall_grass_02","footsteps/grass/tall_grass_03"],t.s)
-B.aLg=new A.aj(B.acC,1,0.2)
+B.aLf=new A.aj(B.acC,1,0.2)
 B.adk=s(["footsteps/sand/sand_walk_01","footsteps/sand/sand_walk_02","footsteps/sand/sand_walk_03"],t.s)
-B.aLf=new A.aj(B.adk,1,0.2)
+B.aMs=new A.aj(B.adk,1,0.13)
 B.aed=s(["footsteps/sand/sand_run_01","footsteps/sand/sand_run_02","footsteps/sand/sand_run_03"],t.s)
-B.aMC=new A.aj(B.aed,1,0.2)
+B.aLM=new A.aj(B.aed,1,0.13)
 B.aj3=s(["footsteps/mobs/stomp_01","footsteps/mobs/stomp_02","footsteps/mobs/stomp_03"],t.s)
 B.aKX=new A.aj(B.aj3,1,0.2)
 B.akj=s(["footsteps/mobs/bones_01","footsteps/mobs/bones_02","footsteps/mobs/bones_03"],t.s)
 B.aKw=new A.aj(B.akj,1,0.2)
 B.afP=s(["footsteps/mobs/skitter_01","footsteps/mobs/skitter_02","footsteps/mobs/skitter_03"],t.s)
-B.aMw=new A.aj(B.afP,1,0.2)
+B.aMx=new A.aj(B.afP,1,0.2)
 B.a5w=s(["footsteps/mobs/paws_01","footsteps/mobs/paws_02","footsteps/mobs/paws_03"],t.s)
 B.aMp=new A.aj(B.a5w,1,0.2)
 B.afQ=s(["footsteps/mobs/slither_01","footsteps/mobs/slither_02","footsteps/mobs/slither_03"],t.s)
-B.aMx=new A.aj(B.afQ,1,0.2)
+B.aMy=new A.aj(B.afQ,1,0.2)
 B.aly=s(["footsteps/mobs/buzz_01","footsteps/mobs/buzz_02","footsteps/mobs/buzz_03"],t.s)
 B.aKp=new A.aj(B.aly,1,0.2)
 B.akd=s(["footsteps/mobs/plant_01","footsteps/mobs/plant_02","footsteps/mobs/plant_03"],t.s)
@@ -153590,7 +153590,7 @@ B.aMg=new A.aj(B.akd,1,0.2)
 B.ain=s(["doors/door_open_1","doors/door_open_2"],t.s)
 B.aM4=new A.aj(B.ain,1,0.6)
 B.aoI=s(["doors/door_close_1","doors/door_close_2"],t.s)
-B.aMz=new A.aj(B.aoI,1,0.6)
+B.aMA=new A.aj(B.aoI,1,0.6)
 B.a9T=s(["gather/chop_1","gather/chop_2","gather/chop_3","gather/chop_4"],t.s)
 B.aMk=new A.aj(B.a9T,1,0.5)
 B.acm=s(["gather/mine_1","gather/mine_2","gather/mine_3","gather/mine_4","gather/mine_5"],t.s)
@@ -153610,14 +153610,14 @@ B.aLW=new A.aj(B.amY,0.92,0.9)
 B.acQ=s(["voice/greeting/karen_cenon/greeting_1","voice/greeting/karen_cenon/greeting_2","voice/greeting/karen_cenon/greeting_6","voice/greeting/karen_cenon/greeting_7","voice/greeting/karen_cenon/greeting_8"],t.s)
 B.aMa=new A.aj(B.acQ,1.06,0.9)
 B.ahv=s(["voice/wyn/wyn_1","voice/wyn/wyn_2","voice/wyn/wyn_3"],t.s)
-B.aLB=new A.aj(B.ahv,1,0.9)
+B.aLA=new A.aj(B.ahv,1,0.9)
 B.aki=s(["voice/greeting/sean_lenhart/greeting_5","voice/greeting/sean_lenhart/greeting_7","voice/misc/sean_lenhart/misc_2","voice/misc/sean_lenhart/misc_13","voice/misc/sean_lenhart/misc_17"],t.s)
-B.aLH=new A.aj(B.aki,0.86,0.9)
+B.aLG=new A.aj(B.aki,0.86,0.9)
 B.aou=s(["voice/greeting/sean_lenhart/greeting_6","voice/greeting/sean_lenhart/greeting_7","voice/greeting/sean_lenhart/greeting_1","voice/misc/sean_lenhart/misc_12"],t.s)
 B.aKY=new A.aj(B.aou,0.86,0.9)
-B.au_=new A.E(B.azz,[B.aKH,B.aKl,B.aM_,B.aKS,B.aKZ,B.aLT,B.aLx,B.aKs,B.aLR,B.aLG,B.aMy,B.aMt,B.aMh,B.aKu,B.aMO,B.aKV,B.aLw,B.aLP,B.aLK,B.aMD,B.aKF,B.aKy,B.aLA,B.aM6,B.aKD,B.aL8,B.aM0,B.aMK,B.aMm,B.aKv,B.aLa,B.aM7,B.aMG,B.aL7,B.aKE,B.aLQ,B.aLd,B.aLU,B.aKI,B.aKA,B.aMJ,B.aKW,B.aKJ,B.aL6,B.aLY,B.aLz,B.aKt,B.aMl,B.aKO,B.aKC,B.aKo,B.aKn,B.aKP,B.aKG,B.aM2,B.aLX,B.aL2,B.aKN,B.aKU,B.aL_,B.aLM,B.aLI,B.aLD,B.aKT,B.aLN,B.aMi,B.aM1,B.aLc,B.aMv,B.aLS,B.aMq,B.aMj,B.aMr,B.IJ,B.IJ,B.aLh,B.aLi,B.aLj,B.aLo,B.aLp,B.aLq,B.aLr,B.aLs,B.aLt,B.aLu,B.aLv,B.aLk,B.aLl,B.aLm,B.aLn,B.aKB,B.aML,B.aMn,B.aMP,B.aL0,B.aKM,B.aMu,B.aMH,B.aL4,B.aL5,B.aLV,B.aLL,B.aKL,B.aMo,B.aL1,B.aLy,B.aKz,B.aMf,B.aLJ,B.aMB,B.aLC,B.aMF,B.aKK,B.aKq,B.aLE,B.aMM,B.aLO,B.aMc,B.aMe,B.aLF,B.aMs,B.aLZ,B.aMA,B.aMR,B.aM9,B.aKR,B.aLg,B.aLf,B.aMC,B.aKX,B.aKw,B.aMw,B.aMp,B.aMx,B.aKp,B.aMg,B.aM4,B.aMz,B.aMk,B.aMb,B.aLb,B.aM3,B.aKQ,B.aM8,B.aME,B.aLW,B.aMa,B.aLB,B.aLH,B.aKY],A.ac("E<e,+(H<e>,Z,Z)>"))
-B.aA5={traveler:0}
-B.cF=new A.E(B.aA5,[B.up],A.ac("E<e,OY>"))
+B.au_=new A.E(B.azA,[B.aKH,B.aKl,B.aM_,B.aKS,B.aKZ,B.aLT,B.aLw,B.aKs,B.aLR,B.aLF,B.aMz,B.aMu,B.aMh,B.aKu,B.aMO,B.aKV,B.aLv,B.aLP,B.aLJ,B.aMD,B.aKF,B.aKy,B.aLz,B.aM6,B.aKD,B.aL8,B.aM0,B.aMK,B.aMm,B.aKv,B.aLa,B.aM7,B.aMG,B.aL7,B.aKE,B.aLQ,B.aLd,B.aLU,B.aKI,B.aKA,B.aMJ,B.aKW,B.aKJ,B.aL6,B.aLY,B.aLy,B.aKt,B.aMl,B.aKO,B.aKC,B.aKo,B.aKn,B.aKP,B.aKG,B.aM2,B.aLX,B.aL2,B.aKN,B.aKU,B.aL_,B.aLL,B.aLH,B.aLC,B.aKT,B.aLN,B.aMi,B.aM1,B.aLc,B.aMw,B.aLS,B.aMq,B.aMj,B.aMr,B.IJ,B.IJ,B.aLg,B.aLh,B.aLi,B.aLn,B.aLo,B.aLp,B.aLq,B.aLr,B.aLs,B.aLt,B.aLu,B.aLj,B.aLk,B.aLl,B.aLm,B.aKB,B.aML,B.aMn,B.aMP,B.aL0,B.aKM,B.aMv,B.aMH,B.aL4,B.aL5,B.aLV,B.aLK,B.aKL,B.aMo,B.aL1,B.aLx,B.aKz,B.aMf,B.aLI,B.aMC,B.aLB,B.aMF,B.aKK,B.aKq,B.aLD,B.aMM,B.aLO,B.aMc,B.aMe,B.aLE,B.aMt,B.aLZ,B.aMB,B.aMR,B.aM9,B.aKR,B.aLf,B.aMs,B.aLM,B.aKX,B.aKw,B.aMx,B.aMp,B.aMy,B.aKp,B.aMg,B.aM4,B.aMA,B.aMk,B.aMb,B.aLb,B.aM3,B.aKQ,B.aM8,B.aME,B.aLW,B.aMa,B.aLA,B.aLG,B.aKY],A.ac("E<e,+(H<e>,Z,Z)>"))
+B.aA6={traveler:0}
+B.cF=new A.E(B.aA6,[B.up],A.ac("E<e,OY>"))
 B.EB={meadow:0,cave:1,riverlands:2,eastgate:3,ashlands:4,orc_whelps:5,orc_warcamp:6,orc_fortress:7,chitin:8,shore:9}
 B.pS=s([12,8],t.t)
 B.a93=s([6,12],t.t)
@@ -153627,7 +153627,7 @@ B.a3F=s([10,5],t.t)
 B.a8j=s([5,3],t.t)
 B.au0=new A.E(B.EB,[B.pS,B.a93,B.pS,B.pR,B.pR,B.pS,B.a42,B.a3F,B.pR,B.a8j],t.SQ)
 B.qH=new A.E(B.EB,[1,2,2,3,4,5,5,5,6,6],t.I)
-B.aA8={combo_inferno:0,combo_frostbite:1,combo_burningBrand:2,combo_overcharge:3}
+B.aA9={combo_inferno:0,combo_frostbite:1,combo_burningBrand:2,combo_overcharge:3}
 B.Zh=new A.cg("vfx_fire_mushroom","target",0,null,1.5,4,0,0,!1)
 B.Z5=new A.cg("vfx_smoke_soft","target",250,"rgba(90,60,50,.7)",1.3,-36,0,0,!1)
 B.ai4=s([B.Zh,B.Z5],t.E)
@@ -153640,11 +153640,11 @@ B.akT=s([B.Zs,B.ZP],t.E)
 B.ZM=new A.cg("vfx_vortex_close","caster",0,null,1,-14,0,0,!1)
 B.ZK=new A.cg("vfx_cross_spark","caster",420,"#e2d4ff",1,-34,0,0,!1)
 B.acI=s([B.ZM,B.ZK],t.E)
-B.au1=new A.E(B.aA8,[B.ai4,B.al1,B.akT,B.acI],t.CR)
-B.ayW={male:0,female:1}
+B.au1=new A.E(B.aA9,[B.ai4,B.al1,B.akT,B.acI],t.CR)
+B.ayX={male:0,female:1}
 B.ahp=s(["plain","bangslong","messy1","spiked","pixie","afro","buzzcut","shorthawk","bedhead"],t.s)
 B.apu=s(["bob","ponytail","long","pigtails","xlong","high_ponytail","curly_short","long_messy"],t.s)
-B.m4=new A.E(B.ayW,[B.ahp,B.apu],t.VJ)
+B.m4=new A.E(B.ayX,[B.ahp,B.apu],t.VJ)
 B.axx={animal_pig:0,animal_cow:1,animal_chicken:2,animal_dog:3,animal_cat:4,animal_hare:5,animal_grouse:6,animal_fox:7,animal_deer:8,animal_boar:9,bonfire:10,exit_portal_0:11,exit_portal_1:12,exit_portal_2:13,exit_portal_3:14,exit_portal_4:15,exit_portal_5:16,interact_talk:17,interact_fight:18,interact_enter:19,interact_search:20,interact_chop:21,interact_mine:22,interact_pick:23,interact_fish:24,interact_plant:25,interact_water:26,interact_harvest:27,interact_craft:28,exit_ring_anim_0:29,exit_ring_anim_1:30,exit_ring_anim_2:31,exit_ring_anim_3:32,exit_ring_anim_4:33,exit_ring_anim_5:34,homestead_plot_tree_1:35,homestead_plot_tree_2:36,homestead_plot_tree_3:37,homestead_plot_ore_1:38,homestead_plot_ore_2:39,homestead_plot_ore_3:40,homestead_plot_herb_1:41,homestead_plot_herb_2:42,homestead_plot_herb_3:43,homestead_plot_empty:44,homestead_tent_pitched:45,quest_prop_sword:46,quest_prop_bundle:47,quest_prop_sack:48,quest_prop_lamp:49,quest_prop_bones:50,quest_prop_debris:51,quest_prop_post:52,quest_prop_tracks:53,orc_whelp_walk:54,orc_whelp_idle:55,orc_whelp_hurt:56,orc_youngling_walk:57,orc_youngling_idle:58,orc_youngling_hurt:59,orc_trainee_walk:60,orc_trainee_idle:61,orc_trainee_hurt:62,orc_grunt_walk:63,orc_grunt_idle:64,orc_grunt_hurt:65,orc_warrior_walk:66,orc_warrior_idle:67,orc_warrior_hurt:68,orc_archer_walk:69,orc_archer_idle:70,orc_archer_hurt:71,orc_shaman_walk:72,orc_shaman_idle:73,orc_shaman_hurt:74,orc_berserker_walk:75,orc_berserker_idle:76,orc_berserker_hurt:77,orc_guard_captain_walk:78,orc_guard_captain_idle:79,orc_guard_captain_hurt:80,orc_warchief_walk:81,orc_warchief_idle:82,orc_warchief_hurt:83,orc_whelp_slash_body:84,orc_trainee_slash_body:85,orc_youngling_slash_body:86,orc_berserker_slash_body:87,orc_grunt_thrust:88,orc_warrior_thrust:89,orc_guard_captain_thrust:90,orc_warchief_thrust:91,orc_archer_shoot:92,orc_shaman_spellcast:93,plant1_idle:94,plant1_walk:95,plant1_attack:96,plant1_hurt:97,plant1_death:98,plant2_idle:99,plant2_walk:100,plant2_attack:101,plant2_hurt:102,plant2_death:103,plant3_idle:104,plant3_walk:105,plant3_attack:106,plant3_hurt:107,plant3_death:108,icon_confirm:109,icon_cancel:110,icon_confirm_0:111,icon_confirm_1:112,icon_confirm_2:113,icon_confirm_3:114,icon_confirm_4:115,icon_confirm_5:116,icon_cancel_0:117,icon_cancel_1:118,icon_cancel_2:119,icon_cancel_3:120,icon_cancel_4:121,icon_cancel_5:122,icon_heal:123,element_neutral:124,element_fire:125,element_water:126,element_earth:127,element_wind:128,element_holy:129,element_shadow:130,element_poison:131,element_impact:132,badge_single:133,badge_area:134,badge_cone:135,badge_line:136,badge_chain:137,badge_gap_closer:138,badge_leap:139,badge_blink:140,badge_dash_through:141,badge_retreat:142,badge_push:143,badge_pull:144,badge_swap:145,badge_stun:146,badge_root:147,badge_heal:148,badge_shield:149,badge_buff:150,badge_zone:151,badge_ultimate:152,npc_talk:153,npc_quest:154,boss_quest:155,icon_clock:156,class_adventurer:157,class_sword:158,class_archer:159,class_mage:160,class_thief:161,class_priest:162,talk_anim_0:163,talk_anim_1:164,talk_anim_2:165,talk_anim_3:166,talk_anim_4:167,talk_anim_5:168,quest_anim_0:169,quest_anim_1:170,quest_anim_2:171,quest_anim_3:172,quest_anim_4:173,quest_anim_5:174,fight_anim_0:175,fight_anim_1:176,fight_anim_2:177,fight_anim_3:178,fight_anim_4:179,fight_anim_5:180,turn_ally_anim_0:181,turn_ally_anim_1:182,turn_ally_anim_2:183,turn_ally_anim_3:184,turn_ally_anim_4:185,turn_ally_anim_5:186,turn_enemy_anim_0:187,turn_enemy_anim_1:188,turn_enemy_anim_2:189,turn_enemy_anim_3:190,turn_enemy_anim_4:191,turn_enemy_anim_5:192,quest_target_anim_0:193,quest_target_anim_1:194,quest_target_anim_2:195,quest_target_anim_3:196,quest_target_anim_4:197,quest_target_anim_5:198,quest_complete_anim_0:199,quest_complete_anim_1:200,quest_complete_anim_2:201,quest_complete_anim_3:202,quest_complete_anim_4:203,quest_complete_anim_5:204,quest_complete_anim_6:205,quest_complete_anim_7:206,quest_complete_anim_8:207,quest_complete_anim_9:208,quest_ground_anim_0:209,quest_ground_anim_1:210,quest_ground_anim_2:211,quest_ground_anim_3:212,quest_ground_anim_4:213,quest_ground_anim_5:214,quest_trail_anim_0:215,quest_trail_anim_1:216,quest_trail_anim_2:217,quest_trail_anim_3:218,talk_0:219,talk_1:220,talk_2:221,talk_3:222,quest_available_0:223,quest_available_1:224,quest_available_2:225,quest_available_3:226,quest_progress_0:227,quest_progress_1:228,quest_progress_2:229,quest_progress_3:230,quest_turn_in_0:231,quest_turn_in_1:232,quest_turn_in_2:233,quest_turn_in_3:234,quest_locked_0:235,quest_locked_1:236,quest_locked_2:237,quest_locked_3:238,boss_0:239,boss_1:240,boss_2:241,boss_3:242,boss_beaten_0:243,boss_beaten_1:244,boss_beaten_2:245,boss_beaten_3:246,elite_0:247,elite_1:248,elite_2:249,elite_3:250,merchant_anim_0:251,merchant_anim_1:252,merchant_anim_2:253,merchant_anim_3:254,merchant_anim_4:255,merchant_anim_5:256,storage_anim_0:257,storage_anim_1:258,storage_anim_2:259,storage_anim_3:260,storage_anim_4:261,storage_anim_5:262,skel_walk:263,skel_spellcast:264,skel_hurt:265,skel_idle:266,knight_walk:267,knight_spellcast:268,knight_hurt:269,knight_idle:270,knight_thrust:271,slime:272,beetle:273,mantis:274,weaver:275,rat:276,bee:277,snake:278,small_worm:279,fx_freeze:280,fx_sparkle:281,fx_lightning_strike:282,fx_lightning_spark:283,fx_level_up:284,poison_bubble:285,burn_flame:286,whirlwind:287,vfx_arrow_rain:288,vfx_fireball:289,vfx_arrow_fire:290,vfx_arrow_water:291,vfx_slash_lightning:292,vfx_slash_poison:293,vfx_blood_small:294,vfx_blood_splash:295,vfx_blood_spray:296,vfx_blood_tight:297,vfx_smoke_soft:298,vfx_smoke_trail:299,vfx_smoke_burst:300,vfx_smoke_magic:301,vfx_smoke_poison:302,vfx_smoke_chemical:303,vfx_blood_heavy:304,vfx_seal_heal:305,vfx_seal_magic:306,vfx_seal_magic_loop:307,vfx_hit_spark:308,vfx_ice_shards:309,vfx_arrow_green:310,vfx_arrow_brown:311,vfx_arrow_blue:312,vfx_arrow_teal:313,vfx_arrow_grey:314,vfx_portal_arcane:315,vfx_level_up:316,vfx_ice_lance:317,vfx_lightning_bolt:318,vfx_holy_gold:319,vfx_explosion_fire:320,vfx_slash_ultimate:321,vfx_slash_wind:322,vfx_cslash_gold:323,vfx_cslash_pink:324,vfx_cslash_lime:325,vfx_cslash_steel:326,vfx_cslash_plume:327,vfx_fire_mushroom:328,vfx_star_burst:329,vfx_speed_streak:330,vfx_ice_spikes:331,vfx_water_tornado:332,vfx_water_bubble:333,vfx_dust_burst:334,vfx_cross_spark:335,vfx_spore_ring:336,vfx_fire_brand:337,vfx_light_rise:338,vfx_vortex_close:339,vfx_halo_drop:340,vfx_light_streak:341,vfx_cslash_streak:342,vfx_holy_swirl:343,vfx_holy_ground:344,vfx_holy_grace:345,vfx_holy_smite:346,vfx_holy_beam:347,vfx_holy_bloom:348,vfx_holy_crown:349,vfx_holy_spear:350,vfx_holy_spring:351,vfx_holy_heart:352,vfx_holy_petals:353,vfx_holy_wave:354,fx_meteor_fall:355,fx_arcane_bolt:356,fx_arcane_impact:357,fx_fire_bolt:358,fx_fireball:359,fx_fire_dart_px:360,fx_fire_dart_smooth:361,fx_fire_impact:362,fx_ice_bolt:363,fx_ice_impact:364,vfx_sword_slash_1:365,vfx_sword_slash_2:366,vfx_sword_slash_3:367,vfx_sword_slash_4:368,vfx_sword_slash_5:369,vfx_rogue_slash_1:370,vfx_rogue_slash_2:371,vfx_rogue_slash_3:372,vfx_rogue_slash_4:373,vfx_rogue_slash_5:374,vfx_portal_ring:375,ice_block_a:376,ice_block_b:377,tiles_terrain:378,tiles_gritty:379,tiles_tall_grass:380,tiles_ditch:381,icon_bash:382,icon_mirror:383,icon_heart:384,icon_eye:385,icon_poison:386,icon_bolt:387,icon_skull:388,icon_scroll:389,st_blessed:390,st_burn:391,st_charged:392,st_fear:393,st_freeze:394,st_guarded:395,st_hawk_eye:396,st_hidden:397,st_mana_up:398,st_ap_up:399,st_marked:400,st_poison:401,st_reflect:402,st_regen:403,st_robbed:404,st_rooted:405,st_shielded:406,st_smoked:407,st_sticky:408,st_stun:409,st_taunted:410,sword:411,bg_meadow_sky:412,bg_meadow_clouds:413,bg_meadow_hills:414,bg_meadow_trees:415,bg_meadow_bushes:416,bg_meadow_grass:417}
 B.bj=new A.E(B.axx,["assets/sprites/animals/pig_walk.png","assets/sprites/animals/cow_walk.png","assets/sprites/animals/chicken_walk.png","assets/sprites/animals/dog_white.png","assets/sprites/animals/cat_white.png","assets/sprites/animals/hare_walk.png","assets/sprites/animals/grouse_walk.png","assets/sprites/animals/fox_walk.png","assets/sprites/animals/deer_walk.png","assets/sprites/animals/boar_walk.png","assets/sprites/bonfire.png","assets/decor/exit_portal_0.png","assets/decor/exit_portal_1.png","assets/decor/exit_portal_2.png","assets/decor/exit_portal_3.png","assets/decor/exit_portal_4.png","assets/decor/exit_portal_5.png","assets/icons/interact/talk.png","assets/icons/interact/fight.png","assets/icons/interact/enter.png","assets/icons/interact/search.png","assets/icons/interact/chop.png","assets/icons/interact/mine.png","assets/icons/interact/pick.png","assets/icons/interact/fish.png","assets/icons/interact/plant.png","assets/icons/interact/water.png","assets/icons/interact/harvest.png","assets/icons/interact/craft.png","assets/icons/markers/exit_ring_anim_0.png","assets/icons/markers/exit_ring_anim_1.png","assets/icons/markers/exit_ring_anim_2.png","assets/icons/markers/exit_ring_anim_3.png","assets/icons/markers/exit_ring_anim_4.png","assets/icons/markers/exit_ring_anim_5.png","assets/decor/plot_tree_1.png","assets/decor/plot_tree_2.png","assets/decor/plot_tree_3.png","assets/decor/plot_ore_1.png","assets/decor/plot_ore_2.png","assets/decor/plot_ore_3.png","assets/decor/plot_herb_1.png","assets/decor/plot_herb_2.png","assets/decor/plot_herb_3.png","assets/decor/plot_empty.png","assets/decor/tent_pitched.png","assets/decor/quest_prop_sword.png","assets/decor/quest_prop_bundle.png","assets/decor/quest_prop_sack.png","assets/decor/quest_prop_lamp.png","assets/decor/quest_prop_bones.png","assets/decor/quest_prop_debris.png","assets/decor/quest_prop_post.png","assets/decor/quest_prop_tracks.png","assets/sprites/orcs/orc_whelp.png","assets/sprites/orcs/orc_whelp_idle.png","assets/sprites/orcs/orc_whelp_hurt.png","assets/sprites/orcs/orc_youngling.png","assets/sprites/orcs/orc_youngling_idle.png","assets/sprites/orcs/orc_youngling_hurt.png","assets/sprites/orcs/orc_trainee.png","assets/sprites/orcs/orc_trainee_idle.png","assets/sprites/orcs/orc_trainee_hurt.png","assets/sprites/orcs/orc_grunt.png","assets/sprites/orcs/orc_grunt_idle.png","assets/sprites/orcs/orc_grunt_hurt.png","assets/sprites/orcs/orc_warrior.png","assets/sprites/orcs/orc_warrior_idle.png","assets/sprites/orcs/orc_warrior_hurt.png","assets/sprites/orcs/orc_archer.png","assets/sprites/orcs/orc_archer_idle.png","assets/sprites/orcs/orc_archer_hurt.png","assets/sprites/orcs/orc_shaman.png","assets/sprites/orcs/orc_shaman_idle.png","assets/sprites/orcs/orc_shaman_hurt.png","assets/sprites/orcs/orc_berserker.png","assets/sprites/orcs/orc_berserker_idle.png","assets/sprites/orcs/orc_berserker_hurt.png","assets/sprites/orcs/orc_guard_captain.png","assets/sprites/orcs/orc_guard_captain_idle.png","assets/sprites/orcs/orc_guard_captain_hurt.png","assets/sprites/orcs/orc_warchief.png","assets/sprites/orcs/orc_warchief_idle.png","assets/sprites/orcs/orc_warchief_hurt.png","assets/sprites/orcs/orc_whelp_slash_body.png","assets/sprites/orcs/orc_trainee_slash_body.png","assets/sprites/orcs/orc_youngling_slash_body.png","assets/sprites/orcs/orc_berserker_slash_body.png","assets/sprites/orcs/orc_grunt_thrust.png","assets/sprites/orcs/orc_warrior_thrust.png","assets/sprites/orcs/orc_guard_captain_thrust.png","assets/sprites/orcs/orc_warchief_thrust.png","assets/sprites/orcs/orc_archer_shoot.png","assets/sprites/orcs/orc_shaman_spellcast.png","assets/sprites/plants/plant1_idle.png","assets/sprites/plants/plant1_walk.png","assets/sprites/plants/plant1_attack.png","assets/sprites/plants/plant1_hurt.png","assets/sprites/plants/plant1_death.png","assets/sprites/plants/plant2_idle.png","assets/sprites/plants/plant2_walk.png","assets/sprites/plants/plant2_attack.png","assets/sprites/plants/plant2_hurt.png","assets/sprites/plants/plant2_death.png","assets/sprites/plants/plant3_idle.png","assets/sprites/plants/plant3_walk.png","assets/sprites/plants/plant3_attack.png","assets/sprites/plants/plant3_hurt.png","assets/sprites/plants/plant3_death.png","assets/ui/confirm_check.png","assets/ui/cancel_x.png","assets/icons/menu/tap_confirm_0.png","assets/icons/menu/tap_confirm_1.png","assets/icons/menu/tap_confirm_2.png","assets/icons/menu/tap_confirm_3.png","assets/icons/menu/tap_confirm_4.png","assets/icons/menu/tap_confirm_5.png","assets/icons/menu/tap_close_0.png","assets/icons/menu/tap_close_1.png","assets/icons/menu/tap_close_2.png","assets/icons/menu/tap_close_3.png","assets/icons/menu/tap_close_4.png","assets/icons/menu/tap_close_5.png","assets/ui/heal_plus.png","assets/icons/elements/neutral.png","assets/icons/elements/fire.png","assets/icons/elements/water.png","assets/icons/elements/earth.png","assets/icons/elements/wind.png","assets/icons/elements/holy.png","assets/icons/elements/shadow.png","assets/icons/elements/poison.png","assets/icons/elements/impact.png","assets/icons/skill_types/single.png","assets/icons/skill_types/area.png","assets/icons/skill_types/cone.png","assets/icons/skill_types/line.png","assets/icons/skill_types/chain.png","assets/icons/skill_types/gap_closer.png","assets/icons/skill_types/leap.png","assets/icons/skill_types/blink.png",u.M,"assets/icons/skill_types/retreat.png","assets/icons/skill_types/push.png","assets/icons/skill_types/pull.png","assets/icons/skill_types/swap.png","assets/icons/skill_types/stun.png","assets/icons/skill_types/root.png","assets/icons/skill_types/heal.png","assets/icons/skill_types/shield.png","assets/icons/skill_types/buff.png","assets/icons/skill_types/zone.png","assets/icons/skill_types/ultimate.png","assets/ui/npc_talk.png","assets/ui/npc_quest.png","assets/ui/boss_quest.png","assets/icons/clock.png","assets/icons/classes/adventurer.png","assets/icons/classes/sword.png","assets/icons/classes/archer.png","assets/icons/classes/mage.png","assets/icons/classes/thief.png","assets/icons/classes/priest.png","assets/icons/markers/talk_anim_0.png","assets/icons/markers/talk_anim_1.png","assets/icons/markers/talk_anim_2.png","assets/icons/markers/talk_anim_3.png","assets/icons/markers/talk_anim_4.png","assets/icons/markers/talk_anim_5.png","assets/icons/markers/quest_anim_0.png","assets/icons/markers/quest_anim_1.png","assets/icons/markers/quest_anim_2.png","assets/icons/markers/quest_anim_3.png","assets/icons/markers/quest_anim_4.png","assets/icons/markers/quest_anim_5.png","assets/icons/markers/fight_anim_0.png","assets/icons/markers/fight_anim_1.png","assets/icons/markers/fight_anim_2.png","assets/icons/markers/fight_anim_3.png","assets/icons/markers/fight_anim_4.png","assets/icons/markers/fight_anim_5.png","assets/icons/markers/turn_ally_anim_0.png","assets/icons/markers/turn_ally_anim_1.png","assets/icons/markers/turn_ally_anim_2.png","assets/icons/markers/turn_ally_anim_3.png","assets/icons/markers/turn_ally_anim_4.png","assets/icons/markers/turn_ally_anim_5.png","assets/icons/markers/turn_enemy_anim_0.png","assets/icons/markers/turn_enemy_anim_1.png","assets/icons/markers/turn_enemy_anim_2.png","assets/icons/markers/turn_enemy_anim_3.png","assets/icons/markers/turn_enemy_anim_4.png","assets/icons/markers/turn_enemy_anim_5.png","assets/icons/markers/quest_target_anim_0.png","assets/icons/markers/quest_target_anim_1.png","assets/icons/markers/quest_target_anim_2.png","assets/icons/markers/quest_target_anim_3.png","assets/icons/markers/quest_target_anim_4.png","assets/icons/markers/quest_target_anim_5.png","assets/icons/markers/quest_complete_anim_0.png","assets/icons/markers/quest_complete_anim_1.png","assets/icons/markers/quest_complete_anim_2.png","assets/icons/markers/quest_complete_anim_3.png","assets/icons/markers/quest_complete_anim_4.png","assets/icons/markers/quest_complete_anim_5.png","assets/icons/markers/quest_complete_anim_6.png","assets/icons/markers/quest_complete_anim_7.png","assets/icons/markers/quest_complete_anim_8.png","assets/icons/markers/quest_complete_anim_9.png","assets/icons/markers/quest_ground_anim_0.png","assets/icons/markers/quest_ground_anim_1.png","assets/icons/markers/quest_ground_anim_2.png","assets/icons/markers/quest_ground_anim_3.png","assets/icons/markers/quest_ground_anim_4.png","assets/icons/markers/quest_ground_anim_5.png","assets/icons/markers/quest_trail_anim_0.png","assets/icons/markers/quest_trail_anim_1.png","assets/icons/markers/quest_trail_anim_2.png","assets/icons/markers/quest_trail_anim_3.png","assets/icons/markers/talk_0.png","assets/icons/markers/talk_1.png","assets/icons/markers/talk_2.png","assets/icons/markers/talk_3.png","assets/icons/markers/quest_available_0.png","assets/icons/markers/quest_available_1.png","assets/icons/markers/quest_available_2.png","assets/icons/markers/quest_available_3.png","assets/icons/markers/quest_progress_0.png","assets/icons/markers/quest_progress_1.png","assets/icons/markers/quest_progress_2.png","assets/icons/markers/quest_progress_3.png","assets/icons/markers/quest_turn_in_0.png","assets/icons/markers/quest_turn_in_1.png","assets/icons/markers/quest_turn_in_2.png","assets/icons/markers/quest_turn_in_3.png","assets/icons/markers/quest_locked_0.png","assets/icons/markers/quest_locked_1.png","assets/icons/markers/quest_locked_2.png","assets/icons/markers/quest_locked_3.png","assets/icons/markers/boss_0.png","assets/icons/markers/boss_1.png","assets/icons/markers/boss_2.png","assets/icons/markers/boss_3.png","assets/icons/markers/boss_beaten_0.png","assets/icons/markers/boss_beaten_1.png","assets/icons/markers/boss_beaten_2.png","assets/icons/markers/boss_beaten_3.png","assets/icons/markers/elite_0.png","assets/icons/markers/elite_1.png","assets/icons/markers/elite_2.png","assets/icons/markers/elite_3.png","assets/icons/markers/merchant_anim_0.png","assets/icons/markers/merchant_anim_1.png","assets/icons/markers/merchant_anim_2.png","assets/icons/markers/merchant_anim_3.png","assets/icons/markers/merchant_anim_4.png","assets/icons/markers/merchant_anim_5.png","assets/icons/markers/storage_anim_0.png","assets/icons/markers/storage_anim_1.png","assets/icons/markers/storage_anim_2.png","assets/icons/markers/storage_anim_3.png","assets/icons/markers/storage_anim_4.png","assets/icons/markers/storage_anim_5.png","assets/sprites/skel_walk.png","assets/sprites/skel_spellcast.png","assets/sprites/skel_hurt.png","assets/sprites/skel_idle.png","assets/sprites/knight_walk.png","assets/sprites/knight_spellcast.png","assets/sprites/knight_hurt.png","assets/sprites/knight_idle.png","assets/sprites/knight_thrust.png","assets/sprites/slime.png","assets/sprites/beetle.png","assets/sprites/mantis.png","assets/sprites/weaver.png","assets/sprites/rat.png","assets/sprites/bee.png","assets/sprites/snake.png","assets/sprites/small_worm.png","assets/fx/freeze.png","assets/fx/ice_sparkles.png","assets/vfx/lightning_strike.png","assets/vfx/lightning_spark.png","assets/vfx/level_up.png","assets/vfx/poison_bubble.png","assets/vfx/burn_flame.png","assets/vfx/vfx_slash_whirlwind.png","assets/vfx/vfx_arrow_rain.png","assets/vfx/vfx_fireball.png","assets/vfx/vfx_arrow_fire.png","assets/vfx/vfx_arrow_water.png","assets/vfx/vfx_slash_lightning.png","assets/vfx/vfx_slash_poison.png","assets/vfx/vfx_blood_small.png","assets/vfx/vfx_blood_splash.png","assets/vfx/vfx_blood_spray.png","assets/vfx/vfx_blood_tight.png","assets/vfx/vfx_smoke_soft.png","assets/vfx/vfx_smoke_trail.png","assets/vfx/vfx_smoke_burst.png","assets/vfx/vfx_smoke_magic.png","assets/vfx/vfx_smoke_poison.png","assets/vfx/vfx_smoke_chemical.png","assets/vfx/vfx_blood_heavy.png","assets/vfx/magic_circles/heal_seal_build.png","assets/vfx/magic_circles/magic_seal_build.png","assets/vfx/magic_circles/magic_seal_loop.png","assets/vfx/magic_circles/hit_spark.png","assets/vfx/vfx_ice_shards.png","assets/vfx/vfx_arrow_green.png","assets/vfx/vfx_arrow_brown.png","assets/vfx/vfx_arrow_blue.png","assets/vfx/vfx_arrow_teal.png","assets/vfx/vfx_arrow_grey.png","assets/vfx/vfx_portal_arcane.png","assets/vfx/vfx_level_up.png","assets/vfx/vfx_ice_lance.png","assets/vfx/vfx_lightning_bolt.png","assets/vfx/vfx_holy_gold.png","assets/vfx/vfx_explosion_fire.png","assets/vfx/vfx_slash_ultimate.png","assets/vfx/vfx_slash_wind.png","assets/vfx/vfx_cslash_gold.png","assets/vfx/vfx_cslash_pink.png","assets/vfx/vfx_cslash_lime.png","assets/vfx/vfx_cslash_steel.png","assets/vfx/vfx_cslash_plume.png","assets/vfx/vfx_fire_mushroom.png","assets/vfx/vfx_star_burst.png","assets/vfx/vfx_speed_streak.png","assets/vfx/vfx_ice_spikes.png","assets/vfx/vfx_water_tornado.png","assets/vfx/vfx_water_bubble.png","assets/vfx/vfx_dust_burst.png","assets/vfx/vfx_cross_spark.png","assets/vfx/vfx_spore_ring.png","assets/vfx/vfx_fire_brand.png","assets/vfx/vfx_light_rise.png","assets/vfx/vfx_vortex_close.png","assets/vfx/vfx_halo_drop.png","assets/vfx/vfx_light_streak.png","assets/vfx/vfx_cslash_streak.png","assets/vfx/vfx_holy_swirl.png","assets/vfx/vfx_holy_ground.png","assets/vfx/vfx_holy_grace.png","assets/vfx/vfx_holy_smite.png","assets/vfx/vfx_holy_beam.png","assets/vfx/vfx_holy_bloom.png","assets/vfx/vfx_holy_crown.png","assets/vfx/vfx_holy_spear.png","assets/vfx/vfx_holy_spring.png","assets/vfx/vfx_holy_heart.png","assets/vfx/vfx_holy_petals.png","assets/vfx/vfx_holy_wave.png","assets/vfx/meteor_fall.png","assets/vfx/spell_fx/arcane_bolt.png","assets/vfx/spell_fx/arcane_impact.png","assets/vfx/spell_fx/fire_bolt.png","assets/vfx/spell_fx/fireball_strip.png","assets/vfx/spell_fx/fire_dart_px.png","assets/vfx/spell_fx/fire_dart_smooth.png","assets/vfx/spell_fx/fire_impact.png","assets/vfx/spell_fx/ice_bolt.png","assets/vfx/spell_fx/ice_impact.png","assets/vfx/warrior/slash_1.png","assets/vfx/warrior/slash_2.png","assets/vfx/warrior/slash_3.png","assets/vfx/warrior/slash_4.png","assets/vfx/warrior/slash_5.png","assets/vfx/rogue/slash_1.png","assets/vfx/rogue/slash_2.png","assets/vfx/rogue/slash_3.png","assets/vfx/rogue/slash_4.png","assets/vfx/rogue/slash_5.png","assets/vfx/portal/portal.png","assets/vfx/ice_block_a.png","assets/vfx/ice_block_b.png","assets/tiles/lpc_terrain_summer.png","assets/tiles/lpc_gritty_dirt.png","assets/tiles/lpc_tall_grass.png","assets/tiles/lpc_ditch.png","assets/icons/bash.png","assets/icons/mirror.png","assets/icons/heart.png","assets/icons/eye.png","assets/icons/poison.png","assets/icons/bolt.png","assets/icons/skull.png","assets/icons/scroll.png","assets/icons/status/blessed.png","assets/icons/status/burn.png","assets/icons/status/charged.png","assets/icons/status/fear.png","assets/icons/status/freeze.png","assets/icons/status/guarded.png","assets/icons/status/hawk_eye.png","assets/icons/status/hidden.png","assets/icons/status/mana_up.png","assets/icons/mechanics/ap.png","assets/icons/status/marked.png","assets/icons/status/poison.png","assets/icons/status/reflect.png","assets/icons/status/regen.png","assets/icons/status/robbed.png","assets/icons/status/rooted.png","assets/icons/status/shielded.png","assets/icons/status/smoked.png","assets/icons/status/sticky.png","assets/icons/status/stun.png","assets/icons/status/taunted.png","assets/icons/sword.png","assets/backdrop/meadow/sky.png","assets/backdrop/meadow/clouds.png","assets/backdrop/meadow/hills.png","assets/backdrop/meadow/trees.png","assets/backdrop/meadow/bushes.png","assets/backdrop/meadow/grass.png"],t.l)
 B.axG={"Orc Tusk":0,"Rough Hide":1,"Crude Arrowhead":2,"Iron Scrap":3,"Rusty Spearhead":4,"Shaman Bead":5,"War Paint":6,"Captain's Badge":7,"Warchief's Horn":8,"Slime Gel":9,"Royal Gel":10,"Bone Shard":11,"Beetle Shell":12,"Rat Tail":13,"Sticky Residue":14,"Slime Core":15,"King's Jelly":16,"Crown Shard":17,"Beetle Leg":18,"Shiny Carapace":19,"Rusty Nail":20,"Old Skull":21,"Rusted Plate":22,"Cursed Sigil":23,"Knight Helm":24,"Matted Fur":25,"Gnawed Coin":26,"Bee Wing":27,Honeycomb:28,"Royal Stinger":29,"Snake Fang":30,"Shed Skin":31,"Venom Sac":32,"Worm Guts":33,"Mud Clump":34,"Glow Segment":35,"Flower Head":36,Petal:37,Thorn:38,"Pollen Dust":39,"Seed Pod":40,"Mantis Scythe":41,"Web Silk":42,"Small Potion":43,"Large Potion":44}
@@ -153690,16 +153690,16 @@ B.aJe=new A.bJ(200,"bone")
 B.aJI=new A.bJ(null,"heart")
 B.aJa=new A.bJ(0,"heart")
 B.E3=new A.E(B.axG,[B.aJt,B.aJk,B.aJH,B.aJj,B.IE,B.aJE,B.IC,B.aJx,B.IF,B.aJb,B.IC,B.aJG,B.aJp,B.aJn,B.aJd,B.aJl,B.aJs,B.IF,B.aJh,B.aJc,B.IE,B.aJK,B.aJi,B.aJm,B.aJf,B.aJq,B.aJu,B.aJA,B.aJw,B.aJz,B.aJC,B.aJD,B.aJJ,B.aJv,B.aJg,B.aJF,B.aJo,B.aJr,B.ID,B.aJy,B.aJB,B.ID,B.aJe,B.aJI,B.aJa],A.ac("E<e,+hue,icon(Z?,e)>"))
-B.ayg={shoot:0,slashDagger:1,slashSword:2,castStaff:3,thrustStaff:4,punch:5}
+B.ayh={shoot:0,slashDagger:1,slashSword:2,castStaff:3,thrustStaff:4,punch:5}
 B.aJM=new A.tX("hero_shoot","bow")
 B.aIV=new A.tX("hero_slash_dagger","dagger")
 B.aJN=new A.tX("hero_slash_sword","sword")
 B.aIX=new A.tX("hero_cast_staff","staffCast")
 B.aIA=new A.tX("hero_thrust_staff","staffThrust")
 B.aJL=new A.tX("hero_punch","fist")
-B.de=new A.E(B.ayg,[B.aJM,B.aIV,B.aJN,B.aIX,B.aIA,B.aJL],A.ac("E<e,+img,weapon(e,e)>"))
-B.aya={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
-B.qI=new A.E(B.aya,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.l)
+B.de=new A.E(B.ayh,[B.aJM,B.aIV,B.aJN,B.aIX,B.aIA,B.aJL],A.ac("E<e,+img,weapon(e,e)>"))
+B.ayb={KeyA:0,KeyB:1,KeyC:2,KeyD:3,KeyE:4,KeyF:5,KeyG:6,KeyH:7,KeyI:8,KeyJ:9,KeyK:10,KeyL:11,KeyM:12,KeyN:13,KeyO:14,KeyP:15,KeyQ:16,KeyR:17,KeyS:18,KeyT:19,KeyU:20,KeyV:21,KeyW:22,KeyX:23,KeyY:24,KeyZ:25,Digit1:26,Digit2:27,Digit3:28,Digit4:29,Digit5:30,Digit6:31,Digit7:32,Digit8:33,Digit9:34,Digit0:35,Minus:36,Equal:37,BracketLeft:38,BracketRight:39,Backslash:40,Semicolon:41,Quote:42,Backquote:43,Comma:44,Period:45,Slash:46}
+B.qI=new A.E(B.ayb,["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z","1","2","3","4","5","6","7","8","9","0","-","=","[","]","\\",";","'","`",",",".","/"],t.l)
 B.axc={body:0,head:1,hair:2,shirt:3,legs:4,feet:5,beard:6,shoulders:7,cape:8}
 B.aix=s(["body"],t.s)
 B.a2t=new A.ed(10,"assets/lpc/body/bodies/male/","assets/lpc/body/bodies/female/")
@@ -153743,16 +153743,16 @@ B.aC5=new A.e3("solid","Cape",B.a8d)
 B.abv=s([B.aC5],t.Nc)
 B.aS0=new A.lt(B.iZ,B.abv)
 B.qJ=new A.E(B.axc,[B.aS3,B.aRZ,B.aS_,B.aS2,B.aRW,B.aRX,B.aS1,B.aRY,B.aS0],A.ac("E<e,lt>"))
-B.aA4={tool_metal:0}
+B.aA5={tool_metal:0}
 B.aem=s(["#1D131E","#4D4A5D","#726B7E","#867E7F","#C4B59F","#FFFFFF"],t.s)
-B.ayl={bronze:0,iron:1,silver:2}
+B.aym={bronze:0,iron:1,silver:2}
 B.apB=s(["#4F2313","#6D4A00","#966600","#BF8200","#E7A820","#FBE3B0"],t.s)
 B.an1=s(["#000000","#1B192B","#29253A","#343043","#484152","#726B7E"],t.s)
 B.a9S=s(["#1D131E","#31313E","#4A5057","#818B8B","#D6E1D3","#FFFFFF"],t.s)
-B.arD=new A.E(B.ayl,[B.apB,B.an1,B.a9S],t.VJ)
+B.arD=new A.E(B.aym,[B.apB,B.an1,B.a9S],t.VJ)
 B.aDd=new A.n7(B.aem,B.arD)
-B.auU=new A.E(B.aA4,[B.aDd],t.Ao)
-B.azP={riverlands:0,shore:1}
+B.auU=new A.E(B.aA5,[B.aDd],t.Ao)
+B.azQ={riverlands:0,shore:1}
 B.Yy=new A.pu("fish_minnow",2)
 B.YB=new A.pu("fish_trout",2)
 B.Yx=new A.pu("fish_golden_carp",3)
@@ -153762,8 +153762,8 @@ B.Yz=new A.pu("fish_sea_bream",6)
 B.YA=new A.pu("fish_silver_eel",6)
 B.acz=s([B.Yz,B.YA],t.Q3)
 B.YE=new A.MQ(6,B.acz)
-B.hw=new A.E(B.azP,[B.YF,B.YE],A.ac("E<e,MQ>"))
-B.aym={fist:0,bow:1,dagger:2,sword:3,staffCast:4,staffThrust:5}
+B.hw=new A.E(B.azQ,[B.YF,B.YE],A.ac("E<e,MQ>"))
+B.ayn={fist:0,bow:1,dagger:2,sword:3,staffCast:4,staffThrust:5}
 B.tq=new A.tI("slash",64,6,B.e_)
 B.bb8=new A.dY(-1,"assets/lpc/weapon/ranged/bow/normal/universal/background/shoot.png",64)
 B.bb0=new A.dY(140,"assets/lpc/weapon/ranged/bow/normal/universal/foreground/shoot.png",64)
@@ -153786,9 +153786,9 @@ B.baY=new A.dY(9,"assets/lpc/weapon/magic/simple/background/thrust/simple.png",6
 B.bbd=new A.dY(140,"assets/lpc/weapon/magic/simple/foreground/thrust/simple.png",64)
 B.a9N=s([B.baY,B.bbd],t.w4)
 B.baK=new A.tI("thrust",64,8,B.a9N)
-B.e2=new A.E(B.aym,[B.tq,B.baN,B.baO,B.baL,B.baM,B.baK],A.ac("E<e,tI>"))
-B.ayF={sword:0,archer:1,thief:2,mage:3,priest:4}
-B.fz=new A.E(B.ayF,["heavy","medium","medium","light","light"],t.l)
+B.e2=new A.E(B.ayn,[B.tq,B.baN,B.baO,B.baL,B.baM,B.baK],A.ac("E<e,tI>"))
+B.ayG={sword:0,archer:1,thief:2,mage:3,priest:4}
+B.fz=new A.E(B.ayG,["heavy","medium","medium","light","light"],t.l)
 B.axJ={Abort:0,Again:1,AltLeft:2,AltRight:3,ArrowDown:4,ArrowLeft:5,ArrowRight:6,ArrowUp:7,AudioVolumeDown:8,AudioVolumeMute:9,AudioVolumeUp:10,Backquote:11,Backslash:12,Backspace:13,BracketLeft:14,BracketRight:15,BrightnessDown:16,BrightnessUp:17,BrowserBack:18,BrowserFavorites:19,BrowserForward:20,BrowserHome:21,BrowserRefresh:22,BrowserSearch:23,BrowserStop:24,CapsLock:25,Comma:26,ContextMenu:27,ControlLeft:28,ControlRight:29,Convert:30,Copy:31,Cut:32,Delete:33,Digit0:34,Digit1:35,Digit2:36,Digit3:37,Digit4:38,Digit5:39,Digit6:40,Digit7:41,Digit8:42,Digit9:43,DisplayToggleIntExt:44,Eject:45,End:46,Enter:47,Equal:48,Escape:49,Esc:50,F1:51,F10:52,F11:53,F12:54,F13:55,F14:56,F15:57,F16:58,F17:59,F18:60,F19:61,F2:62,F20:63,F21:64,F22:65,F23:66,F24:67,F3:68,F4:69,F5:70,F6:71,F7:72,F8:73,F9:74,Find:75,Fn:76,FnLock:77,GameButton1:78,GameButton10:79,GameButton11:80,GameButton12:81,GameButton13:82,GameButton14:83,GameButton15:84,GameButton16:85,GameButton2:86,GameButton3:87,GameButton4:88,GameButton5:89,GameButton6:90,GameButton7:91,GameButton8:92,GameButton9:93,GameButtonA:94,GameButtonB:95,GameButtonC:96,GameButtonLeft1:97,GameButtonLeft2:98,GameButtonMode:99,GameButtonRight1:100,GameButtonRight2:101,GameButtonSelect:102,GameButtonStart:103,GameButtonThumbLeft:104,GameButtonThumbRight:105,GameButtonX:106,GameButtonY:107,GameButtonZ:108,Help:109,Home:110,Hyper:111,Insert:112,IntlBackslash:113,IntlRo:114,IntlYen:115,KanaMode:116,KeyA:117,KeyB:118,KeyC:119,KeyD:120,KeyE:121,KeyF:122,KeyG:123,KeyH:124,KeyI:125,KeyJ:126,KeyK:127,KeyL:128,KeyM:129,KeyN:130,KeyO:131,KeyP:132,KeyQ:133,KeyR:134,KeyS:135,KeyT:136,KeyU:137,KeyV:138,KeyW:139,KeyX:140,KeyY:141,KeyZ:142,KeyboardLayoutSelect:143,Lang1:144,Lang2:145,Lang3:146,Lang4:147,Lang5:148,LaunchApp1:149,LaunchApp2:150,LaunchAssistant:151,LaunchControlPanel:152,LaunchMail:153,LaunchScreenSaver:154,MailForward:155,MailReply:156,MailSend:157,MediaFastForward:158,MediaPause:159,MediaPlay:160,MediaPlayPause:161,MediaRecord:162,MediaRewind:163,MediaSelect:164,MediaStop:165,MediaTrackNext:166,MediaTrackPrevious:167,MetaLeft:168,MetaRight:169,MicrophoneMuteToggle:170,Minus:171,NonConvert:172,NumLock:173,Numpad0:174,Numpad1:175,Numpad2:176,Numpad3:177,Numpad4:178,Numpad5:179,Numpad6:180,Numpad7:181,Numpad8:182,Numpad9:183,NumpadAdd:184,NumpadBackspace:185,NumpadClear:186,NumpadClearEntry:187,NumpadComma:188,NumpadDecimal:189,NumpadDivide:190,NumpadEnter:191,NumpadEqual:192,NumpadMemoryAdd:193,NumpadMemoryClear:194,NumpadMemoryRecall:195,NumpadMemoryStore:196,NumpadMemorySubtract:197,NumpadMultiply:198,NumpadParenLeft:199,NumpadParenRight:200,NumpadSubtract:201,Open:202,PageDown:203,PageUp:204,Paste:205,Pause:206,Period:207,Power:208,PrintScreen:209,PrivacyScreenToggle:210,Props:211,Quote:212,Resume:213,ScrollLock:214,Select:215,SelectTask:216,Semicolon:217,ShiftLeft:218,ShiftRight:219,ShowAllWindows:220,Slash:221,Sleep:222,Space:223,Super:224,Suspend:225,Tab:226,Turbo:227,Undo:228,WakeUp:229,ZoomToggle:230}
 B.HB=new A.S(458907)
 B.Hh=new A.S(458873)
@@ -154021,8 +154021,8 @@ B.Hi=new A.S(458874)
 B.HO=new A.S(65667)
 B.Ig=new A.S(786994)
 B.E4=new A.E(B.axJ,[B.HB,B.Hh,B.hI,B.hK,B.GH,B.GG,B.GF,B.GI,B.Hp,B.Hn,B.Ho,B.Gh,B.Ge,B.G7,B.Gc,B.Gd,B.HR,B.HQ,B.Ib,B.If,B.Ic,B.Ia,B.Ie,B.I9,B.Id,B.fE,B.Gi,B.H_,B.hG,B.jq,B.Hu,B.Hk,B.Hj,B.GC,B.G5,B.FX,B.FY,B.FZ,B.G_,B.G0,B.G1,B.G2,B.G3,B.G4,B.HP,B.I_,B.GD,B.G6,B.Gb,B.qZ,B.qZ,B.Gl,B.Gu,B.Gv,B.Gw,B.H2,B.H3,B.H4,B.H5,B.H6,B.H7,B.H8,B.Gm,B.H9,B.Ha,B.Hb,B.Hc,B.Hd,B.Gn,B.Go,B.Gp,B.Gq,B.Gr,B.Gs,B.Gt,B.Hm,B.jp,B.EX,B.F2,B.Fb,B.Fc,B.Fd,B.Fe,B.Ff,B.Fg,B.Fh,B.F3,B.F4,B.F5,B.F6,B.F7,B.F8,B.F9,B.Fa,B.Fi,B.Fj,B.Fk,B.Fl,B.Fm,B.Fn,B.Fo,B.Fp,B.Fq,B.Fr,B.Fs,B.Ft,B.Fu,B.Fv,B.Fw,B.Hf,B.GA,B.EV,B.Gz,B.GZ,B.Hr,B.Ht,B.Hs,B.Fx,B.Fy,B.Fz,B.FA,B.FB,B.FC,B.FD,B.FE,B.FF,B.FG,B.FH,B.FI,B.FJ,B.FK,B.FL,B.FM,B.FN,B.FO,B.FP,B.FQ,B.FR,B.FS,B.FT,B.FU,B.FV,B.FW,B.Ik,B.Hw,B.Hx,B.Hy,B.Hz,B.HA,B.I4,B.I3,B.I8,B.I5,B.I2,B.I7,B.Ii,B.Ih,B.Ij,B.HV,B.HT,B.HS,B.I0,B.HU,B.HW,B.I1,B.HZ,B.HX,B.HY,B.hJ,B.js,B.F1,B.Ga,B.Hv,B.mf,B.GX,B.GO,B.GP,B.GQ,B.GR,B.GS,B.GT,B.GU,B.GV,B.GW,B.GM,B.HF,B.HL,B.HM,B.Hq,B.GY,B.GJ,B.GN,B.H1,B.HJ,B.HI,B.HH,B.HG,B.HK,B.GK,B.HD,B.HE,B.GL,B.He,B.GE,B.GB,B.Hl,B.Gy,B.Gj,B.H0,B.Gx,B.F0,B.HC,B.Gg,B.EZ,B.me,B.Hg,B.I6,B.Gf,B.hH,B.jr,B.Il,B.Gk,B.HN,B.G9,B.EW,B.EY,B.G8,B.F_,B.Hi,B.HO,B.Ig],A.ac("E<e,S>"))
-B.ay9={w_sword:0,w_bow:1,w_staff:2,w_dagger:3,w_smite:4}
-B.av7=new A.E(B.ay9,["assets/icons/sword.png","assets/icons/bow.png","assets/icons/staff.png","assets/icons/dagger.png","assets/icons/gear/weapon_mace.png"],t.l)
+B.aya={w_sword:0,w_bow:1,w_staff:2,w_dagger:3,w_smite:4}
+B.av7=new A.E(B.aya,["assets/icons/sword.png","assets/icons/bow.png","assets/icons/staff.png","assets/icons/dagger.png","assets/icons/gear/weapon_mace.png"],t.l)
 B.aAi={cloak:0,trim:1,shirt:2,pants:3,boots:4,bracers:5}
 B.av8=new A.E(B.aAi,["Cloak","Trim","Shirt","Pants","Boots","Bracers"],t.l)
 B.eG=new A.e0([25,100,50,250,100,600,150,1000,200,2000,250,3000,300,4000,350,6000,390,8000],t.KL)
@@ -154033,11 +154033,11 @@ B.ava=new A.E(B.aAk,[B.oh,B.ok,B.oi,B.iH,B.iI,B.oj,B.hg,B.hh,B.hh,B.hg,B.hk,B.hl
 B.Et={sword:0,archer:1,mage:2,thief:3,priest:4}
 B.dw=new A.E(B.Et,["w_sword","w_bow","w_staff","w_dagger","w_smite"],t.l)
 B.ave=new A.E(B.Et,["Close range, charge and bash","Long range, push and poison","Burst from afar, freeze and stun","Shadows, stealth and backstab","Heals, shields, smites undead"],t.l)
-B.azT={shootBig:0}
+B.azU={shootBig:0}
 B.asV=new A.e0([1,240,2,240],t.KL)
-B.avi=new A.E(B.azT,[B.asV],A.ac("E<e,au<i,i>>"))
-B.ayA={BU:0,DD:1,FX:2,TP:3,YD:4,ZR:5}
-B.e3=new A.E(B.ayA,["MM","DE","FR","TL","YE","CD"],t.l)
+B.avi=new A.E(B.azU,[B.asV],A.ac("E<e,au<i,i>>"))
+B.ayB={BU:0,DD:1,FX:2,TP:3,YD:4,ZR:5}
+B.e3=new A.E(B.ayB,["MM","DE","FR","TL","YE","CD"],t.l)
 B.aDm=new A.S(458752)
 B.aDn=new A.S(458753)
 B.aDo=new A.S(458754)
@@ -154520,19 +154520,19 @@ B.bdO=new A.aLF(1,"medium")
 B.bdP=new A.aLM(1,"high")
 B.aOm=new A.tj(0,1)
 B.aOn=new A.tj(0.1,0)
-B.azY={stump:0}
-B.aOo=new A.dm(B.azY,1,t.U)
+B.azZ={stump:0}
+B.aOo=new A.dm(B.azZ,1,t.U)
 B.rj=new A.iz([B.dy,B.mc,B.qW],A.ac("iz<rS>"))
 B.aOp=new A.dm(B.Eu,1,t.U)
-B.aA3={thunderLeap:0,quake:1}
-B.Jl=new A.dm(B.aA3,2,t.U)
+B.aA4={thunderLeap:0,quake:1}
+B.Jl=new A.dm(B.aA4,2,t.U)
 B.axn={boulder_a:0,boulder_b:1,boulder_c:2,boulder_d:3,rock_pile:4,rock_flat_moss:5,standing_stone:6}
 B.aOq=new A.dm(B.axn,7,t.U)
 B.axw={punch:0,lunge:1,slashDagger:2,slashSword:3}
 B.Jm=new A.dm(B.axw,4,t.U)
 B.Jn=new A.dm(B.jl,6,t.U)
-B.ay_={hidden:0,smokeVeil:1,smoked:2}
-B.aOr=new A.dm(B.ay_,3,t.U)
+B.ay0={hidden:0,smokeVeil:1,smoked:2}
+B.aOr=new A.dm(B.ay0,3,t.U)
 B.aOs=new A.iz([10,11,12,13,133,8232,8233],t.Ih)
 B.axg={serif:0,"sans-serif":1,monospace:2,cursive:3,fantasy:4,"system-ui":5,math:6,emoji:7,fangsong:8}
 B.aOt=new A.dm(B.axg,9,t.U)
@@ -154542,37 +154542,37 @@ B.axd={"canvaskit.js":0}
 B.aOv=new A.dm(B.axd,1,t.U)
 B.aAg={hero:0,thorn_sprout:1,bramble_sprout:2,pollen_sprout:3}
 B.aOw=new A.dm(B.aAg,4,t.U)
-B.ay3={shoot:0,shootBig:1,slashDagger:2,slashSword:3,castStaff:4,thrustStaff:5}
-B.aOx=new A.dm(B.ay3,6,t.U)
+B.ay4={shoot:0,shootBig:1,slashDagger:2,slashSword:3,castStaff:4,thrustStaff:5}
+B.aOx=new A.dm(B.ay4,6,t.U)
 B.axe={fight:0,inspect:1,boss_quest:2,menu_help:3,cancel_x:4,heal_plus:5}
 B.aOy=new A.dm(B.axe,6,t.U)
 B.axA={bush_fern:0,bush_round:1,stump:2}
 B.aOz=new A.dm(B.axA,3,t.U)
 B.Jp=new A.iz([B.dA,B.bY,B.bl,B.cH,B.cb],t.Lu)
-B.ayb={copper_ore:0,coal:1,ore_tin:2,ore_iron:3,ore_silver:4,ore_mithril:5,copper_ingot:6,ingot_bronze:7,ingot_iron:8,ingot_steel:9,ingot_silver:10,ingot_mithril:11,log:12,log_pine:13,log_willow:14,log_charwood:15,log_ironbark:16,log_capwood:17,plank:18,plank_pine:19,plank_willow:20,plank_charwood:21,plank_ironbark:22,plank_capwood:23,sunleaf:24,herb_mossbell:25,herb_bitterroot:26,herb_emberleaf:27,herb_bloodthistle:28,herb_duskbloom:29,sunleaf_dye:30,sunleaf_tea:31,healing_salve:32,cloth_linen:33,cloth_silk:34,leather_tanned:35,thread_spool:36,leather_strap:37,bowstring:38,sturdy_crate:39,copper_charm:40,dye_ember:41,dye_gale:42,dye_moss:43,dye_river:44,part_haft:45,part_blade_blank:46,part_rivets:47,part_glue:48,fish_minnow:49,fish_sea_bream:50,fish_trout:51,fish_golden_carp:52,fish_silver_eel:53,grilled_trout:54,fish_stew:55,small:56,large:57,seed_oak:58,seed_pine:59,seed_willow:60,seed_charwood:61,seed_capwood:62,seed_ironbark:63,seed_sunleaf:64,seed_mossbell:65,seed_bitterroot:66,seed_emberleaf:67,seed_bloodthistle:68,seed_duskbloom:69,seed_copper:70,seed_tin:71,seed_iron:72,seed_silver:73,seed_mithril:74,seed_coal:75,tool_bronze_axe:76,tool_iron_axe:77,tool_steel_axe:78,tool_silver_axe:79,tool_mithril_axe:80,tool_bronze_pickaxe:81,tool_iron_pickaxe:82,tool_steel_pickaxe:83,tool_silver_pickaxe:84,tool_mithril_pickaxe:85,tool_bronze_rod:86,tool_iron_rod:87,tool_steel_rod:88,tool_silver_rod:89,tool_mithril_rod:90,tool_watering_can:91,tool_watering_can_iron:92,tool_watering_can_steel:93,tool_watering_can_silver:94,tool_watering_can_mithril:95,key_tent:96}
-B.aOA=new A.dm(B.ayb,97,t.U)
-B.azL={click:0,keyup:1,keydown:2,mouseup:3,mousedown:4,pointerdown:5,pointerup:6}
-B.aOB=new A.dm(B.azL,7,t.U)
-B.azR={rooted:0}
-B.aOC=new A.dm(B.azR,1,t.U)
+B.ayc={copper_ore:0,coal:1,ore_tin:2,ore_iron:3,ore_silver:4,ore_mithril:5,copper_ingot:6,ingot_bronze:7,ingot_iron:8,ingot_steel:9,ingot_silver:10,ingot_mithril:11,log:12,log_pine:13,log_willow:14,log_charwood:15,log_ironbark:16,log_capwood:17,plank:18,plank_pine:19,plank_willow:20,plank_charwood:21,plank_ironbark:22,plank_capwood:23,sunleaf:24,herb_mossbell:25,herb_bitterroot:26,herb_emberleaf:27,herb_bloodthistle:28,herb_duskbloom:29,sunleaf_dye:30,sunleaf_tea:31,healing_salve:32,cloth_linen:33,cloth_silk:34,leather_tanned:35,thread_spool:36,leather_strap:37,bowstring:38,sturdy_crate:39,copper_charm:40,dye_ember:41,dye_gale:42,dye_moss:43,dye_river:44,part_haft:45,part_blade_blank:46,part_rivets:47,part_glue:48,fish_minnow:49,fish_sea_bream:50,fish_trout:51,fish_golden_carp:52,fish_silver_eel:53,grilled_trout:54,fish_stew:55,small:56,large:57,seed_oak:58,seed_pine:59,seed_willow:60,seed_charwood:61,seed_capwood:62,seed_ironbark:63,seed_sunleaf:64,seed_mossbell:65,seed_bitterroot:66,seed_emberleaf:67,seed_bloodthistle:68,seed_duskbloom:69,seed_copper:70,seed_tin:71,seed_iron:72,seed_silver:73,seed_mithril:74,seed_coal:75,tool_bronze_axe:76,tool_iron_axe:77,tool_steel_axe:78,tool_silver_axe:79,tool_mithril_axe:80,tool_bronze_pickaxe:81,tool_iron_pickaxe:82,tool_steel_pickaxe:83,tool_silver_pickaxe:84,tool_mithril_pickaxe:85,tool_bronze_rod:86,tool_iron_rod:87,tool_steel_rod:88,tool_silver_rod:89,tool_mithril_rod:90,tool_watering_can:91,tool_watering_can_iron:92,tool_watering_can_steel:93,tool_watering_can_silver:94,tool_watering_can_mithril:95,key_tent:96}
+B.aOA=new A.dm(B.ayc,97,t.U)
+B.azM={click:0,keyup:1,keydown:2,mouseup:3,mousedown:4,pointerdown:5,pointerup:6}
+B.aOB=new A.dm(B.azM,7,t.U)
+B.azS={rooted:0}
+B.aOC=new A.dm(B.azS,1,t.U)
 B.axp={warp:0,blink:1,swap:2}
 B.aOD=new A.dm(B.axp,3,t.U)
 B.axK={tree_pine_a:0,tree_pine_b:1,tree_oak_a:2,tree_oak_b:3,tree_autumn:4,tree_small:5,tree_broadleaf:6,"elements/mushroom_orange":7}
 B.aOE=new A.dm(B.axK,8,t.U)
 B.aOF=new A.iz([B.aX,B.ah,B.cL],t.MA)
-B.ayr={frozen:0,stunned:1,rooted:2,taunted:3,snared:4,sticky:5,rattled:6}
-B.aOG=new A.dm(B.ayr,7,t.U)
+B.ays={frozen:0,stunned:1,rooted:2,taunted:3,snared:4,sticky:5,rattled:6}
+B.aOG=new A.dm(B.ays,7,t.U)
 B.aOH=new A.dm(B.b9,0,A.ac("dm<fD>"))
 B.mG=new A.dm(B.b9,0,t.U)
 B.aOI=new A.dm(B.b9,0,A.ac("dm<k6>"))
 B.dB=new A.dm(B.b9,0,A.ac("dm<e7>"))
-B.azI={push:0,pull:1,dash:2}
-B.rk=new A.dm(B.azI,3,t.U)
-B.aA_={stunned:0,frozen:1}
-B.aOJ=new A.dm(B.aA_,2,t.U)
+B.azJ={push:0,pull:1,dash:2}
+B.rk=new A.dm(B.azJ,3,t.U)
+B.aA0={stunned:0,frozen:1}
+B.aOJ=new A.dm(B.aA0,2,t.U)
 B.aOK=new A.iz([32,8203],t.Ih)
-B.ayU={fx_meteor_fall:0,vfx_arrow_rain:1,whirlwind:2,fx_lightning_strike:3,fx_lightning_spark:4,fx_arcane_bolt:5,fx_fire_bolt:6,fx_ice_bolt:7,fx_arcane_impact:8,fx_fire_impact:9,fx_ice_impact:10}
-B.Jq=new A.dm(B.ayU,11,t.U)
+B.ayV={fx_meteor_fall:0,vfx_arrow_rain:1,whirlwind:2,fx_lightning_strike:3,fx_lightning_spark:4,fx_arcane_bolt:5,fx_fire_bolt:6,fx_ice_bolt:7,fx_arcane_impact:8,fx_fire_impact:9,fx_ice_impact:10}
+B.Jq=new A.dm(B.ayV,11,t.U)
 B.a5=new A.e7(1,"focused")
 B.a9=new A.e7(0,"hovered")
 B.aK=new A.e7(2,"pressed")
@@ -154581,20 +154581,20 @@ B.axo={bush_fern:0,bush_flower:1,bush_green:2,bush_round:3,village_flower_red:4,
 B.Jr=new A.dm(B.axo,9,t.U)
 B.axv={click:0,touchstart:1,touchend:2,pointerdown:3,pointermove:4,pointerup:5}
 B.aOM=new A.dm(B.axv,6,t.U)
-B.axY={shoot:0,shootBig:1,shootRapid:2}
-B.aON=new A.dm(B.axY,3,t.U)
+B.axZ={shoot:0,shootBig:1,shootRapid:2}
+B.aON=new A.dm(B.axZ,3,t.U)
 B.aOg=new A.nd(8,"row")
 B.aOc=new A.nd(1,"tab")
 B.aOO=new A.iz([B.aOg,B.aOc],A.ac("iz<nd>"))
 B.axC={light:0,medium:1,heavy:2,rags:3}
 B.aOP=new A.dm(B.axC,4,t.U)
 B.Js=new A.iz([B.bl,B.bY,B.dA,B.cb,B.cH],t.Lu)
-B.ayB={boulder_a:0,boulder_b:1,boulder_c:2,boulder_d:3,rock_pile:4,standing_stone:5,rock_flat_moss:6}
-B.aOQ=new A.dm(B.ayB,7,t.U)
+B.ayC={boulder_a:0,boulder_b:1,boulder_c:2,boulder_d:3,rock_pile:4,standing_stone:5,rock_flat_moss:6}
+B.aOQ=new A.dm(B.ayC,7,t.U)
 B.ax8={cast:0,castStaff:1,emote:2,thrustStaff:3}
 B.Jt=new A.dm(B.ax8,4,t.U)
-B.ayM={hurt:0,dead:1}
-B.Ju=new A.dm(B.ayM,2,t.U)
+B.ayN={hurt:0,dead:1}
+B.Ju=new A.dm(B.ayN,2,t.U)
 B.aOR=new A.a7F(null)
 B.aOS=new A.QL("Display",null)
 B.aOT=new A.QL("Sound",null)
@@ -156821,7 +156821,7 @@ m.j(0,B.rt,B.N)
 m.j(0,B.JV,B.N)
 return m})
 s($,"cek","bHp",()=>{var q=A.dV(B.Dw,t.Vz,t.vz)
-q.v(0,B.DF)
+q.v(0,B.DG)
 q.j(0,B.JR,B.N)
 q.j(0,B.JS,B.N)
 q.j(0,B.JG,B.N)
@@ -156912,7 +156912,7 @@ s($,"cf5","Kk",()=>{var q,p,o,n,m,l,k,j,i,h,g=A.p(t.N,A.ac("NE"))
 for(q=t.S,p=A.ac("tj"),o=0;o<3;++o){n=B.lF[o]
 for(m=n+"_",l=0;l<5;++l){k=B.lt[l]
 j=m+k
-i=B.DM.h(0,n)
+i=B.DN.h(0,n)
 i.toString
 h=B.asP.h(0,k)
 i=k==="grey"?i+" Set":A.byW(k)+" "+i+" Set"
@@ -156931,7 +156931,7 @@ for(q=0;q<3;++q){p=B.lF[q]
 for(o=p+"_",n=p+"/",m=0;m<5;++m){l=B.lt[m]
 for(k=o+l,j=k+"_",i=l==="grey",h=0;h<5;++h){g=B.bA[h]
 f=j+g
-e=B.DM.h(0,p)
+e=B.DN.h(0,p)
 e.toString
 d=B.arC.h(0,p).h(0,g)
 d.toString
@@ -157773,4 +157773,4 @@ return}var s=document.scripts
 function onLoad(b){for(var q=0;q<s.length;++q){s[q].removeEventListener("load",onLoad,false)}a(b.target)}for(var r=0;r<s.length;++r){s[r].addEventListener("load",onLoad,false)}})(function(a){v.currentScript=a
 var s=A.beS
 if(typeof dartMainRunner==="function"){dartMainRunner(s,[])}else{s([])}})})()
-//# sourceMappingURL=main.f8f504e-1111-100352.dart.js.map
+//# sourceMappingURL=main.4e697dc-1111-153218.dart.js.map
