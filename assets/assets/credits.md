@@ -137,6 +137,7 @@ Keep this file, and the credit line in the game, with any copy you ship.
 - **Loading music, "The Vow of Dawnsteel" (epic fantasy trailer cue)** (`assets/sfx/music/loading_vow_of_dawnsteel.ogg`) by OpenMindAudio (Pixabay), Pixabay Content License. https://pixabay.com/users/openmindaudio/ (Pixabay audio id 488150)
 - **Village music, "Magical Christmas Fairy Tale Fantasy"** (`assets/sfx/music/village.ogg`) by OpenMindAudio (Pixabay), Pixabay Content License. https://pixabay.com/users/openmindaudio/ (Pixabay audio id 620512)
 - **Simula map music, "Little Hamlet" (from "A Walk Through the Shire")** (`assets/sfx/music/simula_theme.ogg`, every map outside the village, the cave and Shore) by Treblo; source URL and licence **to confirm, do not publish until known** (file supplied by the project owner, 2026-11-12).
+- **Orc map music, "Knight Templar"** (`assets/sfx/music/orc_knight_templar.ogg`, orc_whelps / orc_warcamp / orc_fortress): https://opengameart.org/content/knight-templar-0 ; author and licence **to confirm, do not publish until known** (file supplied by the project owner, 2026-11-12).
 - **Super Dialogue Audio Pack V1** (NPC voices, `assets/sfx/sfx/voice/greeting/` and `assets/sfx/sfx/voice/misc/`) by Dillon Becker (dillonbecker.com), CC BY 4.0 https://creativecommons.org/licenses/by/4.0/. Voices by Alex Brodie, Ian Lampert, Sean Lenhart, Karen Cenon, Meghan Christian. Changes: converted to mono OGG; pitch-shifted in game per NPC.
 
 | Asset | Author | License |
