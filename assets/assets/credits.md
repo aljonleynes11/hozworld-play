@@ -136,7 +136,7 @@ Keep this file, and the credit line in the game, with any copy you ship.
 - **Level up / combat success jingles** by Universfield (Pixabay), Pixabay Content License (free for commercial use, attribution not required). https://pixabay.com/users/universfield-28281460/ (`level_up.ogg`, `combat_success.ogg` in `assets/sfx/sfx/jingles/`)
 - **Loading music, "The Vow of Dawnsteel" (epic fantasy trailer cue)** (`assets/sfx/music/loading_vow_of_dawnsteel.ogg`) by OpenMindAudio (Pixabay), Pixabay Content License. https://pixabay.com/users/openmindaudio/ (Pixabay audio id 488150)
 - **Village music, "Magical Christmas Fairy Tale Fantasy"** (`assets/sfx/music/village.ogg`) by OpenMindAudio (Pixabay), Pixabay Content License. https://pixabay.com/users/openmindaudio/ (Pixabay audio id 620512)
-- **Simula map music, "Tavern at Night"** (`assets/sfx/music/tavern_night.ogg`, every map outside the village) by Treblo; source URL and licence **to confirm, do not publish until known** (file supplied by the project owner, 2026-11-12).
+- **Simula map music, "Tavern at Night"** (`assets/sfx/music/tavern_night.ogg`, every map outside the village, the cave and Shore) by Treblo; source URL and licence **to confirm, do not publish until known** (file supplied by the project owner, 2026-11-12).
 - **Super Dialogue Audio Pack V1** (NPC voices, `assets/sfx/sfx/voice/greeting/` and `assets/sfx/sfx/voice/misc/`) by Dillon Becker (dillonbecker.com), CC BY 4.0 https://creativecommons.org/licenses/by/4.0/. Voices by Alex Brodie, Ian Lampert, Sean Lenhart, Karen Cenon, Meghan Christian. Changes: converted to mono OGG; pitch-shifted in game per NPC.
 
 | Asset | Author | License |
