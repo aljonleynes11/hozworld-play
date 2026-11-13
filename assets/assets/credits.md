@@ -43,7 +43,7 @@
 | Slash shapes (`assets/vfx/vfx_slash_sweep.png`, `_chop`, `_thrust`, `_cross`, `_ring`) | Generated with ChatGPT (AI), provided by the project owner | Owned by the project |
 | Element effect strips (`assets/vfx/vfx_water_splash.png`, `_wave`, `_ring`, `vfx_rock_burst`, `vfx_stone_spikes`, `vfx_sand_ring`, `vfx_arrow_stone`, `_venom`, `_wind`, `vfx_hit_stone`, `_venom`, `_wind`) | Generated with ChatGPT (AI), provided by the project owner | Owned by the project |
 | UI icons (`assets/ui/confirm_check.png`, `cancel_x.png`, `heal_plus.png`, `npc_talk.png`, `npc_quest.png`, `boss_quest.png`, `menu_help.png`) | "Essential Game Icons 20 Pack" (author unknown; pack readme grants personal + commercial use and modification, no resale as-is) | Pack licence: commercial use and modify allowed; do not resell or redistribute the pack | 
-| Professions menu icon (`assets/icons/menu/professions.png`, a copy of the menu set's `skill_trees.png`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
+| Professions menu icon and profession emblems (`assets/icons/menu/professions.png`, `prof_lumber/mining/herb/fish.png`, from `docs/design/profession_icons_sheet.png`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
 | Login sword charge (`assets/ui/login_sword_0..7.png`, 8 frames, left one mirrored in code) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
 | HozWorld logo (`assets/ui/logo_sheet.png`, `assets/ui/logo.png`, `assets/ui/logo_crest.webp`, `web/logo.png`, `web/logo_crest.webp`, `web/favicon.png`, `web/icons/*`; source `docs/design/logo_sheet.png`, `docs/design/logo_full_source.png`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
 | Ice wall blocks (`assets/vfx/ice_block_a.png`, `assets/vfx/ice_block_b.png`) | Free Ice Forest Platformer Tileset by LudicArts.com (Franco Giachetti) — https://ludicarts.com · pixelated for HozWorld | CC BY 4.0 |
@@ -172,6 +172,7 @@ Status icons (assets/icons/status/*.png) - Generated with ChatGPT (AI), provided
 ## Stat icons (`assets/icons/stats/`)
 
 Stat icons (assets/icons/stats/*.png) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
+Mastery and Elemental Damage icons (`assets/icons/stats/`: `berserk`, `execute`, `melee`, `distance`, `rear`, `collision`, `single`, `area`, `trap`, `summon`, `elemental`; cut from `docs/design/stat_icons_sheet3.png`) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
 
 ## Skill-type badges (`assets/icons/skill_types/`)
 
