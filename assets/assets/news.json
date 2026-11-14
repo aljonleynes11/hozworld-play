@@ -4,12 +4,12 @@
       "label": "Announcement",
       "entries": [
         {
-          "title": "Alpha test",
-          "date": "",
+          "title": "Soft launch",
+          "date": "Nov 14, 2026",
           "body": [
-            "Welcome to the HozWorld alpha!",
-            "Things may change, break or be reset.",
-            "Thanks for testing and sharing feedback."
+            "HozWorld is live at app.hozworld.com and on itch.io. GG!",
+            "This is still an alpha: things may change, break or be reset.",
+            "Thanks for playing and sharing feedback."
           ]
         }
       ]
