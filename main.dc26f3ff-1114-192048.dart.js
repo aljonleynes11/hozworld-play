@@ -41842,7 +41842,7 @@ $.bhK.j(0,q,p)
 if($.bhK.a>200)A.caV(p)
 n=A.c7l(c)
 m=A.o(t.N,t.z)
-J.il(m,"build","e95a0ef5-1114-164000")
+J.il(m,"build","dc26f3ff-1114-192048")
 J.il(m,"platform",A.caQ())
 J.il(m,"url",A.cmK())
 J.il(m,"level",d)
@@ -41945,7 +41945,7 @@ return o}catch(k){return""}},
 caQ(){var s,r
 try{s=A.bF()
 return"web:"+s.b}catch(r){return"unknown"}},
-c7l(a){var s=t.N,r=A.n(["build","e95a0ef5-1114-164000"],s,t.z)
+c7l(a){var s=t.N,r=A.n(["build","dc26f3ff-1114-192048"],s,t.z)
 r.j(0,"user_id",A.De(new A.beD()))
 r.j(0,"char_id",A.De(new A.beE()))
 r.j(0,"map",A.De(new A.beF()))
@@ -42875,6 +42875,7 @@ q=A.e(s.h(0,"error"))
 A:{if("name_taken"===q){r="That name is taken. Pick another."
 break A}if("limit"===q){r="You already have 3 characters. Delete one first."
 break A}if("bad_name"===q){r="A name is 3-16 letters, digits or spaces."
+break A}if("rude_name"===q){r="That name is not allowed. Pick another."
 break A}if("already_member"===q){r="They are already in a party."
 break A}if("already_in_party"===q){r="You are already in a party. Leave it first."
 break A}if("full"===q){r="That party is full (4)."
@@ -42945,7 +42946,7 @@ var $async$bsv=A.q(function(d,e){if(d===1)return A.r(e,r)
 for(;;)switch(s){case 0:n=A.o(t.N,t.z)
 n.j(0,"map",c)
 n.j(0,"char_id",b)
-n.j(0,"build","e95a0ef5-1114-164000")
+n.j(0,"build","dc26f3ff-1114-192048")
 if(a!=null)n.j(0,"channel",a)
 s=3
 return A.c(A.lb("zone_ticket",n),$async$bsv)
@@ -133500,7 +133501,7 @@ s=$.o8()
 return new A.E8(q,r,s.b,s.gck(),null)},
 $S:723}
 A.b3h.prototype={
-$2(a,b){var s,r,q,p="e95a0ef5-1114-164000",o=$.bv().gdR()
+$2(a,b){var s,r,q,p="dc26f3ff-1114-192048",o=$.bv().gdR()
 if(!o.ry&&!o.x1)return B.u
 if(o.x1)return new A.Uc(!0,new A.b3d(o),o.x2,o.xr,null)
 s=o.to
@@ -134644,7 +134645,7 @@ h===$&&A.b()
 n.at=new A.f1(h,A.w(h).i("f1<1>")).oj(n.gayK(),new A.aWA(n),new A.aWB(n))
 i=A.o(j,i)
 i.j(0,"proto",6)
-i.j(0,"build","e95a0ef5-1114-164000")
+i.j(0,"build","dc26f3ff-1114-192048")
 if(a.length!==0)i.j(0,"char_id",a)
 n.uZ(1,i)
 A.f3("socket","hello proto=6 char="+a)
@@ -135129,7 +135130,10 @@ $1(a){var s=this.a
 return A.aA(new A.z(s.a,s.b),a)===1},
 $S:51}
 A.bqv.prototype={
-$1(a){return A.bqw(a)!=null},
+$1(a){var s
+if(A.bqw(a)==null)s=a.r==="busy"&&a.b==="wanderer"
+else s=!0
+return s},
 $S:61}
 A.a42.prototype={}
 A.a9E.prototype={
@@ -166677,4 +166681,4 @@ return}var s=document.scripts
 function onLoad(b){for(var q=0;q<s.length;++q){s[q].removeEventListener("load",onLoad,false)}a(b.target)}for(var r=0;r<s.length;++r){s[r].addEventListener("load",onLoad,false)}})(function(a){v.currentScript=a
 var s=A.bns
 if(typeof dartMainRunner==="function"){dartMainRunner(s,[])}else{s([])}})})()
-//# sourceMappingURL=main.e95a0ef5-1114-164000.dart.js.map
+//# sourceMappingURL=main.dc26f3ff-1114-192048.dart.js.map
