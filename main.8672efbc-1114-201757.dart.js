@@ -41842,7 +41842,7 @@ $.bhK.j(0,q,p)
 if($.bhK.a>200)A.caV(p)
 n=A.c7l(c)
 m=A.o(t.N,t.z)
-J.il(m,"build","dc26f3ff-1114-192048")
+J.il(m,"build","8672efbc-1114-201757")
 J.il(m,"platform",A.caQ())
 J.il(m,"url",A.cmK())
 J.il(m,"level",d)
@@ -41945,7 +41945,7 @@ return o}catch(k){return""}},
 caQ(){var s,r
 try{s=A.bF()
 return"web:"+s.b}catch(r){return"unknown"}},
-c7l(a){var s=t.N,r=A.n(["build","dc26f3ff-1114-192048"],s,t.z)
+c7l(a){var s=t.N,r=A.n(["build","8672efbc-1114-201757"],s,t.z)
 r.j(0,"user_id",A.De(new A.beD()))
 r.j(0,"char_id",A.De(new A.beE()))
 r.j(0,"map",A.De(new A.beF()))
@@ -42946,7 +42946,7 @@ var $async$bsv=A.q(function(d,e){if(d===1)return A.r(e,r)
 for(;;)switch(s){case 0:n=A.o(t.N,t.z)
 n.j(0,"map",c)
 n.j(0,"char_id",b)
-n.j(0,"build","dc26f3ff-1114-192048")
+n.j(0,"build","8672efbc-1114-201757")
 if(a!=null)n.j(0,"channel",a)
 s=3
 return A.c(A.lb("zone_ticket",n),$async$bsv)
@@ -133501,7 +133501,7 @@ s=$.o8()
 return new A.E8(q,r,s.b,s.gck(),null)},
 $S:723}
 A.b3h.prototype={
-$2(a,b){var s,r,q,p="dc26f3ff-1114-192048",o=$.bv().gdR()
+$2(a,b){var s,r,q,p="8672efbc-1114-201757",o=$.bv().gdR()
 if(!o.ry&&!o.x1)return B.u
 if(o.x1)return new A.Uc(!0,new A.b3d(o),o.x2,o.xr,null)
 s=o.to
@@ -134645,7 +134645,7 @@ h===$&&A.b()
 n.at=new A.f1(h,A.w(h).i("f1<1>")).oj(n.gayK(),new A.aWA(n),new A.aWB(n))
 i=A.o(j,i)
 i.j(0,"proto",6)
-i.j(0,"build","dc26f3ff-1114-192048")
+i.j(0,"build","8672efbc-1114-201757")
 if(a.length!==0)i.j(0,"char_id",a)
 n.uZ(1,i)
 A.f3("socket","hello proto=6 char="+a)
@@ -166681,4 +166681,4 @@ return}var s=document.scripts
 function onLoad(b){for(var q=0;q<s.length;++q){s[q].removeEventListener("load",onLoad,false)}a(b.target)}for(var r=0;r<s.length;++r){s[r].addEventListener("load",onLoad,false)}})(function(a){v.currentScript=a
 var s=A.bns
 if(typeof dartMainRunner==="function"){dartMainRunner(s,[])}else{s([])}})})()
-//# sourceMappingURL=main.dc26f3ff-1114-192048.dart.js.map
+//# sourceMappingURL=main.8672efbc-1114-201757.dart.js.map
