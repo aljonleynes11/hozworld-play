@@ -2,6 +2,7 @@
 
 | Asset | Author | License |
 |---|---|---|
+| PixelLab male Adventurer (`assets/sprites/adventurer_px.png`, `?newhero=4` test look: walk, idle, punch, cast, hurt and bow in 5 directions) | Made by HozWorld with PixelLab (pixellab.ai) on the owner's paid plan; prompts and ids in `docs/art_prompts/characters/adventurer_pixellab_mcp.md` | PixelLab terms for paid-plan output; commercial use to confirm in PixelLab's terms before release |
 | Skeleton sprites (`assets/sprites/skel_*`) | Universal LPC Spritesheet Generator contributors (Liberated Pixel Cup) | CC-BY-SA 3.0 / GPL 3.0 |
 | Bone Knight sprites (`assets/sprites/knight_*`): skeleton body and bare skull with plate armour, black round shield and arming sword (layers in `assets/lpc/CREDITS.md`) | Universal LPC Spritesheet Generator contributors (Liberated Pixel Cup), bluecarrot16, ElizaWy, Johannes Sjölund (wulax), Michael Whitlock (bigbeargames), DarkwallLKE, Tuomo Untinen (reemax) | OGA-BY 3.0 / CC-BY-SA 3.0 / GPL 3.0 |
 | Wild hunt animals (`assets/sprites/animals/{hare,grouse,fox,deer,boar}_walk.png`, walk sheets) | CraftPix.net, "Free Top-Down Hunt Animals Pixel Sprite Pack" · https://craftpix.net/freebies/free-top-down-hunt-animals-pixel-sprite-pack/ | Craftpix free licence (commercial games OK, no redistribution of the pack) · https://craftpix.net/file-licenses/ |
