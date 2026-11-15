@@ -1,0 +1,3 @@
+# Look 4's six extra hair-style sheets land here (m_crew.png, m_swept.png,
+# m_messy.png, f_bob.png, f_braid.png, f_long.png). Until a file exists, that
+# style draws its body's default sheet.
