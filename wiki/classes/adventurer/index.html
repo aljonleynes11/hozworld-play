@@ -8,7 +8,7 @@
       
       
       
-        <link rel="canonical" href="https://aljonleynes11.github.io/hozworld-play/wiki/classes/adventurer/">
+        <link rel="canonical" href="https://app.hozworld.com/wiki/classes/adventurer/">
       
       
         <link rel="prev" href="../..">
@@ -724,12 +724,12 @@
 <tr>
 <td>Swordsman</td>
 <td>2</td>
-<td><img alt="" src="../../img/skill_charge.png" width="32" /> Charge</td>
+<td><img alt="" src="../../img/skill_bash.png" width="32" /> Bash</td>
 <td>3</td>
-<td>1–2</td>
+<td>1</td>
 <td>-</td>
-<td><span class="hz-el" style="background:#9aa3ad;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Neutral</span></td>
-<td>when(dist 2 &amp; in_line: gap_close(1)) · damage(4-5) · push(1, collide 8, follow, in_line)</td>
+<td><span class="hz-el" style="background:#a87850;color:#fff;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Earth</span></td>
+<td>damage(5-6) · status(<a href="../../statuses/#stunned">stunned</a>, 30%)</td>
 </tr>
 <tr>
 <td>Archer</td>
@@ -738,38 +738,38 @@
 <td>3</td>
 <td>1–4</td>
 <td>-</td>
-<td><span class="hz-el" style="background:#9aa3ad;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Neutral</span></td>
+<td><span class="hz-el" style="background:#a87850;color:#fff;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Earth</span></td>
 <td>damage(3-4) · push(1, collide 8, in_line)</td>
 </tr>
 <tr>
 <td>Mage</td>
 <td>4</td>
-<td><img alt="" src="../../img/skill_ice.png" width="32" /> Frost Bolt</td>
-<td>3</td>
-<td>1–4</td>
+<td><img alt="" src="../../img/skill_bolt.png" width="32" /> Flame Dart</td>
+<td>2</td>
+<td>1–3</td>
 <td>-</td>
-<td><span class="hz-el" style="background:#4da3ff;color:#fff;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Water</span></td>
-<td>damage(5-7) · status(<a href="../../statuses/#frozen">frozen</a>, 30%)</td>
+<td><span class="hz-el" style="background:#ff9f43;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Fire</span></td>
+<td>damage(3-4) · status(<a href="../../statuses/#burn">burn</a> 3x1)</td>
 </tr>
 <tr>
 <td>Thief</td>
 <td>5</td>
-<td><img alt="" src="../../img/skill_shadow.png" width="32" /> Stealth</td>
-<td>2</td>
-<td>self</td>
-<td>3</td>
-<td><span class="hz-el" style="background:#b276e8;color:#fff;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Shadow</span></td>
-<td>status(<a href="../../statuses/#hidden">hidden</a>, self)</td>
+<td><img alt="" src="../../img/skill_dagger.png" width="32" /> Backstab</td>
+<td>4</td>
+<td>1</td>
+<td>1</td>
+<td><span class="hz-el" style="background:#a87850;color:#fff;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Earth</span></td>
+<td>ambush(x2, hidden or behind) · damage(7-9)</td>
 </tr>
 <tr>
 <td>Priest</td>
 <td>6</td>
-<td><img alt="" src="../../img/skill_sword.png" width="32" /> Heal</td>
-<td>3</td>
-<td>0–3</td>
-<td>1</td>
-<td><span class="hz-el" style="background:#ffd166;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Holy</span></td>
-<td>heal_magic(13%)</td>
+<td><img alt="" src="../../img/skill_sword.png" width="32" /> Judgment</td>
+<td>2</td>
+<td>1–3</td>
+<td>-</td>
+<td><span class="hz-el" style="background:#ff9f43;color:#111;padding:0 6px;border-radius:4px;font-weight:600;white-space:nowrap">Fire</span></td>
+<td>damage(6-8) · shield_bonus(6%)</td>
 </tr>
 </tbody>
 </table>
