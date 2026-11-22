@@ -189,6 +189,8 @@ Punch icon (`assets/icons/skills/punch.png`, the Adventurer's basic attack; sour
 
 Trait line emblems (assets/icons/traits/*.png) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
 
+General trait icons (assets/icons/traits/general/*.png, assets/icons/traits/general_vitality.png, assets/icons/traits/general_wisdom.png; generated 2026-11-22, prompts in `docs/art_prompts/icons/traits.md`) - Generated with ChatGPT (AI), the project owner's own art; Owned by the project
+
 ## Mechanic and element icons (`assets/icons/mechanics/`, `assets/icons/elements/`)
 
 Mechanic and element icons (assets/icons/mechanics/*.png, assets/icons/elements/*.png) - Generated with ChatGPT (AI), provided by the project owner; Owned by the project
