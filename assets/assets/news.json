@@ -4,10 +4,20 @@
       "label": "Announcement",
       "entries": [
         {
+          "title": "A second island",
+          "date": "Nov 24, 2026",
+          "body": [
+            "Past Simula Strait lies the desert. Build a raft at the Shore and sail to Sunscar Coast.",
+            "Cross the sand to the settlement of Sunscar Hollow. Burning ground drains HP outside the safe domes.",
+            "New desert monsters, gathering goods and the first Lv 100 gear are out there.",
+            "This is still an alpha: things may change or be reset."
+          ]
+        },
+        {
           "title": "Soft launch",
           "date": "Nov 14, 2026",
           "body": [
-            "HozWorld is live at app.hozworld.com and on itch.io. GG!",
+            "HozWorld is live at https://app.hozworld.com and on itch.io at https://syouske.itch.io/hozworld.",
             "This is still an alpha: things may change, break or be reset.",
             "Thanks for playing and sharing feedback."
           ]
@@ -17,6 +27,58 @@
     {
       "label": "Updates",
       "entries": [
+        {
+          "title": "Nov 24, 2026",
+          "date": "",
+          "body": [
+            "Quests now hand in at the characters themselves, out in the world",
+            "Desert fights use each map's own floor and scenery",
+            "Burning ground drains HP outside the safe domes, not during a fight",
+            "Safe domes grew from 5 x 5 to 15 x 15 tiles",
+            "The first Lv 100 gear: Sunscar boots, gloves and greaves",
+            "Monsters show their element by colour",
+            "Keyboard hotkeys work in the HD-2D fight view"
+          ]
+        },
+        {
+          "title": "Nov 23, 2026",
+          "date": "",
+          "body": [
+            "A raft crossing to the desert: Simula Strait, then Sunscar Coast",
+            "A crafted raft lasts 6 crossings",
+            "The desert route runs on to Scorched Flats, Salt Pan and Sunscar Hollow",
+            "Sprint into quicksand with a full stamina bar, or sink back",
+            "New desert monsters: Dune Mummy, Sand Scorpion and Carrion Vulture",
+            "New gathering goods: Brimstone, Saltwort and Cobalt, with two quests",
+            "Your first landing on Sunscar sets your save point"
+          ]
+        },
+        {
+          "title": "Nov 21-22, 2026",
+          "date": "",
+          "body": [
+            "HD-2D fights are now a setting for everyone in Graphics",
+            "Two new trait lines: Vitality and Wisdom",
+            "VIT points cost half as much (420 for 120 VIT, was 800)",
+            "Monster HP growth eased from 2.5 to 1.5",
+            "Mobs now remember where they last saw you and search there",
+            "Heroes gained new attack and cast motions",
+            "Wanderers wear class outfits and can roll the Priest class"
+          ]
+        },
+        {
+          "title": "Nov 16-20, 2026",
+          "date": "",
+          "body": [
+            "A new art look is on by default: trees, ground, nodes and orcs",
+            "The village was rebuilt, with huts around the square",
+            "Every NPC has new art with a gentle breathing idle",
+            "Forgot your password? Reset it by email code",
+            "Push and pull skills now also move your allies",
+            "Heroes can sprint, with new Adventurer and casual outfits",
+            "Monsters in the world draw with their new art again"
+          ]
+        },
         {
           "title": "Oct 26, 2026",
           "date": "",

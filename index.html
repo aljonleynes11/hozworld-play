@@ -102,7 +102,8 @@
     /* The crest: 28% of the page height, capped at 220 px of height — the same
        box LogoCrest takes on the loading page, so the hand-over does not jump. */
     #boot-splash .logo { display: block; height: min(220px, 28vh); aspect-ratio: 1024 / 1168; }
-    /* The board is not drawn here: this empty 200 px band keeps the Flutter layout in place. */
+    /* The board is not drawn here: this empty band mirrors kBoardHeight in
+       ui/widgets/news_board.dart and keeps the Flutter layout in place. */
     #boot-splash .board { height: 200px; }
     /* Sits where the Flutter Start button sits: 200x48 centred in the 76 px slot. No box, just text. */
     #boot-splash .slot { margin-top: 12px; height: 76px; display: flex; align-items: center; justify-content: center; }
@@ -158,6 +159,6 @@
       }, true);
     });
   </script>
-  <script src="flutter_bootstrap.js?v=cbcfe3cf-1124-112033" async></script>
+  <script src="flutter_bootstrap.js?v=33e993fc-1124-201359" async></script>
 </body>
 </html>
