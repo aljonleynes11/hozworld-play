@@ -72,6 +72,7 @@
 | Judgment hammerfall (`assets/vfx/holy/vfx_hammerfall.png`, record `docs/art_prompts/vfx_judgment_hammerfall.md`) | Hammer drawn with ChatGPT (AI, provided by the project owner); flash, dust and embers made with the PixelLab VFX Creator (pixellab.ai) on the owner's plan | Owned by the project; PixelLab terms for paid-plan output |
  | Archer skill effects (`assets/vfx/arrow/vfx_archer_push.png`, `vfx_archer_shrapnel`, `vfx_archer_volley`, `vfx_archer_pinning`, `vfx_archer_backstep`, `vfx_archer_ballista`; record `docs/art_prompts/vfx_archer_pass.md`) | Made with the PixelLab VFX Creator (pixellab.ai) on the owner's plan | Owned by the project; PixelLab terms for paid-plan output |
 | Slash shapes (`assets/vfx/slash/vfx_slash_sweep.png`, `vfx_slash_chop`, `vfx_slash_thrust`, `vfx_slash_cross`, `vfx_slash_ring`) | Generated with ChatGPT (AI), provided by the project owner | Owned by the project |
+| Pixel slash set (`assets/vfx/pslash/`, 12 white tintable strips at 144 px) | BDragon1727, "250 Pixel Shader Slash" (free part) · https://bdragon1727.itch.io/250-pixel-shader-slash | Free for non-commercial games; a commercial game must contribute or buy the full pack; no redistribution |
 | Element effect strips (`assets/vfx/water/vfx_water_splash.png`, `vfx_water_wave`, `vfx_water_ring`, `assets/vfx/misc/vfx_rock_burst`, `vfx_stone_spikes`, `vfx_sand_ring`, `assets/vfx/arrow/vfx_arrow_stone`, `vfx_arrow_venom`, `vfx_arrow_wind`, `assets/vfx/hit/vfx_hit_stone`, `vfx_hit_venom`, `vfx_hit_wind`) | Generated with ChatGPT (AI), provided by the project owner | Owned by the project |
 | UI icons (`assets/ui/hud/confirm_check.png`, `cancel_x.png`, `heal_plus.png`, `npc_talk.png`, `npc_quest.png`, `boss_quest.png`, `menu_help.png`) | "Essential Game Icons 20 Pack" (author unknown; pack readme grants personal + commercial use and modification, no resale as-is) | Pack licence: commercial use and modify allowed; do not resell or redistribute the pack | 
 | Professions menu icon (`assets/icons/menu/professions.png`, from `docs/design/profession_icons_sheet.png`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
@@ -85,12 +86,18 @@
 | Meadow fight backdrop (`backdrop/meadow/*`) | Grassy Meadow Parallax Background v1 | license: TODO confirm source |
 | Loading screen painting (`assets/ui/loading/loading_bg.jpg`) | Generated with Google Gemini (AI) · provided by the project owner | owner-supplied (AI-generated) |
 | Map-change loading painting (`assets/ui/loading/loading_map_bg.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
-| Village painting with its citizens (`assets/ui/loading/village.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
-| Warchief's Hold loading painting (`assets/ui/loading/orc_fortress.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
-| Orc Warcamp loading painting (`assets/ui/loading/orc_warcamp.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
-| Whelp Wastes loading painting (`assets/ui/loading/orc_whelps.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
-| Cave loading painting (`assets/ui/loading/cave.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
-| The Scorched Edge loading painting (`assets/ui/loading/ashlands.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
+| Village painting with its citizens (`assets/ui/loading/simula_village.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
+| Warchief's Hold loading painting (`assets/ui/loading/simula_orc_fortress.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
+| Orc Warcamp loading painting (`assets/ui/loading/simula_orc_warcamp.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
+| Whelp Wastes loading painting (`assets/ui/loading/simula_orc_whelps.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
+| Cave loading painting (`assets/ui/loading/simula_cave.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
+| The Scorched Edge loading painting (`assets/ui/loading/simula_ashlands.jpg`) | Provided by the project owner (AI-generated) | owner-supplied (AI-generated) |
+| Chitin Fields loading painting (`assets/ui/loading/simula_chitin.jpg`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
+| Simula Shore loading painting (`assets/ui/loading/simula_shore.jpg`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
+| Simula Strait loading painting (`assets/ui/loading/simula_strait.jpg`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
+| Sunscar Coast loading painting (`assets/ui/loading/sunscar_coast.jpg`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
+| Scorched Flats loading painting (`assets/ui/loading/sunscar_scorched.jpg`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
+| Salt Pan loading painting (`assets/ui/loading/sunscar_saltpan.jpg`) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
 | NPC dialogue portraits (`assets/portraits/`: `chief_ouru_0..5` worried, `chief_ouru_happy_0..5`, `neva_0..5`, `vesh_0..5`; 512px transparent talking busts cut flat at the bottom) | Generated with ChatGPT (AI) · provided by the project owner | owner-supplied (AI-generated) |
 | Sela's NPC dialogue portrait (`assets/portraits/sela_0..5.webp`; 512px transparent talking bust cut flat at the bottom) | Generated with ChatGPT (AI), provided by the project owner; Owned by the project | owner-supplied (AI-generated) |
 | Homesteader Wyn's NPC dialogue portrait (`assets/portraits/wyn_0..5.webp`; 512px transparent talking bust cut flat at the bottom) | Generated with ChatGPT (AI), provided by the project owner; Owned by the project | owner-supplied (AI-generated) |
@@ -173,6 +180,9 @@ Keep this file, and the credit line in the game, with any copy you ship.
 - **Loading music, "The Vow of Dawnsteel" (epic fantasy trailer cue)** (`assets/sfx/music/loading_vow_of_dawnsteel.ogg`) by OpenMindAudio (Pixabay), Pixabay Content License. https://pixabay.com/users/openmindaudio/ (Pixabay audio id 488150)
 - **Village music, "Magical Christmas Fairy Tale Fantasy"** (`assets/sfx/music/village.ogg`) by OpenMindAudio (Pixabay), Pixabay Content License. https://pixabay.com/users/openmindaudio/ (Pixabay audio id 620512)
 - **Simula map music, "Little Hamlet" (from "A Walk Through the Shire")** (`assets/sfx/music/simula_theme.ogg`, every map outside the village, the cave and Shore) by Treblo; source URL and licence **to confirm, do not publish until known** (file supplied by the project owner, 2026-11-12).
+- **Sea crossing music** (`assets/sfx/music/simula_sea_crossing.ogg`, strait) by Treblo; source URL and licence **to confirm, do not publish until known** (file supplied by the project owner, 2026-11-24).
+- **Desert island music** (`assets/sfx/music/sunscar_desert.ogg`, sunscar / scorched / saltpan) by Treblo; source URL and licence **to confirm, do not publish until known** (file supplied by the project owner, 2026-11-24).
+- **Sunscar Hollow music** (`assets/sfx/music/sunscar_hollow.ogg`, hollow) by Treblo; source URL and licence **to confirm, do not publish until known** (file supplied by the project owner, 2026-11-24).
 - **Orc map music, "Knight Templar"** (`assets/sfx/music/orc_knight_templar.ogg`, eastgate (the Frontier) / ashlands / orc_whelps / orc_warcamp / orc_fortress): https://opengameart.org/content/knight-templar-0 ; author and licence **to confirm, do not publish until known** (file supplied by the project owner, 2026-11-12).
 - **Super Dialogue Audio Pack V1** (NPC voices, `assets/sfx/sfx/voice/greeting/` and `assets/sfx/sfx/voice/misc/`) by Dillon Becker (dillonbecker.com), CC BY 4.0 https://creativecommons.org/licenses/by/4.0/. Voices by Alex Brodie, Ian Lampert, Sean Lenhart, Karen Cenon, Meghan Christian. Changes: converted to mono OGG; pitch-shifted in game per NPC.
 
